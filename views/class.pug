@@ -1,8 +1,8 @@
-include ./class/head.pug
+include ./layout/head.pug
   body
     block content
     .container
-      include ./class/navbar.pug      
+      include ./layout/navbar.pug      
       #modalForm.modal.fade(tabindex='-1' role='dialog' aria-labelledby='exampleModalLabel' aria-hidden='true')
         .modal-dialog(role='document')
           .modal-content
@@ -17,19 +17,19 @@ include ./class/head.pug
                   input#class-name.form-control(type='text', name='className')
                 .form-group
                   label.col-form-label(for='lesson-subjects') Subjects:
-                  input#lesson-subjects.form-control(type='text', name='LessonSubjects')
+                  input#lesson-subjects.form-control(type='text', name='lessonSubjects')
                 .form-group
                   label.col-form-label(for='instructor-class') Instructor:
                   input#instructor-class.form-control(type='text', name='instructorClass')
                 .form-group
-                  label.col-form-label(for='student-list') Last Education:
+                  label.col-form-label(for='student-list') Student:
                   input#student-list.form-control(type='text', name='studentList')
                 .form-group
-                  label.col-form-label(for='schedule-time') First Date:
-                  input#schedule-time.form-control(type='date', name='scheduleTime')    
+                  label.col-form-label(for='schedule-time') Schedule :
+                  input#schedule-time.form-control(type='text', name='scheduleTime')    
                 .form-group
-                  label.col-form-label(for='roll-call') Last Date:
-                  input#roll-call.form-control(type='date', name='rollCall')      
+                  label.col-form-label(for='roll-call') Roll Call:
+                  input#roll-call.form-control(type='text', name='rollCall')      
             .modal-footer
               button.btn.btn-secondary(type='button' data-dismiss='modal') Close
               button#submit.btn.btn-primary(type='button') submit
@@ -67,9 +67,9 @@ include ./class/head.pug
             })
             
             function notif() {
-              const nameClass = $('#className').val()
-              const subjects = $('#subjects').val()
-              const instructor = $('#instructor-class').val()
+              const className = $('#class-name').val()
+              const lessonSubjects = $('#lesson-subjects').val()
+              const instructorClass = $('#instructor-class').val()
               const studentList = $('#student-list').val()
               const scheduleTime = $('#schedule-time').val()
               const rollCall = $('#roll-call').val()
@@ -78,12 +78,12 @@ include ./class/head.pug
                 url: '/class/post',
                 dataType: 'json',
                 data: {
-                  nameClass: nameClass,
-                  ageStudent: ageStudent,
-                  lastEducationStudent: lastEducationStudent,
-                  subjects: subjects,
-                  firstDateStudent: firstDateStudent,
-                  lastDateStudent: lastDateStudent,
+                  className: className,
+                  lessonSubjects: lessonSubjects,
+                  instructorClass: instructorClass,
+                  studentList: studentList,
+                  scheduleTime: scheduleTime,
+                  rollCall: rollCall,
                 },
                 success: function(msg) {
                   if (msg) {
@@ -103,15 +103,14 @@ include ./class/head.pug
                 success: async function(msg) {
                   msg.data.forEach(item => {
                     data.push([
-                      item.nameClass,
-                      item.ageStudent,
-                      item.lastEducationStudent,
-                      item.subjects,
-                      item.firstDateStudent,
-                      item.lastDateStudent
+                      item.className,
+                      item.lessonSubjects,
+                      item.instructorClass,
+                      item.studentList,
+                      item.scheduleTime,
+                      item.rollCall
                     ])
                   })
-                  //- console.log(data)
                   $('#example').DataTable({
                     data: data,
                   })

@@ -122,13 +122,53 @@ router.get('/:_id', function (req, res, next) {
         }
       })
     })
-
+    res.render('tabInfo', {
+      data: JSON.stringify(data)
+    })
   })
-})
 
 router.get('/', function (req, res, next) {
   res.render('layout', {
   })
+
+router.put('/:_id', function (req, res, next) {
+  const _id = req.params._id
+  const reqData = {
+    label: 'Test',
+    id: _id,
+    isMerge: true,
+    properties: {}
+  }
+  // reqData.properties[req.body.key] = req.body.value
+  reqData.properties = req.body.value
+  // console.log(JSON.stringify(reqData))
+
+  internalService.updateNode(reqData, res, next, function (resData) {
+    res.status(200).send({
+      links: {
+        view: {
+          url: '/layout/' + _id,
+          method: 'GET'
+        }
+      }
+    })
+  })
 })
 
+router.delete('/:_id', function (req, res, next) {
+  const _id = req.params._id
+  // console.log(_id, 'hai inii delete')
+  internalService.deleteNode(_id, res, next, function (resData) {
+    res.status(200).send({
+      links: {
+        index: {
+          url: '/layout/',
+          method: 'GET'
+        }
+      }
+    })
+  })
+})
+})
+},)
 module.exports = router

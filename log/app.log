@@ -1123,3 +1123,1724 @@ data = {
   propertyFilter: {},
   propertySort: {}
 }
+[2022-02-16T16:12:03.123] [INFO] lib.WebService - IDM-API : http://api.kitapeduli.org:9003/api
+[2022-02-16T16:12:03.126] [INFO] lib.WebService - GRAPH-API : http://api.kitapeduli.org:8445/api
+[2022-02-16T16:12:03.127] [INFO] lib.WebService - SPATIAL-API : http://api.kitapeduli.org:8559/api
+[2022-02-16T16:12:03.754] [INFO] www - App is running HTTP service and listening on port 19011
+[2022-02-16T16:12:23.057] [INFO] app - [GET] /
+[2022-02-16T16:12:35.589] [INFO] lib.AuthService - [POST] /v1/auth/token pkl_fe
+[2022-02-16T16:12:36.036] [INFO] app - [GET] /
+[2022-02-16T16:12:36.039] [ERROR] app - {
+  status: 404,
+  message: 'Page Not Found: /',
+  path: '/',
+  method: 'GET',
+  data: {},
+  isAjax: false
+}
+[2022-02-16T16:12:38.804] [INFO] app - [GET] /layout/data
+[2022-02-16T16:12:38.805] [INFO] lib.InternalService - [POST] http://api.kitapeduli.org:8445/api/internal/node/list - data: {"limit":0,"label":"Test","skip":0,"propertyFilter":{},"propertySort":{}}
+[2022-02-16T16:12:49.832] [INFO] app - [GET] /class
+[2022-02-16T16:12:49.834] [ERROR] app - {
+  status: 404,
+  message: 'Page Not Found: /class',
+  path: '/class',
+  method: 'GET',
+  data: {},
+  isAjax: false
+}
+[2022-02-16T16:12:51.685] [INFO] app - [GET] /layout/data
+[2022-02-16T16:12:51.686] [INFO] lib.InternalService - [POST] http://api.kitapeduli.org:8445/api/internal/node/list - data: {"limit":0,"label":"Test","skip":0,"propertyFilter":{},"propertySort":{}}
+[2022-02-16T16:13:12.245] [INFO] lib.WebService - IDM-API : http://api.kitapeduli.org:9003/api
+[2022-02-16T16:13:12.248] [INFO] lib.WebService - GRAPH-API : http://api.kitapeduli.org:8445/api
+[2022-02-16T16:13:12.248] [INFO] lib.WebService - SPATIAL-API : http://api.kitapeduli.org:8559/api
+[2022-02-16T16:13:12.361] [INFO] www - App is running HTTP service and listening on port 19011
+[2022-02-16T16:13:13.222] [INFO] app - [GET] /class
+[2022-02-16T16:13:13.226] [ERROR] app - {
+  status: 404,
+  message: 'Page Not Found: /class',
+  path: '/class',
+  method: 'GET',
+  data: {},
+  isAjax: false
+}
+[2022-02-16T16:13:15.303] [INFO] app - [GET] /layout/data
+[2022-02-16T16:13:15.306] [INFO] lib.InternalService - [POST] http://api.kitapeduli.org:8445/api/internal/node/list - data: {"limit":0,"label":"Test","skip":0,"propertyFilter":{},"propertySort":{}}
+[2022-02-16T16:13:34.438] [INFO] lib.WebService - IDM-API : http://api.kitapeduli.org:9003/api
+[2022-02-16T16:13:34.443] [INFO] lib.WebService - GRAPH-API : http://api.kitapeduli.org:8445/api
+[2022-02-16T16:13:34.444] [INFO] lib.WebService - SPATIAL-API : http://api.kitapeduli.org:8559/api
+[2022-02-16T16:13:34.592] [INFO] www - App is running HTTP service and listening on port 19011
+[2022-02-16T16:15:55.190] [INFO] lib.WebService - IDM-API : http://api.kitapeduli.org:9003/api
+[2022-02-16T16:15:55.193] [INFO] lib.WebService - GRAPH-API : http://api.kitapeduli.org:8445/api
+[2022-02-16T16:15:55.194] [INFO] lib.WebService - SPATIAL-API : http://api.kitapeduli.org:8559/api
+[2022-02-16T16:15:55.295] [INFO] www - App is running HTTP service and listening on port 19011
+[2022-02-16T16:15:58.226] [INFO] app - [GET] /class
+[2022-02-16T16:15:58.544] [ERROR] app - [open ENOENT undefined:undefined] {
+  errno: -2,
+  syscall: 'open',
+  code: 'ENOENT',
+  path: '/class',
+  status: 500,
+  method: 'GET',
+  data: {},
+  isAjax: false
+}
+[2022-02-16T16:16:01.394] [INFO] app - [GET] /layout/data
+[2022-02-16T16:16:01.399] [INFO] lib.InternalService - [POST] http://api.kitapeduli.org:8445/api/internal/node/list - data: {"limit":0,"label":"Test","skip":0,"propertyFilter":{},"propertySort":{}}
+[2022-02-16T16:16:04.592] [INFO] app - [GET] /class
+[2022-02-16T16:16:04.635] [ERROR] app - [open ENOENT undefined:undefined] {
+  errno: -2,
+  syscall: 'open',
+  code: 'ENOENT',
+  path: '/class',
+  status: 500,
+  method: 'GET',
+  data: {},
+  isAjax: false
+}
+[2022-02-16T16:16:06.234] [INFO] app - [GET] /layout/data
+[2022-02-16T16:16:06.236] [INFO] lib.InternalService - [POST] http://api.kitapeduli.org:8445/api/internal/node/list - data: {"limit":0,"label":"Test","skip":0,"propertyFilter":{},"propertySort":{}}
+[2022-02-16T16:16:40.461] [INFO] app - [GET] /class
+[2022-02-16T16:16:40.488] [ERROR] app - [open ENOENT undefined:undefined] {
+  errno: -2,
+  syscall: 'open',
+  code: 'ENOENT',
+  path: '/class',
+  status: 500,
+  method: 'GET',
+  data: {},
+  isAjax: false
+}
+[2022-02-16T16:16:42.073] [INFO] app - [GET] /layout/data
+[2022-02-16T16:16:42.074] [INFO] lib.InternalService - [POST] http://api.kitapeduli.org:8445/api/internal/node/list - data: {"limit":0,"label":"Test","skip":0,"propertyFilter":{},"propertySort":{}}
+[2022-02-16T16:16:46.016] [INFO] app - [GET] /
+[2022-02-16T16:16:46.017] [ERROR] app - {
+  status: 404,
+  message: 'Page Not Found: /',
+  path: '/',
+  method: 'GET',
+  data: {},
+  isAjax: false
+}
+[2022-02-16T16:16:47.443] [INFO] app - [GET] /layout/data
+[2022-02-16T16:16:47.444] [INFO] lib.InternalService - [POST] http://api.kitapeduli.org:8445/api/internal/node/list - data: {"limit":0,"label":"Test","skip":0,"propertyFilter":{},"propertySort":{}}
+[2022-02-16T16:17:17.700] [INFO] app - [GET] /
+[2022-02-16T16:17:17.701] [ERROR] app - {
+  status: 404,
+  message: 'Page Not Found: /',
+  path: '/',
+  method: 'GET',
+  data: {},
+  isAjax: false
+}
+[2022-02-16T16:17:19.279] [INFO] app - [GET] /layout/data
+[2022-02-16T16:17:19.280] [INFO] lib.InternalService - [POST] http://api.kitapeduli.org:8445/api/internal/node/list - data: {"limit":0,"label":"Test","skip":0,"propertyFilter":{},"propertySort":{}}
+[2022-02-16T16:17:25.843] [INFO] app - [GET] /class
+[2022-02-16T16:17:27.299] [INFO] app - [GET] /class/data
+[2022-02-16T16:17:27.304] [INFO] lib.InternalService - [POST] http://api.kitapeduli.org:8445/api/internal/node/list - data: {"limit":0,"label":"Test","skip":0,"propertyFilter":{},"propertySort":{}}
+[2022-02-16T16:18:00.206] [INFO] lib.WebService - IDM-API : http://api.kitapeduli.org:9003/api
+[2022-02-16T16:18:00.210] [INFO] lib.WebService - GRAPH-API : http://api.kitapeduli.org:8445/api
+[2022-02-16T16:18:00.211] [INFO] lib.WebService - SPATIAL-API : http://api.kitapeduli.org:8559/api
+[2022-02-16T16:18:00.319] [INFO] www - App is running HTTP service and listening on port 19011
+[2022-02-16T16:18:26.778] [INFO] app - [GET] /class
+[2022-02-16T16:18:28.833] [INFO] app - [GET] /class/data
+[2022-02-16T16:18:28.841] [INFO] lib.InternalService - [POST] http://api.kitapeduli.org:8445/api/internal/node/list - data: {"limit":0,"label":"Test","skip":0,"propertyFilter":{},"propertySort":{}}
+[2022-02-16T16:20:10.387] [INFO] app - [GET] /
+[2022-02-16T16:20:10.389] [ERROR] app - {
+  status: 404,
+  message: 'Page Not Found: /',
+  path: '/',
+  method: 'GET',
+  data: {},
+  isAjax: false
+}
+[2022-02-16T16:20:12.365] [INFO] app - [GET] /layout/data
+[2022-02-16T16:20:12.368] [INFO] lib.InternalService - [POST] http://api.kitapeduli.org:8445/api/internal/node/list - data: {"limit":0,"label":"Test","skip":0,"propertyFilter":{},"propertySort":{}}
+[2022-02-16T16:21:02.523] [INFO] lib.WebService - IDM-API : http://api.kitapeduli.org:9003/api
+[2022-02-16T16:21:02.526] [INFO] lib.WebService - GRAPH-API : http://api.kitapeduli.org:8445/api
+[2022-02-16T16:21:02.526] [INFO] lib.WebService - SPATIAL-API : http://api.kitapeduli.org:8559/api
+[2022-02-16T16:21:02.635] [INFO] www - App is running HTTP service and listening on port 19011
+[2022-02-16T16:21:15.757] [INFO] app - [GET] /class
+[2022-02-16T16:21:18.428] [INFO] app - [GET] /class/data
+[2022-02-16T16:21:18.435] [INFO] lib.InternalService - [POST] http://api.kitapeduli.org:8445/api/internal/node/list - data: {"limit":0,"label":"Test","skip":0,"propertyFilter":{},"propertySort":{}}
+[2022-02-16T16:21:43.666] [INFO] lib.WebService - IDM-API : http://api.kitapeduli.org:9003/api
+[2022-02-16T16:21:43.671] [INFO] lib.WebService - GRAPH-API : http://api.kitapeduli.org:8445/api
+[2022-02-16T16:21:43.672] [INFO] lib.WebService - SPATIAL-API : http://api.kitapeduli.org:8559/api
+[2022-02-16T16:21:43.804] [INFO] www - App is running HTTP service and listening on port 19011
+[2022-02-16T16:21:44.578] [INFO] app - [GET] /class
+[2022-02-16T16:21:46.356] [INFO] app - [GET] /class/data
+[2022-02-16T16:21:46.361] [INFO] lib.InternalService - [POST] http://api.kitapeduli.org:8445/api/internal/node/list - data: {"limit":0,"label":"Test","skip":0,"propertyFilter":{},"propertySort":{}}
+[2022-02-16T16:22:03.608] [INFO] lib.WebService - IDM-API : http://api.kitapeduli.org:9003/api
+[2022-02-16T16:22:03.611] [INFO] lib.WebService - GRAPH-API : http://api.kitapeduli.org:8445/api
+[2022-02-16T16:22:03.612] [INFO] lib.WebService - SPATIAL-API : http://api.kitapeduli.org:8559/api
+[2022-02-16T16:22:03.719] [INFO] www - App is running HTTP service and listening on port 19011
+[2022-02-16T16:22:05.447] [INFO] app - [GET] /class
+[2022-02-16T16:22:07.394] [INFO] app - [GET] /class/data
+[2022-02-16T16:22:07.398] [INFO] lib.InternalService - [POST] http://api.kitapeduli.org:8445/api/internal/node/list - data: {"limit":0,"label":"Test","skip":0,"propertyFilter":{},"propertySort":{}}
+[2022-02-16T16:23:56.806] [INFO] lib.WebService - IDM-API : http://api.kitapeduli.org:9003/api
+[2022-02-16T16:23:56.808] [INFO] lib.WebService - GRAPH-API : http://api.kitapeduli.org:8445/api
+[2022-02-16T16:23:56.809] [INFO] lib.WebService - SPATIAL-API : http://api.kitapeduli.org:8559/api
+[2022-02-16T16:23:56.920] [INFO] www - App is running HTTP service and listening on port 19011
+[2022-02-16T16:23:58.881] [INFO] app - [GET] /class
+[2022-02-16T16:24:01.485] [INFO] app - [GET] /class/data
+[2022-02-16T16:24:01.489] [INFO] lib.InternalService - [POST] http://api.kitapeduli.org:8445/api/internal/node/list - data: {"limit":0,"label":"Test","skip":0,"propertyFilter":{},"propertySort":{}}
+[2022-02-16T16:27:15.474] [INFO] lib.WebService - IDM-API : http://api.kitapeduli.org:9003/api
+[2022-02-16T16:27:15.477] [INFO] lib.WebService - GRAPH-API : http://api.kitapeduli.org:8445/api
+[2022-02-16T16:27:15.478] [INFO] lib.WebService - SPATIAL-API : http://api.kitapeduli.org:8559/api
+[2022-02-16T16:27:15.586] [INFO] www - App is running HTTP service and listening on port 19011
+[2022-02-16T16:27:19.536] [INFO] app - [GET] /class
+[2022-02-16T16:27:22.235] [INFO] app - [GET] /class/data
+[2022-02-16T16:27:22.239] [INFO] lib.InternalService - [POST] http://api.kitapeduli.org:8445/api/internal/node/list - data: {"limit":0,"label":"Test","skip":0,"propertyFilter":{},"propertySort":{}}
+[2022-02-16T16:28:01.926] [INFO] lib.WebService - IDM-API : http://api.kitapeduli.org:9003/api
+[2022-02-16T16:28:01.929] [INFO] lib.WebService - GRAPH-API : http://api.kitapeduli.org:8445/api
+[2022-02-16T16:28:01.929] [INFO] lib.WebService - SPATIAL-API : http://api.kitapeduli.org:8559/api
+[2022-02-16T16:28:02.034] [INFO] www - App is running HTTP service and listening on port 19011
+[2022-02-16T16:28:07.847] [INFO] app - [GET] /class
+[2022-02-16T16:28:10.605] [INFO] app - [GET] /class/data
+[2022-02-16T16:28:10.611] [INFO] lib.InternalService - [POST] http://api.kitapeduli.org:8445/api/internal/node/list - data: {"limit":0,"label":"Test","skip":0,"propertyFilter":{},"propertySort":{}}
+[2022-02-16T16:29:55.698] [INFO] app - [GET] /class
+[2022-02-16T16:29:58.059] [INFO] app - [GET] /class/data
+[2022-02-16T16:29:58.061] [INFO] lib.InternalService - [POST] http://api.kitapeduli.org:8445/api/internal/node/list - data: {"limit":0,"label":"Test","skip":0,"propertyFilter":{},"propertySort":{}}
+[2022-02-16T16:31:05.117] [INFO] lib.WebService - IDM-API : http://api.kitapeduli.org:9003/api
+[2022-02-16T16:31:05.120] [INFO] lib.WebService - GRAPH-API : http://api.kitapeduli.org:8445/api
+[2022-02-16T16:31:05.121] [INFO] lib.WebService - SPATIAL-API : http://api.kitapeduli.org:8559/api
+[2022-02-16T16:31:05.230] [INFO] www - App is running HTTP service and listening on port 19011
+[2022-02-16T16:31:12.433] [INFO] lib.WebService - IDM-API : http://api.kitapeduli.org:9003/api
+[2022-02-16T16:31:12.436] [INFO] lib.WebService - GRAPH-API : http://api.kitapeduli.org:8445/api
+[2022-02-16T16:31:12.436] [INFO] lib.WebService - SPATIAL-API : http://api.kitapeduli.org:8559/api
+[2022-02-16T16:31:12.543] [INFO] www - App is running HTTP service and listening on port 19011
+[2022-02-16T16:31:15.772] [INFO] app - [GET] /class
+[2022-02-16T16:31:18.404] [INFO] app - [GET] /class/data
+[2022-02-16T16:31:18.412] [INFO] lib.InternalService - [POST] http://api.kitapeduli.org:8445/api/internal/node/list - data: {"limit":0,"label":"Test","skip":0,"propertyFilter":{},"propertySort":{}}
+[2022-02-16T16:31:47.995] [INFO] lib.WebService - IDM-API : http://api.kitapeduli.org:9003/api
+[2022-02-16T16:31:47.998] [INFO] lib.WebService - GRAPH-API : http://api.kitapeduli.org:8445/api
+[2022-02-16T16:31:47.999] [INFO] lib.WebService - SPATIAL-API : http://api.kitapeduli.org:8559/api
+[2022-02-16T16:31:48.110] [INFO] www - App is running HTTP service and listening on port 19011
+[2022-02-16T16:32:00.933] [INFO] app - [GET] /class
+[2022-02-16T16:32:03.594] [INFO] app - [GET] /class/data
+[2022-02-16T16:32:03.602] [INFO] lib.InternalService - [POST] http://api.kitapeduli.org:8445/api/internal/node/list - data: {"limit":0,"label":"Test","skip":0,"propertyFilter":{},"propertySort":{}}
+[2022-02-16T16:32:55.634] [INFO] app - [GET] /class
+[2022-02-16T16:32:57.932] [INFO] app - [GET] /class/data
+[2022-02-16T16:32:57.935] [INFO] lib.InternalService - [POST] http://api.kitapeduli.org:8445/api/internal/node/list - data: {"limit":0,"label":"Test","skip":0,"propertyFilter":{},"propertySort":{}}
+[2022-02-16T16:33:49.682] [INFO] app - [GET] /class
+[2022-02-16T16:33:51.918] [INFO] app - [GET] /class/data
+[2022-02-16T16:33:51.920] [INFO] lib.InternalService - [POST] http://api.kitapeduli.org:8445/api/internal/node/list - data: {"limit":0,"label":"Test","skip":0,"propertyFilter":{},"propertySort":{}}
+[2022-02-16T16:34:14.469] [INFO] lib.WebService - IDM-API : http://api.kitapeduli.org:9003/api
+[2022-02-16T16:34:14.472] [INFO] lib.WebService - GRAPH-API : http://api.kitapeduli.org:8445/api
+[2022-02-16T16:34:14.472] [INFO] lib.WebService - SPATIAL-API : http://api.kitapeduli.org:8559/api
+[2022-02-16T16:34:14.578] [INFO] www - App is running HTTP service and listening on port 19011
+[2022-02-16T16:34:16.453] [INFO] app - [GET] /class
+[2022-02-16T16:34:18.335] [INFO] app - [GET] /class/data
+[2022-02-16T16:34:18.346] [INFO] lib.InternalService - [POST] http://api.kitapeduli.org:8445/api/internal/node/list - data: {"limit":0,"label":"Test","skip":0,"propertyFilter":{},"propertySort":{}}
+[2022-02-16T16:35:33.265] [INFO] app - [POST] /class/post
+[2022-02-16T16:35:33.267] [DEBUG] lib.InternalService - [POST] /internal/node
+[2022-02-16T16:35:33.421] [INFO] app - [GET] /class
+[2022-02-16T16:35:36.036] [INFO] app - [GET] /class/data
+[2022-02-16T16:35:36.039] [INFO] lib.InternalService - [POST] http://api.kitapeduli.org:8445/api/internal/node/list - data: {"limit":0,"label":"Test","skip":0,"propertyFilter":{},"propertySort":{}}
+[2022-02-16T16:38:17.580] [INFO] app - [GET] /class
+[2022-02-16T16:38:20.618] [INFO] app - [GET] /class/data
+[2022-02-16T16:38:20.625] [INFO] lib.InternalService - [POST] http://api.kitapeduli.org:8445/api/internal/node/list - data: {"limit":0,"label":"Test","skip":0,"propertyFilter":{},"propertySort":{}}
+[2022-02-16T16:38:34.067] [INFO] app - [POST] /class/post
+[2022-02-16T16:38:34.068] [DEBUG] lib.InternalService - [POST] /internal/node
+[2022-02-16T16:38:34.464] [INFO] app - [GET] /class
+[2022-02-16T16:38:37.488] [INFO] app - [GET] /class/data
+[2022-02-16T16:38:37.492] [INFO] lib.InternalService - [POST] http://api.kitapeduli.org:8445/api/internal/node/list - data: {"limit":0,"label":"Test","skip":0,"propertyFilter":{},"propertySort":{}}
+[2022-02-16T16:40:27.601] [INFO] app - [GET] /class
+[2022-02-16T16:40:30.669] [INFO] app - [GET] /class/data
+[2022-02-16T16:40:30.671] [INFO] lib.InternalService - [POST] http://api.kitapeduli.org:8445/api/internal/node/list - data: {"limit":0,"label":"Test","skip":0,"propertyFilter":{},"propertySort":{}}
+[2022-02-16T16:40:59.108] [INFO] lib.WebService - IDM-API : http://api.kitapeduli.org:9003/api
+[2022-02-16T16:40:59.111] [INFO] lib.WebService - GRAPH-API : http://api.kitapeduli.org:8445/api
+[2022-02-16T16:40:59.112] [INFO] lib.WebService - SPATIAL-API : http://api.kitapeduli.org:8559/api
+[2022-02-16T16:40:59.220] [INFO] www - App is running HTTP service and listening on port 19011
+[2022-02-16T16:41:02.324] [INFO] app - [GET] /class
+[2022-02-16T16:41:05.552] [INFO] app - [GET] /class/data
+[2022-02-16T16:41:05.557] [INFO] lib.InternalService - [POST] http://api.kitapeduli.org:8445/api/internal/node/list - data: {"limit":0,"label":"Test","skip":0,"propertyFilter":{},"propertySort":{}}
+[2022-02-16T16:42:55.474] [INFO] lib.WebService - IDM-API : http://api.kitapeduli.org:9003/api
+[2022-02-16T16:42:55.476] [INFO] lib.WebService - GRAPH-API : http://api.kitapeduli.org:8445/api
+[2022-02-16T16:42:55.477] [INFO] lib.WebService - SPATIAL-API : http://api.kitapeduli.org:8559/api
+[2022-02-16T16:42:55.577] [INFO] www - App is running HTTP service and listening on port 19011
+[2022-02-16T16:43:01.180] [INFO] lib.WebService - IDM-API : http://api.kitapeduli.org:9003/api
+[2022-02-16T16:43:01.183] [INFO] lib.WebService - GRAPH-API : http://api.kitapeduli.org:8445/api
+[2022-02-16T16:43:01.183] [INFO] lib.WebService - SPATIAL-API : http://api.kitapeduli.org:8559/api
+[2022-02-16T16:43:01.291] [INFO] www - App is running HTTP service and listening on port 19011
+[2022-02-16T16:43:03.631] [INFO] app - [GET] /class
+[2022-02-16T16:43:07.281] [INFO] app - [GET] /class/data
+[2022-02-16T16:43:07.291] [INFO] lib.InternalService - [POST] http://api.kitapeduli.org:8445/api/internal/node/list - data: {"limit":0,"label":"Test","skip":0,"propertyFilter":{},"propertySort":{}}
+[2022-02-16T16:44:30.191] [INFO] lib.WebService - IDM-API : http://api.kitapeduli.org:9003/api
+[2022-02-16T16:44:30.194] [INFO] lib.WebService - GRAPH-API : http://api.kitapeduli.org:8445/api
+[2022-02-16T16:44:30.194] [INFO] lib.WebService - SPATIAL-API : http://api.kitapeduli.org:8559/api
+[2022-02-16T16:44:30.303] [INFO] www - App is running HTTP service and listening on port 19011
+[2022-02-16T16:44:34.226] [INFO] app - [GET] /class
+[2022-02-16T16:44:38.144] [INFO] app - [GET] /class/data
+[2022-02-16T16:44:38.156] [INFO] lib.InternalService - [POST] http://api.kitapeduli.org:8445/api/internal/node/list - data: {"limit":0,"label":"Test","skip":0,"propertyFilter":{},"propertySort":{}}
+[2022-02-16T16:47:09.922] [INFO] lib.WebService - IDM-API : http://api.kitapeduli.org:9003/api
+[2022-02-16T16:47:09.925] [INFO] lib.WebService - GRAPH-API : http://api.kitapeduli.org:8445/api
+[2022-02-16T16:47:09.925] [INFO] lib.WebService - SPATIAL-API : http://api.kitapeduli.org:8559/api
+[2022-02-16T16:47:10.075] [INFO] www - App is running HTTP service and listening on port 19011
+[2022-02-16T16:47:10.990] [INFO] app - [GET] /class
+[2022-02-16T16:47:14.735] [INFO] app - [GET] /class/data
+[2022-02-16T16:47:14.740] [INFO] lib.InternalService - [POST] http://api.kitapeduli.org:8445/api/internal/node/list - data: {"limit":0,"label":"Test","skip":0,"propertyFilter":{},"propertySort":{}}
+[2022-02-16T16:48:10.580] [INFO] app - [GET] /class
+[2022-02-16T16:48:13.839] [INFO] app - [GET] /class/data
+[2022-02-16T16:48:13.842] [INFO] lib.InternalService - [POST] http://api.kitapeduli.org:8445/api/internal/node/list - data: {"limit":0,"label":"Test","skip":0,"propertyFilter":{},"propertySort":{}}
+[2022-02-16T16:48:55.196] [INFO] app - [GET] /class
+[2022-02-16T16:48:58.244] [INFO] app - [GET] /class/data
+[2022-02-16T16:48:58.251] [INFO] lib.InternalService - [POST] http://api.kitapeduli.org:8445/api/internal/node/list - data: {"limit":0,"label":"Test","skip":0,"propertyFilter":{},"propertySort":{}}
+[2022-02-16T16:49:11.584] [INFO] app - [POST] /class/post
+[2022-02-16T16:49:11.585] [DEBUG] lib.InternalService - [POST] /internal/node
+[2022-02-16T16:49:11.755] [INFO] app - [GET] /class
+[2022-02-16T16:49:14.659] [INFO] app - [GET] /class/data
+[2022-02-16T16:49:14.662] [INFO] lib.InternalService - [POST] http://api.kitapeduli.org:8445/api/internal/node/list - data: {"limit":0,"label":"Test","skip":0,"propertyFilter":{},"propertySort":{}}
+[2022-02-16T17:16:06.461] [INFO] app - [GET] /class/130678
+[2022-02-16T17:16:06.463] [INFO] lib.InternalService - [POST] http://api.kitapeduli.org:8445/api/internal/node/list - data: {"label":"Test","skip":0,"limit":1,"propertyFilter":{"_id":"130678"}}
+[2022-02-16T17:32:38.758] [INFO] lib.WebService - IDM-API : http://api.kitapeduli.org:9003/api
+[2022-02-16T17:32:38.762] [INFO] lib.WebService - GRAPH-API : http://api.kitapeduli.org:8445/api
+[2022-02-16T17:32:38.763] [INFO] lib.WebService - SPATIAL-API : http://api.kitapeduli.org:8559/api
+[2022-02-16T17:32:38.878] [INFO] www - App is running HTTP service and listening on port 19011
+[2022-02-16T17:32:43.495] [INFO] app - [GET] /class/130678
+[2022-02-16T17:32:43.500] [INFO] lib.InternalService - [POST] http://api.kitapeduli.org:8445/api/internal/node/list - data: {"label":"Test","skip":0,"limit":1,"propertyFilter":{"_id":"130678"}}
+[2022-02-16T17:33:26.357] [INFO] lib.WebService - IDM-API : http://api.kitapeduli.org:9003/api
+[2022-02-16T17:33:26.360] [INFO] lib.WebService - GRAPH-API : http://api.kitapeduli.org:8445/api
+[2022-02-16T17:33:26.360] [INFO] lib.WebService - SPATIAL-API : http://api.kitapeduli.org:8559/api
+[2022-02-16T17:33:26.481] [INFO] www - App is running HTTP service and listening on port 19011
+[2022-02-16T17:33:30.646] [INFO] app - [GET] /class/130678
+[2022-02-16T17:33:30.649] [INFO] lib.InternalService - [POST] http://api.kitapeduli.org:8445/api/internal/node/list - data: {"label":"Test","skip":0,"limit":1,"propertyFilter":{"_id":"130678"}}
+[2022-02-16T17:33:48.098] [INFO] lib.WebService - IDM-API : http://api.kitapeduli.org:9003/api
+[2022-02-16T17:33:48.101] [INFO] lib.WebService - GRAPH-API : http://api.kitapeduli.org:8445/api
+[2022-02-16T17:33:48.102] [INFO] lib.WebService - SPATIAL-API : http://api.kitapeduli.org:8559/api
+[2022-02-16T17:33:48.256] [INFO] www - App is running HTTP service and listening on port 19011
+[2022-02-16T17:33:53.008] [INFO] app - [GET] /class/130678
+[2022-02-16T17:33:53.012] [INFO] lib.InternalService - [POST] http://api.kitapeduli.org:8445/api/internal/node/list - data: {"label":"Test","skip":0,"limit":1,"propertyFilter":{"_id":"130678"}}
+[2022-02-16T17:33:55.568] [INFO] app - [GET] /class/
+[2022-02-16T17:33:59.636] [INFO] app - [GET] /class/data
+[2022-02-16T17:33:59.640] [INFO] lib.InternalService - [POST] http://api.kitapeduli.org:8445/api/internal/node/list - data: {"limit":0,"label":"Test","skip":0,"propertyFilter":{},"propertySort":{}}
+[2022-02-16T17:35:37.178] [INFO] lib.WebService - IDM-API : http://api.kitapeduli.org:9003/api
+[2022-02-16T17:35:37.181] [INFO] lib.WebService - GRAPH-API : http://api.kitapeduli.org:8445/api
+[2022-02-16T17:35:37.181] [INFO] lib.WebService - SPATIAL-API : http://api.kitapeduli.org:8559/api
+[2022-02-16T17:35:37.283] [INFO] www - App is running HTTP service and listening on port 19011
+[2022-02-16T17:35:46.451] [INFO] lib.WebService - IDM-API : http://api.kitapeduli.org:9003/api
+[2022-02-16T17:35:46.454] [INFO] lib.WebService - GRAPH-API : http://api.kitapeduli.org:8445/api
+[2022-02-16T17:35:46.454] [INFO] lib.WebService - SPATIAL-API : http://api.kitapeduli.org:8559/api
+[2022-02-16T17:35:46.562] [INFO] www - App is running HTTP service and listening on port 19011
+[2022-02-16T17:36:20.546] [INFO] lib.WebService - IDM-API : http://api.kitapeduli.org:9003/api
+[2022-02-16T17:36:20.549] [INFO] lib.WebService - GRAPH-API : http://api.kitapeduli.org:8445/api
+[2022-02-16T17:36:20.550] [INFO] lib.WebService - SPATIAL-API : http://api.kitapeduli.org:8559/api
+[2022-02-16T17:36:20.671] [INFO] www - App is running HTTP service and listening on port 19011
+[2022-02-16T17:37:03.219] [INFO] lib.WebService - IDM-API : http://api.kitapeduli.org:9003/api
+[2022-02-16T17:37:03.223] [INFO] lib.WebService - GRAPH-API : http://api.kitapeduli.org:8445/api
+[2022-02-16T17:37:03.224] [INFO] lib.WebService - SPATIAL-API : http://api.kitapeduli.org:8559/api
+[2022-02-16T17:37:03.384] [INFO] www - App is running HTTP service and listening on port 19011
+[2022-02-16T17:37:10.950] [INFO] app - [GET] /class/
+[2022-02-16T17:37:14.497] [INFO] app - [GET] /class/data
+[2022-02-16T17:37:14.506] [INFO] lib.InternalService - [POST] http://api.kitapeduli.org:8445/api/internal/node/list - data: {"limit":0,"label":"Test","skip":0,"propertyFilter":{},"propertySort":{}}
+[2022-02-16T17:37:21.981] [INFO] lib.WebService - IDM-API : http://api.kitapeduli.org:9003/api
+[2022-02-16T17:37:21.984] [INFO] lib.WebService - GRAPH-API : http://api.kitapeduli.org:8445/api
+[2022-02-16T17:37:21.984] [INFO] lib.WebService - SPATIAL-API : http://api.kitapeduli.org:8559/api
+[2022-02-16T17:37:22.096] [INFO] www - App is running HTTP service and listening on port 19011
+[2022-02-16T17:37:31.320] [INFO] app - [GET] /class/
+[2022-02-16T17:37:34.028] [INFO] app - [GET] /class/data
+[2022-02-16T17:37:34.047] [INFO] lib.InternalService - [POST] http://api.kitapeduli.org:8445/api/internal/node/list - data: {"limit":0,"label":"Test","skip":0,"propertyFilter":{},"propertySort":{}}
+[2022-02-16T17:38:14.611] [INFO] app - [POST] /class/post
+[2022-02-16T17:38:14.613] [DEBUG] lib.InternalService - [POST] /internal/node
+[2022-02-16T17:38:14.790] [INFO] app - [GET] /class/
+[2022-02-16T17:38:17.723] [INFO] app - [GET] /class/data
+[2022-02-16T17:38:17.726] [INFO] lib.InternalService - [POST] http://api.kitapeduli.org:8445/api/internal/node/list - data: {"limit":0,"label":"Test","skip":0,"propertyFilter":{},"propertySort":{}}
+[2022-02-16T17:39:19.836] [INFO] lib.WebService - IDM-API : http://api.kitapeduli.org:9003/api
+[2022-02-16T17:39:19.839] [INFO] lib.WebService - GRAPH-API : http://api.kitapeduli.org:8445/api
+[2022-02-16T17:39:19.840] [INFO] lib.WebService - SPATIAL-API : http://api.kitapeduli.org:8559/api
+[2022-02-16T17:39:19.944] [INFO] www - App is running HTTP service and listening on port 19011
+[2022-02-16T17:39:20.027] [INFO] app - [GET] /class/
+[2022-02-16T17:39:23.126] [INFO] app - [GET] /class/data
+[2022-02-16T17:39:23.129] [INFO] lib.InternalService - [POST] http://api.kitapeduli.org:8445/api/internal/node/list - data: {"limit":0,"label":"Test","skip":0,"propertyFilter":{},"propertySort":{}}
+[2022-02-16T23:15:46.864] [INFO] lib.WebService - IDM-API : http://api.kitapeduli.org:9003/api
+[2022-02-16T23:15:46.867] [INFO] lib.WebService - GRAPH-API : http://api.kitapeduli.org:8445/api
+[2022-02-16T23:15:46.867] [INFO] lib.WebService - SPATIAL-API : http://api.kitapeduli.org:8559/api
+[2022-02-16T23:15:47.470] [INFO] www - App is running HTTP service and listening on port 19011
+[2022-02-16T23:15:50.705] [INFO] app - [GET] /inputForm
+[2022-02-16T23:15:50.709] [ERROR] app - {
+  status: 404,
+  message: 'Page Not Found: /inputForm',
+  path: '/inputForm',
+  method: 'GET',
+  data: {},
+  isAjax: false
+}
+[2022-02-16T23:15:55.441] [INFO] app - [GET] /layout/data
+[2022-02-16T23:15:55.445] [INFO] lib.InternalService - [POST] http://api.kitapeduli.org:8445/api/internal/node/list - data: {"limit":0,"label":"Test","skip":0,"propertyFilter":{},"propertySort":{}}
+[2022-02-16T23:16:04.473] [INFO] app - [GET] /
+[2022-02-16T23:16:04.475] [ERROR] app - {
+  status: 404,
+  message: 'Page Not Found: /',
+  path: '/',
+  method: 'GET',
+  data: {},
+  isAjax: false
+}
+[2022-02-16T23:16:06.211] [INFO] app - [GET] /layout/data
+[2022-02-16T23:16:06.212] [INFO] lib.InternalService - [POST] http://api.kitapeduli.org:8445/api/internal/node/list - data: {"limit":0,"label":"Test","skip":0,"propertyFilter":{},"propertySort":{}}
+[2022-02-16T23:16:12.529] [INFO] app - [GET] /class
+[2022-02-16T23:16:14.646] [INFO] app - [GET] /class/data
+[2022-02-16T23:16:14.649] [INFO] lib.InternalService - [POST] http://api.kitapeduli.org:8445/api/internal/node/list - data: {"limit":0,"label":"Test","skip":0,"propertyFilter":{},"propertySort":{}}
+[2022-02-16T23:16:25.294] [INFO] app - [GET] /
+[2022-02-16T23:16:25.295] [ERROR] app - {
+  status: 404,
+  message: 'Page Not Found: /',
+  path: '/',
+  method: 'GET',
+  data: {},
+  isAjax: false
+}
+[2022-02-16T23:16:27.024] [INFO] app - [GET] /layout/data
+[2022-02-16T23:16:27.026] [INFO] lib.InternalService - [POST] http://api.kitapeduli.org:8445/api/internal/node/list - data: {"limit":0,"label":"Test","skip":0,"propertyFilter":{},"propertySort":{}}
+[2022-02-16T23:16:34.687] [INFO] app - [GET] /layout/130442
+[2022-02-16T23:16:34.688] [INFO] lib.InternalService - [POST] http://api.kitapeduli.org:8445/api/internal/node/list - data: {"label":"Test","skip":0,"limit":1,"propertyFilter":{"_id":"130442"}}
+[2022-02-16T23:24:05.642] [INFO] lib.WebService - IDM-API : http://api.kitapeduli.org:9003/api
+[2022-02-16T23:24:05.647] [INFO] lib.WebService - GRAPH-API : http://api.kitapeduli.org:8445/api
+[2022-02-16T23:24:05.648] [INFO] lib.WebService - SPATIAL-API : http://api.kitapeduli.org:8559/api
+[2022-02-16T23:24:05.830] [INFO] www - App is running HTTP service and listening on port 19011
+[2022-02-16T23:24:09.741] [INFO] app - [GET] /layout/130442
+[2022-02-16T23:24:12.783] [INFO] app - [GET] /layout/
+[2022-02-16T23:24:12.786] [ERROR] app - {
+  status: 404,
+  message: 'Page Not Found: /layout/',
+  path: '/layout/',
+  method: 'GET',
+  data: {},
+  isAjax: false
+}
+[2022-02-16T23:24:16.192] [INFO] app - [GET] /layout/data
+[2022-02-16T23:24:16.195] [INFO] lib.InternalService - [POST] http://api.kitapeduli.org:8445/api/internal/node/list - data: {"limit":0,"label":"Test","skip":0,"propertyFilter":{},"propertySort":{}}
+[2022-02-16T23:24:52.463] [INFO] app - [GET] /layout/
+[2022-02-16T23:24:52.464] [ERROR] app - {
+  status: 404,
+  message: 'Page Not Found: /layout/',
+  path: '/layout/',
+  method: 'GET',
+  data: {},
+  isAjax: false
+}
+[2022-02-16T23:24:54.284] [INFO] app - [GET] /layout/data
+[2022-02-16T23:24:54.286] [INFO] lib.InternalService - [POST] http://api.kitapeduli.org:8445/api/internal/node/list - data: {"limit":0,"label":"Test","skip":0,"propertyFilter":{},"propertySort":{}}
+[2022-02-16T23:25:33.862] [INFO] app - [GET] /layout/
+[2022-02-16T23:25:33.862] [ERROR] app - {
+  status: 404,
+  message: 'Page Not Found: /layout/',
+  path: '/layout/',
+  method: 'GET',
+  data: {},
+  isAjax: false
+}
+[2022-02-16T23:25:35.860] [INFO] app - [GET] /layout/data
+[2022-02-16T23:25:35.862] [INFO] lib.InternalService - [POST] http://api.kitapeduli.org:8445/api/internal/node/list - data: {"limit":0,"label":"Test","skip":0,"propertyFilter":{},"propertySort":{}}
+[2022-02-16T23:26:18.833] [INFO] lib.WebService - IDM-API : http://api.kitapeduli.org:9003/api
+[2022-02-16T23:26:18.837] [INFO] lib.WebService - GRAPH-API : http://api.kitapeduli.org:8445/api
+[2022-02-16T23:26:18.837] [INFO] lib.WebService - SPATIAL-API : http://api.kitapeduli.org:8559/api
+[2022-02-16T23:26:18.958] [INFO] www - App is running HTTP service and listening on port 19011
+[2022-02-16T23:26:22.804] [INFO] app - [GET] /layout/
+[2022-02-16T23:26:22.810] [ERROR] app - {
+  status: 404,
+  message: 'Page Not Found: /layout/',
+  path: '/layout/',
+  method: 'GET',
+  data: {},
+  isAjax: false
+}
+[2022-02-16T23:26:25.417] [INFO] app - [GET] /layout/data
+[2022-02-16T23:26:25.420] [INFO] lib.InternalService - [POST] http://api.kitapeduli.org:8445/api/internal/node/list - data: {"limit":0,"label":"Test","skip":0,"propertyFilter":{},"propertySort":{}}
+[2022-02-16T23:26:28.645] [INFO] app - [GET] /layout/class
+[2022-02-16T23:26:38.686] [INFO] app - [GET] /class
+[2022-02-16T23:26:40.889] [INFO] app - [GET] /class/data
+[2022-02-16T23:26:40.890] [INFO] lib.InternalService - [POST] http://api.kitapeduli.org:8445/api/internal/node/list - data: {"limit":0,"label":"Test","skip":0,"propertyFilter":{},"propertySort":{}}
+[2022-02-16T23:26:56.052] [INFO] app - [GET] /class
+[2022-02-16T23:26:57.745] [INFO] app - [GET] /class/data
+[2022-02-16T23:26:57.748] [INFO] lib.InternalService - [POST] http://api.kitapeduli.org:8445/api/internal/node/list - data: {"limit":0,"label":"Test","skip":0,"propertyFilter":{},"propertySort":{}}
+[2022-02-16T23:27:04.291] [INFO] lib.WebService - IDM-API : http://api.kitapeduli.org:9003/api
+[2022-02-16T23:27:04.294] [INFO] lib.WebService - GRAPH-API : http://api.kitapeduli.org:8445/api
+[2022-02-16T23:27:04.295] [INFO] lib.WebService - SPATIAL-API : http://api.kitapeduli.org:8559/api
+[2022-02-16T23:27:04.408] [INFO] www - App is running HTTP service and listening on port 19011
+[2022-02-16T23:27:07.863] [INFO] app - [GET] /class
+[2022-02-16T23:27:09.945] [INFO] app - [GET] /class/data
+[2022-02-16T23:27:09.947] [INFO] lib.InternalService - [POST] http://api.kitapeduli.org:8445/api/internal/node/list - data: {"limit":0,"label":"Test","skip":0,"propertyFilter":{},"propertySort":{}}
+[2022-02-16T23:28:07.674] [INFO] lib.WebService - IDM-API : http://api.kitapeduli.org:9003/api
+[2022-02-16T23:28:07.677] [INFO] lib.WebService - GRAPH-API : http://api.kitapeduli.org:8445/api
+[2022-02-16T23:28:07.677] [INFO] lib.WebService - SPATIAL-API : http://api.kitapeduli.org:8559/api
+[2022-02-16T23:28:07.793] [INFO] www - App is running HTTP service and listening on port 19011
+[2022-02-16T23:28:08.395] [INFO] app - [GET] /class
+[2022-02-16T23:28:10.476] [INFO] app - [GET] /class/data
+[2022-02-16T23:28:10.478] [INFO] lib.InternalService - [POST] http://api.kitapeduli.org:8445/api/internal/node/list - data: {"limit":0,"label":"Test","skip":0,"propertyFilter":{},"propertySort":{}}
+[2022-02-16T23:28:50.560] [INFO] lib.WebService - IDM-API : http://api.kitapeduli.org:9003/api
+[2022-02-16T23:28:50.564] [INFO] lib.WebService - GRAPH-API : http://api.kitapeduli.org:8445/api
+[2022-02-16T23:28:50.565] [INFO] lib.WebService - SPATIAL-API : http://api.kitapeduli.org:8559/api
+[2022-02-16T23:28:50.686] [INFO] www - App is running HTTP service and listening on port 19011
+[2022-02-16T23:28:56.463] [INFO] app - [GET] /class
+[2022-02-16T23:28:58.705] [INFO] app - [GET] /class/data
+[2022-02-16T23:28:58.706] [INFO] lib.InternalService - [POST] http://api.kitapeduli.org:8445/api/internal/node/list - data: {"limit":0,"label":"Test","skip":0,"propertyFilter":{},"propertySort":{}}
+[2022-02-16T23:29:02.509] [INFO] app - [GET] /layout
+[2022-02-16T23:29:04.410] [INFO] app - [GET] /layout/data
+[2022-02-16T23:29:04.411] [INFO] lib.InternalService - [POST] http://api.kitapeduli.org:8445/api/internal/node/list - data: {"limit":0,"label":"Test","skip":0,"propertyFilter":{},"propertySort":{}}
+[2022-02-16T23:30:44.745] [INFO] lib.WebService - IDM-API : http://api.kitapeduli.org:9003/api
+[2022-02-16T23:30:44.762] [INFO] lib.WebService - GRAPH-API : http://api.kitapeduli.org:8445/api
+[2022-02-16T23:30:44.763] [INFO] lib.WebService - SPATIAL-API : http://api.kitapeduli.org:8559/api
+[2022-02-16T23:30:45.234] [INFO] www - App is running HTTP service and listening on port 19011
+[2022-02-16T23:30:48.700] [INFO] app - [GET] /
+[2022-02-16T23:30:48.743] [ERROR] app - {
+  status: 404,
+  message: 'Page Not Found: /',
+  path: '/',
+  method: 'GET',
+  data: {},
+  isAjax: false
+}
+[2022-02-16T23:30:59.581] [INFO] app - [GET] /layout/data
+[2022-02-16T23:30:59.586] [INFO] lib.InternalService - [POST] http://api.kitapeduli.org:8445/api/internal/node/list - data: {"limit":0,"label":"Test","skip":0,"propertyFilter":{},"propertySort":{}}
+[2022-02-16T23:31:49.764] [INFO] app - [GET] /
+[2022-02-16T23:31:49.768] [ERROR] app - {
+  status: 404,
+  message: 'Page Not Found: /',
+  path: '/',
+  method: 'GET',
+  data: {},
+  isAjax: false
+}
+[2022-02-16T23:31:52.706] [INFO] app - [GET] /layout/data
+[2022-02-16T23:31:52.707] [INFO] lib.InternalService - [POST] http://api.kitapeduli.org:8445/api/internal/node/list - data: {"limit":0,"label":"Test","skip":0,"propertyFilter":{},"propertySort":{}}
+[2022-02-16T23:32:05.303] [INFO] app - [GET] /
+[2022-02-16T23:32:05.304] [ERROR] app - {
+  status: 404,
+  message: 'Page Not Found: /',
+  path: '/',
+  method: 'GET',
+  data: {},
+  isAjax: false
+}
+[2022-02-16T23:32:06.911] [INFO] app - [GET] /layout/data
+[2022-02-16T23:32:06.912] [INFO] lib.InternalService - [POST] http://api.kitapeduli.org:8445/api/internal/node/list - data: {"limit":0,"label":"Test","skip":0,"propertyFilter":{},"propertySort":{}}
+[2022-02-16T23:33:12.716] [INFO] app - [GET] /
+[2022-02-16T23:33:12.717] [ERROR] app - {
+  status: 404,
+  message: 'Page Not Found: /',
+  path: '/',
+  method: 'GET',
+  data: {},
+  isAjax: false
+}
+[2022-02-16T23:33:14.456] [INFO] app - [GET] /layout/data
+[2022-02-16T23:33:14.457] [INFO] lib.InternalService - [POST] http://api.kitapeduli.org:8445/api/internal/node/list - data: {"limit":0,"label":"Test","skip":0,"propertyFilter":{},"propertySort":{}}
+[2022-02-16T23:33:35.350] [INFO] app - [GET] /
+[2022-02-16T23:33:35.351] [ERROR] app - {
+  status: 404,
+  message: 'Page Not Found: /',
+  path: '/',
+  method: 'GET',
+  data: {},
+  isAjax: false
+}
+[2022-02-16T23:33:36.982] [INFO] app - [GET] /layout/data
+[2022-02-16T23:33:36.984] [INFO] lib.InternalService - [POST] http://api.kitapeduli.org:8445/api/internal/node/list - data: {"limit":0,"label":"Test","skip":0,"propertyFilter":{},"propertySort":{}}
+[2022-02-16T23:33:55.191] [INFO] app - [GET] /class/
+[2022-02-16T23:33:58.768] [INFO] app - [GET] /class/data
+[2022-02-16T23:33:58.770] [INFO] lib.InternalService - [POST] http://api.kitapeduli.org:8445/api/internal/node/list - data: {"limit":0,"label":"Test","skip":0,"propertyFilter":{},"propertySort":{}}
+[2022-02-16T23:34:48.862] [INFO] lib.WebService - IDM-API : http://api.kitapeduli.org:9003/api
+[2022-02-16T23:34:48.865] [INFO] lib.WebService - GRAPH-API : http://api.kitapeduli.org:8445/api
+[2022-02-16T23:34:48.866] [INFO] lib.WebService - SPATIAL-API : http://api.kitapeduli.org:8559/api
+[2022-02-16T23:34:48.979] [INFO] www - App is running HTTP service and listening on port 19011
+[2022-02-16T23:34:52.137] [INFO] lib.WebService - IDM-API : http://api.kitapeduli.org:9003/api
+[2022-02-16T23:34:52.140] [INFO] lib.WebService - GRAPH-API : http://api.kitapeduli.org:8445/api
+[2022-02-16T23:34:52.140] [INFO] lib.WebService - SPATIAL-API : http://api.kitapeduli.org:8559/api
+[2022-02-16T23:34:52.277] [INFO] www - App is running HTTP service and listening on port 19011
+[2022-02-16T23:34:55.346] [INFO] lib.WebService - IDM-API : http://api.kitapeduli.org:9003/api
+[2022-02-16T23:34:55.351] [INFO] lib.WebService - GRAPH-API : http://api.kitapeduli.org:8445/api
+[2022-02-16T23:34:55.353] [INFO] lib.WebService - SPATIAL-API : http://api.kitapeduli.org:8559/api
+[2022-02-16T23:34:55.503] [INFO] www - App is running HTTP service and listening on port 19011
+[2022-02-16T23:34:56.139] [INFO] app - [GET] /class/
+[2022-02-16T23:34:58.918] [INFO] app - [GET] /class/data
+[2022-02-16T23:34:58.925] [INFO] lib.InternalService - [POST] http://api.kitapeduli.org:8445/api/internal/node/list - data: {"limit":0,"label":"Test","skip":0,"propertyFilter":{},"propertySort":{}}
+[2022-02-16T23:35:00.146] [INFO] app - [GET] /layout
+[2022-02-16T23:35:02.752] [INFO] app - [GET] /layout/data
+[2022-02-16T23:35:02.754] [INFO] lib.InternalService - [POST] http://api.kitapeduli.org:8445/api/internal/node/list - data: {"limit":0,"label":"Test","skip":0,"propertyFilter":{},"propertySort":{}}
+[2022-02-16T23:35:14.521] [INFO] app - [GET] /layout/130442
+[2022-02-16T23:35:14.524] [INFO] lib.InternalService - [POST] http://api.kitapeduli.org:8445/api/internal/node/list - data: {"label":"Test","skip":0,"limit":1,"propertyFilter":{"_id":"130442"}}
+[2022-02-16T23:37:13.218] [INFO] lib.WebService - IDM-API : http://api.kitapeduli.org:9003/api
+[2022-02-16T23:37:13.221] [INFO] lib.WebService - GRAPH-API : http://api.kitapeduli.org:8445/api
+[2022-02-16T23:37:13.222] [INFO] lib.WebService - SPATIAL-API : http://api.kitapeduli.org:8559/api
+[2022-02-16T23:37:13.343] [INFO] www - App is running HTTP service and listening on port 19011
+[2022-02-16T23:37:15.436] [INFO] app - [GET] /layout/130442
+[2022-02-16T23:37:15.441] [INFO] lib.InternalService - [POST] http://api.kitapeduli.org:8445/api/internal/node/list - data: {"label":"Test","skip":0,"limit":1,"propertyFilter":{"_id":"130442"}}
+[2022-02-16T23:37:17.098] [INFO] app - [GET] /
+[2022-02-16T23:37:17.101] [ERROR] app - {
+  status: 404,
+  message: 'Page Not Found: /',
+  path: '/',
+  method: 'GET',
+  data: {},
+  isAjax: false
+}
+[2022-02-16T23:37:20.210] [INFO] app - [GET] /layout/data
+[2022-02-16T23:37:20.215] [INFO] lib.InternalService - [POST] http://api.kitapeduli.org:8445/api/internal/node/list - data: {"limit":0,"label":"Test","skip":0,"propertyFilter":{},"propertySort":{}}
+[2022-02-16T23:37:25.224] [INFO] app - [GET] /layout
+[2022-02-16T23:37:26.764] [INFO] app - [GET] /layout/data
+[2022-02-16T23:37:26.765] [INFO] lib.InternalService - [POST] http://api.kitapeduli.org:8445/api/internal/node/list - data: {"limit":0,"label":"Test","skip":0,"propertyFilter":{},"propertySort":{}}
+[2022-02-16T23:37:30.389] [INFO] app - [GET] /layout/130442
+[2022-02-16T23:37:30.390] [INFO] lib.InternalService - [POST] http://api.kitapeduli.org:8445/api/internal/node/list - data: {"label":"Test","skip":0,"limit":1,"propertyFilter":{"_id":"130442"}}
+[2022-02-16T23:37:32.253] [INFO] app - [GET] /layout/data
+[2022-02-16T23:37:32.254] [INFO] lib.InternalService - [POST] http://api.kitapeduli.org:8445/api/internal/node/list - data: {"limit":0,"label":"Test","skip":0,"propertyFilter":{},"propertySort":{}}
+[2022-02-16T23:38:20.062] [INFO] lib.WebService - IDM-API : http://api.kitapeduli.org:9003/api
+[2022-02-16T23:38:20.064] [INFO] lib.WebService - GRAPH-API : http://api.kitapeduli.org:8445/api
+[2022-02-16T23:38:20.065] [INFO] lib.WebService - SPATIAL-API : http://api.kitapeduli.org:8559/api
+[2022-02-16T23:38:20.174] [INFO] www - App is running HTTP service and listening on port 19011
+[2022-02-16T23:38:38.061] [INFO] lib.WebService - IDM-API : http://api.kitapeduli.org:9003/api
+[2022-02-16T23:38:38.064] [INFO] lib.WebService - GRAPH-API : http://api.kitapeduli.org:8445/api
+[2022-02-16T23:38:38.064] [INFO] lib.WebService - SPATIAL-API : http://api.kitapeduli.org:8559/api
+[2022-02-16T23:38:38.188] [INFO] www - App is running HTTP service and listening on port 19011
+[2022-02-16T23:38:40.310] [INFO] app - [GET] /layout/130442
+[2022-02-16T23:38:40.313] [INFO] lib.InternalService - [POST] http://api.kitapeduli.org:8445/api/internal/node/list - data: {"label":"Test","skip":0,"limit":1,"propertyFilter":{"_id":"130442"}}
+[2022-02-16T23:38:43.412] [INFO] app - [GET] /layout/data
+[2022-02-16T23:38:43.417] [INFO] lib.InternalService - [POST] http://api.kitapeduli.org:8445/api/internal/node/list - data: {"limit":0,"label":"Test","skip":0,"propertyFilter":{},"propertySort":{}}
+[2022-02-16T23:49:56.835] [INFO] app - [GET] /layout
+[2022-02-16T23:50:00.456] [INFO] app - [GET] /layout/data
+[2022-02-16T23:50:00.458] [INFO] lib.InternalService - [POST] http://api.kitapeduli.org:8445/api/internal/node/list - data: {"limit":0,"label":"Test","skip":0,"propertyFilter":{},"propertySort":{}}
+[2022-02-16T23:50:06.450] [INFO] app - [GET] /layout/130423
+[2022-02-16T23:50:06.451] [INFO] lib.InternalService - [POST] http://api.kitapeduli.org:8445/api/internal/node/list - data: {"label":"Test","skip":0,"limit":1,"propertyFilter":{"_id":"130423"}}
+[2022-02-16T23:50:06.642] [ERROR] app - Error: /home/damli/Work/PT.  Amal Solution/crud/views/tabInfo.pug:53:1
+    51|                   label.col-form-label(for='name') Name:
+    52|                   input#name.form-control(type='text', name='nameStudent')
+  > 53|                 .form-group
+--------^
+    54|                   label.col-form-label(for='age') Age:
+    55|                   input#age.form-control(type='text', name='ageStudent')
+    56|                 .form-group
+
+Inconsistent indentation. Expecting either 14 or 18 spaces/tabs.
+    at makeError (/home/damli/Work/PT.  Amal Solution/crud/node_modules/pug-error/index.js:34:13)
+    at Lexer.error (/home/damli/Work/PT.  Amal Solution/crud/node_modules/pug-lexer/index.js:62:15)
+    at Lexer.indent (/home/damli/Work/PT.  Amal Solution/crud/node_modules/pug-lexer/index.js:1515:18)
+    at Lexer.callLexerFunction (/home/damli/Work/PT.  Amal Solution/crud/node_modules/pug-lexer/index.js:1647:23)
+    at Lexer.advance (/home/damli/Work/PT.  Amal Solution/crud/node_modules/pug-lexer/index.js:1688:12)
+    at Lexer.callLexerFunction (/home/damli/Work/PT.  Amal Solution/crud/node_modules/pug-lexer/index.js:1647:23)
+    at Lexer.getTokens (/home/damli/Work/PT.  Amal Solution/crud/node_modules/pug-lexer/index.js:1706:12)
+    at lex (/home/damli/Work/PT.  Amal Solution/crud/node_modules/pug-lexer/index.js:12:42)
+    at Object.lex (/home/damli/Work/PT.  Amal Solution/crud/node_modules/pug/lib/index.js:104:9)
+    at Function.loadString [as string] (/home/damli/Work/PT.  Amal Solution/crud/node_modules/pug-load/index.js:53:24) {
+  code: 'PUG:INCONSISTENT_INDENTATION',
+  msg: 'Inconsistent indentation. Expecting either 14 or 18 spaces/tabs.',
+  line: 53,
+  column: 1,
+  filename: '/home/damli/Work/PT.  Amal Solution/crud/views/tabInfo.pug',
+  src: 'extends layout\n' +
+    'block content\n' +
+    '\n' +
+    '  .container\n' +
+    '    .col-12.col-sm-12.col-md-12\n' +
+    '      .card\n' +
+    "        .card-header(style='height:50px;')\n" +
+    '          h4 Project Team\n' +
+    '        .card-body\n' +
+    '          .media-list.position-relative\n' +
+    "            #project-team-scroll.table-responsive(tabindex='1' style='height: 400px; overflow: hidden; outline: none;')\n" +
+    "              button.btn.btn-sn.btn-danger.float-right(onclick=`deleteItems()` style='margin-bottom:50px;' type='button' data-action='delete') Delete\n" +
+    "              button#editButton.btn.btn-sn.btn-primary.float-right(style='margin-bottom:50px; margin-right:10px;' data-toggle='modal' data-target='#exampleModal') Edit\n" +
+    '              table#example.table.table-hover.table-xl.mb-0\n' +
+    '                tbody\n' +
+    '                  tr\n' +
+    "                    th(style='width:40%') Name\n" +
+    '                    td :\n' +
+    '                    td.nameStudent\n' +
+    '                  tr\n' +
+    "                    th(scope='row') Age\n" +
+    '                    td :\n' +
+    '                    td.ageStudent\n' +
+    '                  tr\n' +
+    "                    th(scope='row') Last Education \n" +
+    '                    td :\n' +
+    '                    td.lastEducationStudent\n' +
+    '                  tr \n' +
+    "                    th(scope='row') Subjects\n" +
+    '                    td :\n' +
+    '                    td.subjects\n' +
+    '                  tr\n' +
+    "                    th(scope='row') First Date\n" +
+    '                    td :\n' +
+    '                    td.firstDateStudent\n' +
+    '                  tr\n' +
+    "                    th(scope='row') Last Date\n" +
+    '                    td :\n' +
+    '                    td.lastDateStudent\n' +
+    '\n' +
+    "  #exampleModal.modal.fade(tabindex='-1' role='dialog' aria-labelledby='exampleModalLabel' aria-hidden='true')\n" +
+    "      .modal-dialog(role='document')\n" +
+    '        .modal-content\n' +
+    '          .modal-header\n' +
+    '            h5#exampleModalLabel.modal-title Form Edit\n' +
+    "            button.close(type='button' data-dismiss='modal' aria-label='Close')\n" +
+    "              span(aria-hidden='true') &times\n" +
+    '          .modal-body\n' +
+    '            form\n' +
+    '              .form-group\n' +
+    "                  label.col-form-label(for='name') Name:\n" +
+    "                  input#name.form-control(type='text', name='nameStudent')\n" +
+    '                .form-group\n' +
+    "                  label.col-form-label(for='age') Age:\n" +
+    "                  input#age.form-control(type='text', name='ageStudent')\n" +
+    '                .form-group\n' +
+    "                  label.col-form-label(for='lastEducation') Last Education:\n" +
+    "                  input#lastEducation.form-control(type='text', name='lastEducationStudent')\n" +
+    '                .form-group\n' +
+    "                  label.col-form-label(for='subjects') Subjects:\n" +
+    "                  input#subjects.form-control(type='text', name='subjects')\n" +
+    '                .form-group\n' +
+    "                  label.col-form-label(for='firstDate') First Date:\n" +
+    "                  input#firstDate.form-control(type='date', name='firstDateStudent')    \n" +
+    '                .form-group\n' +
+    "                  label.col-form-label(for='lastDate') Last Date:\n" +
+    "                  input#lastDate.form-control(type='date', name='lastDateStudent')      \n" +
+    '            .modal-footer\n' +
+    "              button.btn.btn-secondary(type='button' data-dismiss='modal') Close\n" +
+    "              button#submit.btn.btn-primary(type='button') submit\n" +
+    '  script.\n' +
+    '    const result = !{data}\n' +
+    '\n' +
+    '    $(document).ready(function() {\n' +
+    "      $('.nameStudent').text(result.nameStudent)\n" +
+    "      $('.ageStudent').text(result.ageStudent)\n" +
+    "      $('.lastEducationStudent').text(result.lastEducationStudent)\n" +
+    "      $('.subjects').text(result.subjects)\n" +
+    "      $('.firstDateStudent').text(result.firstDateStudent)\n" +
+    "      $('.lastDateStudent').text(result.lastDateStudent)\n" +
+    "    $('#exampleModal').on('show.bs.modal', function(event) {\n" +
+    '      var button = $(event.relatedTarget) \n' +
+    "      var recipient = button.data('whatever') \n" +
+    '      var modal = $(this)\n' +
+    "      modal.find('.modal-title').text('New message to ' + recipient)\n" +
+    "      modal.find('.modal-body input').val(recipient)\n" +
+    '    })\n' +
+    '\n' +
+    '      //- const result = !{data}\n' +
+    '      //- let data = [[result[0].nameStudent,result[0].ageStudent,resudelelt[0].position,result[0].office,result[0].usia]]\n' +
+    '      //- //- data.push([result[0].nameStudent,result[0].ageStudent,result[0].position,result[0].office,result[0].usia]))\n' +
+    "      //- $('#example').DataTable({\n" +
+    '      //-   data: data,\n' +
+    '      //- })\n' +
+    '\n' +
+    '      //- let data = []\n' +
+    '      //- result.forEach(item => {\n' +
+    '      //-   data.push([\n' +
+    '      //-     item.nameStudent,\n' +
+    '      //-     item.ageStudent,\n' +
+    '      //-     item.position,\n' +
+    '      //-     item.office,\n' +
+    '      //-     item.usia\n' +
+    '      //-   ])\n' +
+    '      //- })\n' +
+    '    //- })\n' +
+    '    //- console.log(data)\n' +
+    '    //- function getAPI() {\n' +
+    "    //-   console.log('Masuk')\n" +
+    '    //-   $.ajax({\n' +
+    "    //-     type: 'GET',\n" +
+    "    //-     url: '/inputForm/id/:_id',\n" +
+    "    //-     dataType: 'json',\n" +
+    '    //-     success: async function(msg) {\n' +
+    "    //-       console.log('sukses', msg)\n" +
+    '    //-     }\n' +
+    '    //-   })\n' +
+    '    })\n' +
+    '\n' +
+    '    function deleteItems(e) {\n' +
+    '      const params = window.location.pathname\n' +
+    '      const id = params.match(/\\d+/g).toString()\n' +
+    '      $.ajax({\n' +
+    "        type: 'DELETE',\n" +
+    '        url: `/layout/${id}`,\n' +
+    "        dataType: 'json',\n" +
+    '        data: {\n' +
+    '          id: e,\n' +
+    '        },\n' +
+    '        success: function (msg) {\n' +
+    '          if (msg) {\n' +
+    '            location.href = document.referrer\n' +
+    '            //- window.history.back()\n' +
+    '            //- window.location.reload()\n' +
+    '          }\n' +
+    '        },\n' +
+    '      })\n' +
+    '    }\n' +
+    '\n' +
+    "    $('#editButton2').click(function(x) {\n" +
+    '      console.log(x)\n' +
+    '      const params = window.location.pathname\n' +
+    '      const id = params.match(/\\d+/g).toString()\n' +
+    '\n' +
+    "      $('#editButton').click(function() {\n" +
+    '        setTimeout(() => {\n' +
+    `          $('#nameStudent').val("result.nameStudent")\n` +
+    `          $('#ageStudent').val("result.ageStudent")\n` +
+    `          $('#lastEducationStudent').val("result.lastEducationStudent")\n` +
+    `          $('#subjects').val("result.subjects")\n` +
+    `          $('#firstDateStudent').val("result.firstDateStudent")\n` +
+    `           $('#lastDateStudent').val("result.lastDateStudent")\n` +
+    '        }, 100)\n' +
+    '      })\n' +
+    '\n' +
+    "      $('#submitEdit').click(function () {\n" +
+    "        const nameStudent = $('#name').val()\n" +
+    "              const ageStudent = $('#age').val()\n" +
+    "              const lastEducationStudent = $('#lastEducation').val()\n" +
+    "              const subjects = $('#subjects').val()\n" +
+    "              const firstDateStudent = $('#firstDate').val()\n" +
+    "              const lastDateStudent = $('#lastDate').val()\n" +
+    '        $.ajax({\n' +
+    "          type: 'PUT',\n" +
+    '          url: `/layout/${id}`,\n' +
+    "          dataType: 'json',\n" +
+    '          data: {\n' +
+    '            key: id,\n' +
+    '            value: {\n' +
+    '              nameStudent: nameStudent,\n' +
+    '                  ageStudent: ageStudent,\n' +
+    '                  lastEducationStudent: lastEducationStudent,\n' +
+    '                  subjects: subjects,\n' +
+    '                  firstDateStudent: firstDateStudent,\n' +
+    '                  lastDateStudent: lastDateStudent,\n' +
+    '            },\n' +
+    '          },\n' +
+    '          success: function (msg) {\n' +
+    '            console.log(msg)\n' +
+    '            if (msg) {\n' +
+    "              $('.ui.modal.edit').modal('hide')\n" +
+    '              window.location.reload()\n' +
+    '            }\n' +
+    '          },\n' +
+    '        })\n' +
+    '      });\n' +
+    '    })',
+  toJSON: [Function (anonymous)],
+  status: 500,
+  path: '/layout/130423',
+  method: 'GET',
+  data: {},
+  isAjax: false
+}
+[2022-02-16T23:50:08.440] [INFO] app - [GET] /layout/data
+[2022-02-16T23:50:08.441] [INFO] lib.InternalService - [POST] http://api.kitapeduli.org:8445/api/internal/node/list - data: {"limit":0,"label":"Test","skip":0,"propertyFilter":{},"propertySort":{}}
+[2022-02-16T23:50:14.825] [INFO] app - [GET] /layout/130502
+[2022-02-16T23:50:14.826] [INFO] lib.InternalService - [POST] http://api.kitapeduli.org:8445/api/internal/node/list - data: {"label":"Test","skip":0,"limit":1,"propertyFilter":{"_id":"130502"}}
+[2022-02-16T23:50:15.231] [ERROR] app - Error: /home/damli/Work/PT.  Amal Solution/crud/views/tabInfo.pug:53:1
+    51|                   label.col-form-label(for='name') Name:
+    52|                   input#name.form-control(type='text', name='nameStudent')
+  > 53|                 .form-group
+--------^
+    54|                   label.col-form-label(for='age') Age:
+    55|                   input#age.form-control(type='text', name='ageStudent')
+    56|                 .form-group
+
+Inconsistent indentation. Expecting either 14 or 18 spaces/tabs.
+    at makeError (/home/damli/Work/PT.  Amal Solution/crud/node_modules/pug-error/index.js:34:13)
+    at Lexer.error (/home/damli/Work/PT.  Amal Solution/crud/node_modules/pug-lexer/index.js:62:15)
+    at Lexer.indent (/home/damli/Work/PT.  Amal Solution/crud/node_modules/pug-lexer/index.js:1515:18)
+    at Lexer.callLexerFunction (/home/damli/Work/PT.  Amal Solution/crud/node_modules/pug-lexer/index.js:1647:23)
+    at Lexer.advance (/home/damli/Work/PT.  Amal Solution/crud/node_modules/pug-lexer/index.js:1688:12)
+    at Lexer.callLexerFunction (/home/damli/Work/PT.  Amal Solution/crud/node_modules/pug-lexer/index.js:1647:23)
+    at Lexer.getTokens (/home/damli/Work/PT.  Amal Solution/crud/node_modules/pug-lexer/index.js:1706:12)
+    at lex (/home/damli/Work/PT.  Amal Solution/crud/node_modules/pug-lexer/index.js:12:42)
+    at Object.lex (/home/damli/Work/PT.  Amal Solution/crud/node_modules/pug/lib/index.js:104:9)
+    at Function.loadString [as string] (/home/damli/Work/PT.  Amal Solution/crud/node_modules/pug-load/index.js:53:24) {
+  code: 'PUG:INCONSISTENT_INDENTATION',
+  msg: 'Inconsistent indentation. Expecting either 14 or 18 spaces/tabs.',
+  line: 53,
+  column: 1,
+  filename: '/home/damli/Work/PT.  Amal Solution/crud/views/tabInfo.pug',
+  src: 'extends layout\n' +
+    'block content\n' +
+    '\n' +
+    '  .container\n' +
+    '    .col-12.col-sm-12.col-md-12\n' +
+    '      .card\n' +
+    "        .card-header(style='height:50px;')\n" +
+    '          h4 Project Team\n' +
+    '        .card-body\n' +
+    '          .media-list.position-relative\n' +
+    "            #project-team-scroll.table-responsive(tabindex='1' style='height: 400px; overflow: hidden; outline: none;')\n" +
+    "              button.btn.btn-sn.btn-danger.float-right(onclick=`deleteItems()` style='margin-bottom:50px;' type='button' data-action='delete') Delete\n" +
+    "              button#editButton.btn.btn-sn.btn-primary.float-right(style='margin-bottom:50px; margin-right:10px;' data-toggle='modal' data-target='#exampleModal') Edit\n" +
+    '              table#example.table.table-hover.table-xl.mb-0\n' +
+    '                tbody\n' +
+    '                  tr\n' +
+    "                    th(style='width:40%') Name\n" +
+    '                    td :\n' +
+    '                    td.nameStudent\n' +
+    '                  tr\n' +
+    "                    th(scope='row') Age\n" +
+    '                    td :\n' +
+    '                    td.ageStudent\n' +
+    '                  tr\n' +
+    "                    th(scope='row') Last Education \n" +
+    '                    td :\n' +
+    '                    td.lastEducationStudent\n' +
+    '                  tr \n' +
+    "                    th(scope='row') Subjects\n" +
+    '                    td :\n' +
+    '                    td.subjects\n' +
+    '                  tr\n' +
+    "                    th(scope='row') First Date\n" +
+    '                    td :\n' +
+    '                    td.firstDateStudent\n' +
+    '                  tr\n' +
+    "                    th(scope='row') Last Date\n" +
+    '                    td :\n' +
+    '                    td.lastDateStudent\n' +
+    '\n' +
+    "  #exampleModal.modal.fade(tabindex='-1' role='dialog' aria-labelledby='exampleModalLabel' aria-hidden='true')\n" +
+    "      .modal-dialog(role='document')\n" +
+    '        .modal-content\n' +
+    '          .modal-header\n' +
+    '            h5#exampleModalLabel.modal-title Form Edit\n' +
+    "            button.close(type='button' data-dismiss='modal' aria-label='Close')\n" +
+    "              span(aria-hidden='true') &times\n" +
+    '          .modal-body\n' +
+    '            form\n' +
+    '              .form-group\n' +
+    "                  label.col-form-label(for='name') Name:\n" +
+    "                  input#name.form-control(type='text', name='nameStudent')\n" +
+    '                .form-group\n' +
+    "                  label.col-form-label(for='age') Age:\n" +
+    "                  input#age.form-control(type='text', name='ageStudent')\n" +
+    '                .form-group\n' +
+    "                  label.col-form-label(for='lastEducation') Last Education:\n" +
+    "                  input#lastEducation.form-control(type='text', name='lastEducationStudent')\n" +
+    '                .form-group\n' +
+    "                  label.col-form-label(for='subjects') Subjects:\n" +
+    "                  input#subjects.form-control(type='text', name='subjects')\n" +
+    '                .form-group\n' +
+    "                  label.col-form-label(for='firstDate') First Date:\n" +
+    "                  input#firstDate.form-control(type='date', name='firstDateStudent')    \n" +
+    '                .form-group\n' +
+    "                  label.col-form-label(for='lastDate') Last Date:\n" +
+    "                  input#lastDate.form-control(type='date', name='lastDateStudent')      \n" +
+    '            .modal-footer\n' +
+    "              button.btn.btn-secondary(type='button' data-dismiss='modal') Close\n" +
+    "              button#submit.btn.btn-primary(type='button') submit\n" +
+    '  script.\n' +
+    '    const result = !{data}\n' +
+    '\n' +
+    '    $(document).ready(function() {\n' +
+    "      $('.nameStudent').text(result.nameStudent)\n" +
+    "      $('.ageStudent').text(result.ageStudent)\n" +
+    "      $('.lastEducationStudent').text(result.lastEducationStudent)\n" +
+    "      $('.subjects').text(result.subjects)\n" +
+    "      $('.firstDateStudent').text(result.firstDateStudent)\n" +
+    "      $('.lastDateStudent').text(result.lastDateStudent)\n" +
+    "    $('#exampleModal').on('show.bs.modal', function(event) {\n" +
+    '      var button = $(event.relatedTarget) \n' +
+    "      var recipient = button.data('whatever') \n" +
+    '      var modal = $(this)\n' +
+    "      modal.find('.modal-title').text('New message to ' + recipient)\n" +
+    "      modal.find('.modal-body input').val(recipient)\n" +
+    '    })\n' +
+    '\n' +
+    '      //- const result = !{data}\n' +
+    '      //- let data = [[result[0].nameStudent,result[0].ageStudent,resudelelt[0].position,result[0].office,result[0].usia]]\n' +
+    '      //- //- data.push([result[0].nameStudent,result[0].ageStudent,result[0].position,result[0].office,result[0].usia]))\n' +
+    "      //- $('#example').DataTable({\n" +
+    '      //-   data: data,\n' +
+    '      //- })\n' +
+    '\n' +
+    '      //- let data = []\n' +
+    '      //- result.forEach(item => {\n' +
+    '      //-   data.push([\n' +
+    '      //-     item.nameStudent,\n' +
+    '      //-     item.ageStudent,\n' +
+    '      //-     item.position,\n' +
+    '      //-     item.office,\n' +
+    '      //-     item.usia\n' +
+    '      //-   ])\n' +
+    '      //- })\n' +
+    '    //- })\n' +
+    '    //- console.log(data)\n' +
+    '    //- function getAPI() {\n' +
+    "    //-   console.log('Masuk')\n" +
+    '    //-   $.ajax({\n' +
+    "    //-     type: 'GET',\n" +
+    "    //-     url: '/inputForm/id/:_id',\n" +
+    "    //-     dataType: 'json',\n" +
+    '    //-     success: async function(msg) {\n' +
+    "    //-       console.log('sukses', msg)\n" +
+    '    //-     }\n' +
+    '    //-   })\n' +
+    '    })\n' +
+    '\n' +
+    '    function deleteItems(e) {\n' +
+    '      const params = window.location.pathname\n' +
+    '      const id = params.match(/\\d+/g).toString()\n' +
+    '      $.ajax({\n' +
+    "        type: 'DELETE',\n" +
+    '        url: `/layout/${id}`,\n' +
+    "        dataType: 'json',\n" +
+    '        data: {\n' +
+    '          id: e,\n' +
+    '        },\n' +
+    '        success: function (msg) {\n' +
+    '          if (msg) {\n' +
+    '            location.href = document.referrer\n' +
+    '            //- window.history.back()\n' +
+    '            //- window.location.reload()\n' +
+    '          }\n' +
+    '        },\n' +
+    '      })\n' +
+    '    }\n' +
+    '\n' +
+    "    $('#editButton2').click(function(x) {\n" +
+    '      console.log(x)\n' +
+    '      const params = window.location.pathname\n' +
+    '      const id = params.match(/\\d+/g).toString()\n' +
+    '\n' +
+    "      $('#editButton').click(function() {\n" +
+    '        setTimeout(() => {\n' +
+    `          $('#nameStudent').val("result.nameStudent")\n` +
+    `          $('#ageStudent').val("result.ageStudent")\n` +
+    `          $('#lastEducationStudent').val("result.lastEducationStudent")\n` +
+    `          $('#subjects').val("result.subjects")\n` +
+    `          $('#firstDateStudent').val("result.firstDateStudent")\n` +
+    `           $('#lastDateStudent').val("result.lastDateStudent")\n` +
+    '        }, 100)\n' +
+    '      })\n' +
+    '\n' +
+    "      $('#submitEdit').click(function () {\n" +
+    "        const nameStudent = $('#name').val()\n" +
+    "              const ageStudent = $('#age').val()\n" +
+    "              const lastEducationStudent = $('#lastEducation').val()\n" +
+    "              const subjects = $('#subjects').val()\n" +
+    "              const firstDateStudent = $('#firstDate').val()\n" +
+    "              const lastDateStudent = $('#lastDate').val()\n" +
+    '        $.ajax({\n' +
+    "          type: 'PUT',\n" +
+    '          url: `/layout/${id}`,\n' +
+    "          dataType: 'json',\n" +
+    '          data: {\n' +
+    '            key: id,\n' +
+    '            value: {\n' +
+    '              nameStudent: nameStudent,\n' +
+    '                  ageStudent: ageStudent,\n' +
+    '                  lastEducationStudent: lastEducationStudent,\n' +
+    '                  subjects: subjects,\n' +
+    '                  firstDateStudent: firstDateStudent,\n' +
+    '                  lastDateStudent: lastDateStudent,\n' +
+    '            },\n' +
+    '          },\n' +
+    '          success: function (msg) {\n' +
+    '            console.log(msg)\n' +
+    '            if (msg) {\n' +
+    "              $('.ui.modal.edit').modal('hide')\n" +
+    '              window.location.reload()\n' +
+    '            }\n' +
+    '          },\n' +
+    '        })\n' +
+    '      });\n' +
+    '    })',
+  toJSON: [Function (anonymous)],
+  status: 500,
+  path: '/layout/130502',
+  method: 'GET',
+  data: {},
+  isAjax: false
+}
+[2022-02-16T23:50:16.781] [INFO] app - [GET] /layout/data
+[2022-02-16T23:50:16.782] [INFO] lib.InternalService - [POST] http://api.kitapeduli.org:8445/api/internal/node/list - data: {"limit":0,"label":"Test","skip":0,"propertyFilter":{},"propertySort":{}}
+[2022-02-16T23:50:19.641] [INFO] app - [GET] /layout/130442
+[2022-02-16T23:50:19.642] [INFO] lib.InternalService - [POST] http://api.kitapeduli.org:8445/api/internal/node/list - data: {"label":"Test","skip":0,"limit":1,"propertyFilter":{"_id":"130442"}}
+[2022-02-16T23:50:19.750] [ERROR] app - Error: /home/damli/Work/PT.  Amal Solution/crud/views/tabInfo.pug:53:1
+    51|                   label.col-form-label(for='name') Name:
+    52|                   input#name.form-control(type='text', name='nameStudent')
+  > 53|                 .form-group
+--------^
+    54|                   label.col-form-label(for='age') Age:
+    55|                   input#age.form-control(type='text', name='ageStudent')
+    56|                 .form-group
+
+Inconsistent indentation. Expecting either 14 or 18 spaces/tabs.
+    at makeError (/home/damli/Work/PT.  Amal Solution/crud/node_modules/pug-error/index.js:34:13)
+    at Lexer.error (/home/damli/Work/PT.  Amal Solution/crud/node_modules/pug-lexer/index.js:62:15)
+    at Lexer.indent (/home/damli/Work/PT.  Amal Solution/crud/node_modules/pug-lexer/index.js:1515:18)
+    at Lexer.callLexerFunction (/home/damli/Work/PT.  Amal Solution/crud/node_modules/pug-lexer/index.js:1647:23)
+    at Lexer.advance (/home/damli/Work/PT.  Amal Solution/crud/node_modules/pug-lexer/index.js:1688:12)
+    at Lexer.callLexerFunction (/home/damli/Work/PT.  Amal Solution/crud/node_modules/pug-lexer/index.js:1647:23)
+    at Lexer.getTokens (/home/damli/Work/PT.  Amal Solution/crud/node_modules/pug-lexer/index.js:1706:12)
+    at lex (/home/damli/Work/PT.  Amal Solution/crud/node_modules/pug-lexer/index.js:12:42)
+    at Object.lex (/home/damli/Work/PT.  Amal Solution/crud/node_modules/pug/lib/index.js:104:9)
+    at Function.loadString [as string] (/home/damli/Work/PT.  Amal Solution/crud/node_modules/pug-load/index.js:53:24) {
+  code: 'PUG:INCONSISTENT_INDENTATION',
+  msg: 'Inconsistent indentation. Expecting either 14 or 18 spaces/tabs.',
+  line: 53,
+  column: 1,
+  filename: '/home/damli/Work/PT.  Amal Solution/crud/views/tabInfo.pug',
+  src: 'extends layout\n' +
+    'block content\n' +
+    '\n' +
+    '  .container\n' +
+    '    .col-12.col-sm-12.col-md-12\n' +
+    '      .card\n' +
+    "        .card-header(style='height:50px;')\n" +
+    '          h4 Project Team\n' +
+    '        .card-body\n' +
+    '          .media-list.position-relative\n' +
+    "            #project-team-scroll.table-responsive(tabindex='1' style='height: 400px; overflow: hidden; outline: none;')\n" +
+    "              button.btn.btn-sn.btn-danger.float-right(onclick=`deleteItems()` style='margin-bottom:50px;' type='button' data-action='delete') Delete\n" +
+    "              button#editButton.btn.btn-sn.btn-primary.float-right(style='margin-bottom:50px; margin-right:10px;' data-toggle='modal' data-target='#exampleModal') Edit\n" +
+    '              table#example.table.table-hover.table-xl.mb-0\n' +
+    '                tbody\n' +
+    '                  tr\n' +
+    "                    th(style='width:40%') Name\n" +
+    '                    td :\n' +
+    '                    td.nameStudent\n' +
+    '                  tr\n' +
+    "                    th(scope='row') Age\n" +
+    '                    td :\n' +
+    '                    td.ageStudent\n' +
+    '                  tr\n' +
+    "                    th(scope='row') Last Education \n" +
+    '                    td :\n' +
+    '                    td.lastEducationStudent\n' +
+    '                  tr \n' +
+    "                    th(scope='row') Subjects\n" +
+    '                    td :\n' +
+    '                    td.subjects\n' +
+    '                  tr\n' +
+    "                    th(scope='row') First Date\n" +
+    '                    td :\n' +
+    '                    td.firstDateStudent\n' +
+    '                  tr\n' +
+    "                    th(scope='row') Last Date\n" +
+    '                    td :\n' +
+    '                    td.lastDateStudent\n' +
+    '\n' +
+    "  #exampleModal.modal.fade(tabindex='-1' role='dialog' aria-labelledby='exampleModalLabel' aria-hidden='true')\n" +
+    "      .modal-dialog(role='document')\n" +
+    '        .modal-content\n' +
+    '          .modal-header\n' +
+    '            h5#exampleModalLabel.modal-title Form Edit\n' +
+    "            button.close(type='button' data-dismiss='modal' aria-label='Close')\n" +
+    "              span(aria-hidden='true') &times\n" +
+    '          .modal-body\n' +
+    '            form\n' +
+    '              .form-group\n' +
+    "                  label.col-form-label(for='name') Name:\n" +
+    "                  input#name.form-control(type='text', name='nameStudent')\n" +
+    '                .form-group\n' +
+    "                  label.col-form-label(for='age') Age:\n" +
+    "                  input#age.form-control(type='text', name='ageStudent')\n" +
+    '                .form-group\n' +
+    "                  label.col-form-label(for='lastEducation') Last Education:\n" +
+    "                  input#lastEducation.form-control(type='text', name='lastEducationStudent')\n" +
+    '                .form-group\n' +
+    "                  label.col-form-label(for='subjects') Subjects:\n" +
+    "                  input#subjects.form-control(type='text', name='subjects')\n" +
+    '                .form-group\n' +
+    "                  label.col-form-label(for='firstDate') First Date:\n" +
+    "                  input#firstDate.form-control(type='date', name='firstDateStudent')    \n" +
+    '                .form-group\n' +
+    "                  label.col-form-label(for='lastDate') Last Date:\n" +
+    "                  input#lastDate.form-control(type='date', name='lastDateStudent')      \n" +
+    '            .modal-footer\n' +
+    "              button.btn.btn-secondary(type='button' data-dismiss='modal') Close\n" +
+    "              button#submit.btn.btn-primary(type='button') submit\n" +
+    '  script.\n' +
+    '    const result = !{data}\n' +
+    '\n' +
+    '    $(document).ready(function() {\n' +
+    "      $('.nameStudent').text(result.nameStudent)\n" +
+    "      $('.ageStudent').text(result.ageStudent)\n" +
+    "      $('.lastEducationStudent').text(result.lastEducationStudent)\n" +
+    "      $('.subjects').text(result.subjects)\n" +
+    "      $('.firstDateStudent').text(result.firstDateStudent)\n" +
+    "      $('.lastDateStudent').text(result.lastDateStudent)\n" +
+    "    $('#exampleModal').on('show.bs.modal', function(event) {\n" +
+    '      var button = $(event.relatedTarget) \n' +
+    "      var recipient = button.data('whatever') \n" +
+    '      var modal = $(this)\n' +
+    "      modal.find('.modal-title').text('New message to ' + recipient)\n" +
+    "      modal.find('.modal-body input').val(recipient)\n" +
+    '    })\n' +
+    '\n' +
+    '      //- const result = !{data}\n' +
+    '      //- let data = [[result[0].nameStudent,result[0].ageStudent,resudelelt[0].position,result[0].office,result[0].usia]]\n' +
+    '      //- //- data.push([result[0].nameStudent,result[0].ageStudent,result[0].position,result[0].office,result[0].usia]))\n' +
+    "      //- $('#example').DataTable({\n" +
+    '      //-   data: data,\n' +
+    '      //- })\n' +
+    '\n' +
+    '      //- let data = []\n' +
+    '      //- result.forEach(item => {\n' +
+    '      //-   data.push([\n' +
+    '      //-     item.nameStudent,\n' +
+    '      //-     item.ageStudent,\n' +
+    '      //-     item.position,\n' +
+    '      //-     item.office,\n' +
+    '      //-     item.usia\n' +
+    '      //-   ])\n' +
+    '      //- })\n' +
+    '    //- })\n' +
+    '    //- console.log(data)\n' +
+    '    //- function getAPI() {\n' +
+    "    //-   console.log('Masuk')\n" +
+    '    //-   $.ajax({\n' +
+    "    //-     type: 'GET',\n" +
+    "    //-     url: '/inputForm/id/:_id',\n" +
+    "    //-     dataType: 'json',\n" +
+    '    //-     success: async function(msg) {\n' +
+    "    //-       console.log('sukses', msg)\n" +
+    '    //-     }\n' +
+    '    //-   })\n' +
+    '    })\n' +
+    '\n' +
+    '    function deleteItems(e) {\n' +
+    '      const params = window.location.pathname\n' +
+    '      const id = params.match(/\\d+/g).toString()\n' +
+    '      $.ajax({\n' +
+    "        type: 'DELETE',\n" +
+    '        url: `/layout/${id}`,\n' +
+    "        dataType: 'json',\n" +
+    '        data: {\n' +
+    '          id: e,\n' +
+    '        },\n' +
+    '        success: function (msg) {\n' +
+    '          if (msg) {\n' +
+    '            location.href = document.referrer\n' +
+    '            //- window.history.back()\n' +
+    '            //- window.location.reload()\n' +
+    '          }\n' +
+    '        },\n' +
+    '      })\n' +
+    '    }\n' +
+    '\n' +
+    "    $('#editButton2').click(function(x) {\n" +
+    '      console.log(x)\n' +
+    '      const params = window.location.pathname\n' +
+    '      const id = params.match(/\\d+/g).toString()\n' +
+    '\n' +
+    "      $('#editButton').click(function() {\n" +
+    '        setTimeout(() => {\n' +
+    `          $('#nameStudent').val("result.nameStudent")\n` +
+    `          $('#ageStudent').val("result.ageStudent")\n` +
+    `          $('#lastEducationStudent').val("result.lastEducationStudent")\n` +
+    `          $('#subjects').val("result.subjects")\n` +
+    `          $('#firstDateStudent').val("result.firstDateStudent")\n` +
+    `           $('#lastDateStudent').val("result.lastDateStudent")\n` +
+    '        }, 100)\n' +
+    '      })\n' +
+    '\n' +
+    "      $('#submitEdit').click(function () {\n" +
+    "        const nameStudent = $('#name').val()\n" +
+    "              const ageStudent = $('#age').val()\n" +
+    "              const lastEducationStudent = $('#lastEducation').val()\n" +
+    "              const subjects = $('#subjects').val()\n" +
+    "              const firstDateStudent = $('#firstDate').val()\n" +
+    "              const lastDateStudent = $('#lastDate').val()\n" +
+    '        $.ajax({\n' +
+    "          type: 'PUT',\n" +
+    '          url: `/layout/${id}`,\n' +
+    "          dataType: 'json',\n" +
+    '          data: {\n' +
+    '            key: id,\n' +
+    '            value: {\n' +
+    '              nameStudent: nameStudent,\n' +
+    '                  ageStudent: ageStudent,\n' +
+    '                  lastEducationStudent: lastEducationStudent,\n' +
+    '                  subjects: subjects,\n' +
+    '                  firstDateStudent: firstDateStudent,\n' +
+    '                  lastDateStudent: lastDateStudent,\n' +
+    '            },\n' +
+    '          },\n' +
+    '          success: function (msg) {\n' +
+    '            console.log(msg)\n' +
+    '            if (msg) {\n' +
+    "              $('.ui.modal.edit').modal('hide')\n" +
+    '              window.location.reload()\n' +
+    '            }\n' +
+    '          },\n' +
+    '        })\n' +
+    '      });\n' +
+    '    })',
+  toJSON: [Function (anonymous)],
+  status: 500,
+  path: '/layout/130442',
+  method: 'GET',
+  data: {},
+  isAjax: false
+}
+[2022-02-16T23:50:21.378] [INFO] app - [GET] /layout/data
+[2022-02-16T23:50:21.380] [INFO] lib.InternalService - [POST] http://api.kitapeduli.org:8445/api/internal/node/list - data: {"limit":0,"label":"Test","skip":0,"propertyFilter":{},"propertySort":{}}
+[2022-02-16T23:50:42.724] [INFO] lib.WebService - IDM-API : http://api.kitapeduli.org:9003/api
+[2022-02-16T23:50:42.728] [INFO] lib.WebService - GRAPH-API : http://api.kitapeduli.org:8445/api
+[2022-02-16T23:50:42.728] [INFO] lib.WebService - SPATIAL-API : http://api.kitapeduli.org:8559/api
+[2022-02-16T23:50:42.845] [INFO] www - App is running HTTP service and listening on port 19011
+[2022-02-16T23:50:45.968] [INFO] app - [GET] /layout/130442
+[2022-02-16T23:50:45.972] [INFO] lib.InternalService - [POST] http://api.kitapeduli.org:8445/api/internal/node/list - data: {"label":"Test","skip":0,"limit":1,"propertyFilter":{"_id":"130442"}}
+[2022-02-16T23:50:46.647] [ERROR] app - Error: /home/damli/Work/PT.  Amal Solution/crud/views/tabInfo.pug:53:1
+    51|                   label.col-form-label(for='name') Name:
+    52|                   input#name.form-control(type='text', name='nameStudent')
+  > 53|                 .form-group
+--------^
+    54|                   label.col-form-label(for='age') Age:
+    55|                   input#age.form-control(type='text', name='ageStudent')
+    56|                 .form-group
+
+Inconsistent indentation. Expecting either 14 or 18 spaces/tabs.
+    at makeError (/home/damli/Work/PT.  Amal Solution/crud/node_modules/pug-error/index.js:34:13)
+    at Lexer.error (/home/damli/Work/PT.  Amal Solution/crud/node_modules/pug-lexer/index.js:62:15)
+    at Lexer.indent (/home/damli/Work/PT.  Amal Solution/crud/node_modules/pug-lexer/index.js:1515:18)
+    at Lexer.callLexerFunction (/home/damli/Work/PT.  Amal Solution/crud/node_modules/pug-lexer/index.js:1647:23)
+    at Lexer.advance (/home/damli/Work/PT.  Amal Solution/crud/node_modules/pug-lexer/index.js:1688:12)
+    at Lexer.callLexerFunction (/home/damli/Work/PT.  Amal Solution/crud/node_modules/pug-lexer/index.js:1647:23)
+    at Lexer.getTokens (/home/damli/Work/PT.  Amal Solution/crud/node_modules/pug-lexer/index.js:1706:12)
+    at lex (/home/damli/Work/PT.  Amal Solution/crud/node_modules/pug-lexer/index.js:12:42)
+    at Object.lex (/home/damli/Work/PT.  Amal Solution/crud/node_modules/pug/lib/index.js:104:9)
+    at Function.loadString [as string] (/home/damli/Work/PT.  Amal Solution/crud/node_modules/pug-load/index.js:53:24) {
+  code: 'PUG:INCONSISTENT_INDENTATION',
+  msg: 'Inconsistent indentation. Expecting either 14 or 18 spaces/tabs.',
+  line: 53,
+  column: 1,
+  filename: '/home/damli/Work/PT.  Amal Solution/crud/views/tabInfo.pug',
+  src: 'extends layout\n' +
+    'block content\n' +
+    '\n' +
+    '  .container\n' +
+    '    .col-12.col-sm-12.col-md-12\n' +
+    '      .card\n' +
+    "        .card-header(style='height:50px;')\n" +
+    '          h4 Project Team\n' +
+    '        .card-body\n' +
+    '          .media-list.position-relative\n' +
+    "            #project-team-scroll.table-responsive(tabindex='1' style='height: 400px; overflow: hidden; outline: none;')\n" +
+    "              button.btn.btn-sn.btn-danger.float-right(onclick=`deleteItems()` style='margin-bottom:50px;' type='button' data-action='delete') Delete\n" +
+    "              button#editButton.btn.btn-sn.btn-primary.float-right(style='margin-bottom:50px; margin-right:10px;' data-toggle='modal' data-target='#exampleModal') Edit\n" +
+    '              table#example.table.table-hover.table-xl.mb-0\n' +
+    '                tbody\n' +
+    '                  tr\n' +
+    "                    th(style='width:40%') Name\n" +
+    '                    td :\n' +
+    '                    td.nameStudent\n' +
+    '                  tr\n' +
+    "                    th(scope='row') Age\n" +
+    '                    td :\n' +
+    '                    td.ageStudent\n' +
+    '                  tr\n' +
+    "                    th(scope='row') Last Education \n" +
+    '                    td :\n' +
+    '                    td.lastEducationStudent\n' +
+    '                  tr \n' +
+    "                    th(scope='row') Subjects\n" +
+    '                    td :\n' +
+    '                    td.subjects\n' +
+    '                  tr\n' +
+    "                    th(scope='row') First Date\n" +
+    '                    td :\n' +
+    '                    td.firstDateStudent\n' +
+    '                  tr\n' +
+    "                    th(scope='row') Last Date\n" +
+    '                    td :\n' +
+    '                    td.lastDateStudent\n' +
+    '\n' +
+    "  #exampleModal.modal.fade(tabindex='-1' role='dialog' aria-labelledby='exampleModalLabel' aria-hidden='true')\n" +
+    "      .modal-dialog(role='document')\n" +
+    '        .modal-content\n' +
+    '          .modal-header\n' +
+    '            h5#exampleModalLabel.modal-title Form Edit\n' +
+    "            button.close(type='button' data-dismiss='modal' aria-label='Close')\n" +
+    "              span(aria-hidden='true') &times\n" +
+    '          .modal-body\n' +
+    '            form\n' +
+    '              .form-group\n' +
+    "                  label.col-form-label(for='name') Name:\n" +
+    "                  input#name.form-control(type='text', name='nameStudent')\n" +
+    '                .form-group\n' +
+    "                  label.col-form-label(for='age') Age:\n" +
+    "                  input#age.form-control(type='text', name='ageStudent')\n" +
+    '                .form-group\n' +
+    "                  label.col-form-label(for='lastEducation') Last Education:\n" +
+    "                  input#lastEducation.form-control(type='text', name='lastEducationStudent')\n" +
+    '                .form-group\n' +
+    "                  label.col-form-label(for='subjects') Subjects:\n" +
+    "                  input#subjects.form-control(type='text', name='subjects')\n" +
+    '                .form-group\n' +
+    "                  label.col-form-label(for='firstDate') First Date:\n" +
+    "                  input#firstDate.form-control(type='date', name='firstDateStudent')    \n" +
+    '                .form-group\n' +
+    "                  label.col-form-label(for='lastDate') Last Date:\n" +
+    "                  input#lastDate.form-control(type='date', name='lastDateStudent')      \n" +
+    '            .modal-footer\n' +
+    "              button.btn.btn-secondary(type='button' data-dismiss='modal') Close\n" +
+    "              button#submit.btn.btn-primary(type='button') submit\n" +
+    '  script.\n' +
+    '    const result = !{data}\n' +
+    '\n' +
+    '    $(document).ready(function() {\n' +
+    "      $('.nameStudent').text(result.nameStudent)\n" +
+    "      $('.ageStudent').text(result.ageStudent)\n" +
+    "      $('.lastEducationStudent').text(result.lastEducationStudent)\n" +
+    "      $('.subjects').text(result.subjects)\n" +
+    "      $('.firstDateStudent').text(result.firstDateStudent)\n" +
+    "      $('.lastDateStudent').text(result.lastDateStudent)\n" +
+    "    $('#exampleModal').on('show.bs.modal', function(event) {\n" +
+    '      var button = $(event.relatedTarget) \n' +
+    "      var recipient = button.data('whatever') \n" +
+    '      var modal = $(this)\n' +
+    "      modal.find('.modal-title').text('New message to ' + recipient)\n" +
+    "      modal.find('.modal-body input').val(recipient)\n" +
+    '    })\n' +
+    '\n' +
+    '      //- const result = !{data}\n' +
+    '      //- let data = [[result[0].nameStudent,result[0].ageStudent,resudelelt[0].position,result[0].office,result[0].usia]]\n' +
+    '      //- //- data.push([result[0].nameStudent,result[0].ageStudent,result[0].position,result[0].office,result[0].usia]))\n' +
+    "      //- $('#example').DataTable({\n" +
+    '      //-   data: data,\n' +
+    '      //- })\n' +
+    '\n' +
+    '      //- let data = []\n' +
+    '      //- result.forEach(item => {\n' +
+    '      //-   data.push([\n' +
+    '      //-     item.nameStudent,\n' +
+    '      //-     item.ageStudent,\n' +
+    '      //-     item.position,\n' +
+    '      //-     item.office,\n' +
+    '      //-     item.usia\n' +
+    '      //-   ])\n' +
+    '      //- })\n' +
+    '    //- })\n' +
+    '    //- console.log(data)\n' +
+    '    //- function getAPI() {\n' +
+    "    //-   console.log('Masuk')\n" +
+    '    //-   $.ajax({\n' +
+    "    //-     type: 'GET',\n" +
+    "    //-     url: '/inputForm/id/:_id',\n" +
+    "    //-     dataType: 'json',\n" +
+    '    //-     success: async function(msg) {\n' +
+    "    //-       console.log('sukses', msg)\n" +
+    '    //-     }\n' +
+    '    //-   })\n' +
+    '    })\n' +
+    '\n' +
+    '    function deleteItems(e) {\n' +
+    '      const params = window.location.pathname\n' +
+    '      const id = params.match(/\\d+/g).toString()\n' +
+    '      $.ajax({\n' +
+    "        type: 'DELETE',\n" +
+    '        url: `/layout/${id}`,\n' +
+    "        dataType: 'json',\n" +
+    '        data: {\n' +
+    '          id: e,\n' +
+    '        },\n' +
+    '        success: function (msg) {\n' +
+    '          if (msg) {\n' +
+    '            location.href = document.referrer\n' +
+    '            //- window.history.back()\n' +
+    '            //- window.location.reload()\n' +
+    '          }\n' +
+    '        },\n' +
+    '      })\n' +
+    '    }\n' +
+    '\n' +
+    "    $('#editButton2').click(function(x) {\n" +
+    '      console.log(x)\n' +
+    '      const params = window.location.pathname\n' +
+    '      const id = params.match(/\\d+/g).toString()\n' +
+    '\n' +
+    "      $('#editButton').click(function() {\n" +
+    '        setTimeout(() => {\n' +
+    `          $('#nameStudent').val("result.nameStudent")\n` +
+    `          $('#ageStudent').val("result.ageStudent")\n` +
+    `          $('#lastEducationStudent').val("result.lastEducationStudent")\n` +
+    `          $('#subjects').val("result.subjects")\n` +
+    `          $('#firstDateStudent').val("result.firstDateStudent")\n` +
+    `           $('#lastDateStudent').val("result.lastDateStudent")\n` +
+    '        }, 100)\n' +
+    '      })\n' +
+    '\n' +
+    "      $('#submitEdit').click(function () {\n" +
+    "        const nameStudent = $('#name').val()\n" +
+    "              const ageStudent = $('#age').val()\n" +
+    "              const lastEducationStudent = $('#lastEducation').val()\n" +
+    "              const subjects = $('#subjects').val()\n" +
+    "              const firstDateStudent = $('#firstDate').val()\n" +
+    "              const lastDateStudent = $('#lastDate').val()\n" +
+    '        $.ajax({\n' +
+    "          type: 'PUT',\n" +
+    '          url: `/layout/${id}`,\n' +
+    "          dataType: 'json',\n" +
+    '          data: {\n' +
+    '            key: id,\n' +
+    '            value: {\n' +
+    '              nameStudent: nameStudent,\n' +
+    '                  ageStudent: ageStudent,\n' +
+    '                  lastEducationStudent: lastEducationStudent,\n' +
+    '                  subjects: subjects,\n' +
+    '                  firstDateStudent: firstDateStudent,\n' +
+    '                  lastDateStudent: lastDateStudent,\n' +
+    '            },\n' +
+    '          },\n' +
+    '          success: function (msg) {\n' +
+    '            console.log(msg)\n' +
+    '            if (msg) {\n' +
+    "              $('.ui.modal.edit').modal('hide')\n" +
+    '              window.location.reload()\n' +
+    '            }\n' +
+    '          },\n' +
+    '        })\n' +
+    '      });\n' +
+    '    })',
+  toJSON: [Function (anonymous)],
+  status: 500,
+  path: '/layout/130442',
+  method: 'GET',
+  data: {},
+  isAjax: false
+}
+[2022-02-16T23:50:48.414] [INFO] app - [GET] /layout/data
+[2022-02-16T23:50:48.418] [INFO] lib.InternalService - [POST] http://api.kitapeduli.org:8445/api/internal/node/list - data: {"limit":0,"label":"Test","skip":0,"propertyFilter":{},"propertySort":{}}
+[2022-02-16T23:50:51.418] [INFO] app - [GET] /layout/130484
+[2022-02-16T23:50:51.420] [INFO] lib.InternalService - [POST] http://api.kitapeduli.org:8445/api/internal/node/list - data: {"label":"Test","skip":0,"limit":1,"propertyFilter":{"_id":"130484"}}
+[2022-02-16T23:50:51.583] [ERROR] app - Error: /home/damli/Work/PT.  Amal Solution/crud/views/tabInfo.pug:53:1
+    51|                   label.col-form-label(for='name') Name:
+    52|                   input#name.form-control(type='text', name='nameStudent')
+  > 53|                 .form-group
+--------^
+    54|                   label.col-form-label(for='age') Age:
+    55|                   input#age.form-control(type='text', name='ageStudent')
+    56|                 .form-group
+
+Inconsistent indentation. Expecting either 14 or 18 spaces/tabs.
+    at makeError (/home/damli/Work/PT.  Amal Solution/crud/node_modules/pug-error/index.js:34:13)
+    at Lexer.error (/home/damli/Work/PT.  Amal Solution/crud/node_modules/pug-lexer/index.js:62:15)
+    at Lexer.indent (/home/damli/Work/PT.  Amal Solution/crud/node_modules/pug-lexer/index.js:1515:18)
+    at Lexer.callLexerFunction (/home/damli/Work/PT.  Amal Solution/crud/node_modules/pug-lexer/index.js:1647:23)
+    at Lexer.advance (/home/damli/Work/PT.  Amal Solution/crud/node_modules/pug-lexer/index.js:1688:12)
+    at Lexer.callLexerFunction (/home/damli/Work/PT.  Amal Solution/crud/node_modules/pug-lexer/index.js:1647:23)
+    at Lexer.getTokens (/home/damli/Work/PT.  Amal Solution/crud/node_modules/pug-lexer/index.js:1706:12)
+    at lex (/home/damli/Work/PT.  Amal Solution/crud/node_modules/pug-lexer/index.js:12:42)
+    at Object.lex (/home/damli/Work/PT.  Amal Solution/crud/node_modules/pug/lib/index.js:104:9)
+    at Function.loadString [as string] (/home/damli/Work/PT.  Amal Solution/crud/node_modules/pug-load/index.js:53:24) {
+  code: 'PUG:INCONSISTENT_INDENTATION',
+  msg: 'Inconsistent indentation. Expecting either 14 or 18 spaces/tabs.',
+  line: 53,
+  column: 1,
+  filename: '/home/damli/Work/PT.  Amal Solution/crud/views/tabInfo.pug',
+  src: 'extends layout\n' +
+    'block content\n' +
+    '\n' +
+    '  .container\n' +
+    '    .col-12.col-sm-12.col-md-12\n' +
+    '      .card\n' +
+    "        .card-header(style='height:50px;')\n" +
+    '          h4 Project Team\n' +
+    '        .card-body\n' +
+    '          .media-list.position-relative\n' +
+    "            #project-team-scroll.table-responsive(tabindex='1' style='height: 400px; overflow: hidden; outline: none;')\n" +
+    "              button.btn.btn-sn.btn-danger.float-right(onclick=`deleteItems()` style='margin-bottom:50px;' type='button' data-action='delete') Delete\n" +
+    "              button#editButton.btn.btn-sn.btn-primary.float-right(style='margin-bottom:50px; margin-right:10px;' data-toggle='modal' data-target='#exampleModal') Edit\n" +
+    '              table#example.table.table-hover.table-xl.mb-0\n' +
+    '                tbody\n' +
+    '                  tr\n' +
+    "                    th(style='width:40%') Name\n" +
+    '                    td :\n' +
+    '                    td.nameStudent\n' +
+    '                  tr\n' +
+    "                    th(scope='row') Age\n" +
+    '                    td :\n' +
+    '                    td.ageStudent\n' +
+    '                  tr\n' +
+    "                    th(scope='row') Last Education \n" +
+    '                    td :\n' +
+    '                    td.lastEducationStudent\n' +
+    '                  tr \n' +
+    "                    th(scope='row') Subjects\n" +
+    '                    td :\n' +
+    '                    td.subjects\n' +
+    '                  tr\n' +
+    "                    th(scope='row') First Date\n" +
+    '                    td :\n' +
+    '                    td.firstDateStudent\n' +
+    '                  tr\n' +
+    "                    th(scope='row') Last Date\n" +
+    '                    td :\n' +
+    '                    td.lastDateStudent\n' +
+    '\n' +
+    "  #exampleModal.modal.fade(tabindex='-1' role='dialog' aria-labelledby='exampleModalLabel' aria-hidden='true')\n" +
+    "      .modal-dialog(role='document')\n" +
+    '        .modal-content\n' +
+    '          .modal-header\n' +
+    '            h5#exampleModalLabel.modal-title Form Edit\n' +
+    "            button.close(type='button' data-dismiss='modal' aria-label='Close')\n" +
+    "              span(aria-hidden='true') &times\n" +
+    '          .modal-body\n' +
+    '            form\n' +
+    '              .form-group\n' +
+    "                  label.col-form-label(for='name') Name:\n" +
+    "                  input#name.form-control(type='text', name='nameStudent')\n" +
+    '                .form-group\n' +
+    "                  label.col-form-label(for='age') Age:\n" +
+    "                  input#age.form-control(type='text', name='ageStudent')\n" +
+    '                .form-group\n' +
+    "                  label.col-form-label(for='lastEducation') Last Education:\n" +
+    "                  input#lastEducation.form-control(type='text', name='lastEducationStudent')\n" +
+    '                .form-group\n' +
+    "                  label.col-form-label(for='subjects') Subjects:\n" +
+    "                  input#subjects.form-control(type='text', name='subjects')\n" +
+    '                .form-group\n' +
+    "                  label.col-form-label(for='firstDate') First Date:\n" +
+    "                  input#firstDate.form-control(type='date', name='firstDateStudent')    \n" +
+    '                .form-group\n' +
+    "                  label.col-form-label(for='lastDate') Last Date:\n" +
+    "                  input#lastDate.form-control(type='date', name='lastDateStudent')      \n" +
+    '            .modal-footer\n' +
+    "              button.btn.btn-secondary(type='button' data-dismiss='modal') Close\n" +
+    "              button#submit.btn.btn-primary(type='button') submit\n" +
+    '  script.\n' +
+    '    const result = !{data}\n' +
+    '\n' +
+    '    $(document).ready(function() {\n' +
+    "      $('.nameStudent').text(result.nameStudent)\n" +
+    "      $('.ageStudent').text(result.ageStudent)\n" +
+    "      $('.lastEducationStudent').text(result.lastEducationStudent)\n" +
+    "      $('.subjects').text(result.subjects)\n" +
+    "      $('.firstDateStudent').text(result.firstDateStudent)\n" +
+    "      $('.lastDateStudent').text(result.lastDateStudent)\n" +
+    "    $('#exampleModal').on('show.bs.modal', function(event) {\n" +
+    '      var button = $(event.relatedTarget) \n' +
+    "      var recipient = button.data('whatever') \n" +
+    '      var modal = $(this)\n' +
+    "      modal.find('.modal-title').text('New message to ' + recipient)\n" +
+    "      modal.find('.modal-body input').val(recipient)\n" +
+    '    })\n' +
+    '\n' +
+    '      //- const result = !{data}\n' +
+    '      //- let data = [[result[0].nameStudent,result[0].ageStudent,resudelelt[0].position,result[0].office,result[0].usia]]\n' +
+    '      //- //- data.push([result[0].nameStudent,result[0].ageStudent,result[0].position,result[0].office,result[0].usia]))\n' +
+    "      //- $('#example').DataTable({\n" +
+    '      //-   data: data,\n' +
+    '      //- })\n' +
+    '\n' +
+    '      //- let data = []\n' +
+    '      //- result.forEach(item => {\n' +
+    '      //-   data.push([\n' +
+    '      //-     item.nameStudent,\n' +
+    '      //-     item.ageStudent,\n' +
+    '      //-     item.position,\n' +
+    '      //-     item.office,\n' +
+    '      //-     item.usia\n' +
+    '      //-   ])\n' +
+    '      //- })\n' +
+    '    //- })\n' +
+    '    //- console.log(data)\n' +
+    '    //- function getAPI() {\n' +
+    "    //-   console.log('Masuk')\n" +
+    '    //-   $.ajax({\n' +
+    "    //-     type: 'GET',\n" +
+    "    //-     url: '/inputForm/id/:_id',\n" +
+    "    //-     dataType: 'json',\n" +
+    '    //-     success: async function(msg) {\n' +
+    "    //-       console.log('sukses', msg)\n" +
+    '    //-     }\n' +
+    '    //-   })\n' +
+    '    })\n' +
+    '\n' +
+    '    function deleteItems(e) {\n' +
+    '      const params = window.location.pathname\n' +
+    '      const id = params.match(/\\d+/g).toString()\n' +
+    '      $.ajax({\n' +
+    "        type: 'DELETE',\n" +
+    '        url: `/layout/${id}`,\n' +
+    "        dataType: 'json',\n" +
+    '        data: {\n' +
+    '          id: e,\n' +
+    '        },\n' +
+    '        success: function (msg) {\n' +
+    '          if (msg) {\n' +
+    '            location.href = document.referrer\n' +
+    '            //- window.history.back()\n' +
+    '            //- window.location.reload()\n' +
+    '          }\n' +
+    '        },\n' +
+    '      })\n' +
+    '    }\n' +
+    '\n' +
+    "    $('#editButton2').click(function(x) {\n" +
+    '      console.log(x)\n' +
+    '      const params = window.location.pathname\n' +
+    '      const id = params.match(/\\d+/g).toString()\n' +
+    '\n' +
+    "      $('#editButton').click(function() {\n" +
+    '        setTimeout(() => {\n' +
+    `          $('#nameStudent').val("result.nameStudent")\n` +
+    `          $('#ageStudent').val("result.ageStudent")\n` +
+    `          $('#lastEducationStudent').val("result.lastEducationStudent")\n` +
+    `          $('#subjects').val("result.subjects")\n` +
+    `          $('#firstDateStudent').val("result.firstDateStudent")\n` +
+    `           $('#lastDateStudent').val("result.lastDateStudent")\n` +
+    '        }, 100)\n' +
+    '      })\n' +
+    '\n' +
+    "      $('#submitEdit').click(function () {\n" +
+    "        const nameStudent = $('#name').val()\n" +
+    "              const ageStudent = $('#age').val()\n" +
+    "              const lastEducationStudent = $('#lastEducation').val()\n" +
+    "              const subjects = $('#subjects').val()\n" +
+    "              const firstDateStudent = $('#firstDate').val()\n" +
+    "              const lastDateStudent = $('#lastDate').val()\n" +
+    '        $.ajax({\n' +
+    "          type: 'PUT',\n" +
+    '          url: `/layout/${id}`,\n' +
+    "          dataType: 'json',\n" +
+    '          data: {\n' +
+    '            key: id,\n' +
+    '            value: {\n' +
+    '              nameStudent: nameStudent,\n' +
+    '                  ageStudent: ageStudent,\n' +
+    '                  lastEducationStudent: lastEducationStudent,\n' +
+    '                  subjects: subjects,\n' +
+    '                  firstDateStudent: firstDateStudent,\n' +
+    '                  lastDateStudent: lastDateStudent,\n' +
+    '            },\n' +
+    '          },\n' +
+    '          success: function (msg) {\n' +
+    '            console.log(msg)\n' +
+    '            if (msg) {\n' +
+    "              $('.ui.modal.edit').modal('hide')\n" +
+    '              window.location.reload()\n' +
+    '            }\n' +
+    '          },\n' +
+    '        })\n' +
+    '      });\n' +
+    '    })',
+  toJSON: [Function (anonymous)],
+  status: 500,
+  path: '/layout/130484',
+  method: 'GET',
+  data: {},
+  isAjax: false
+}
+[2022-02-16T23:50:53.422] [INFO] app - [GET] /layout/data
+[2022-02-16T23:50:53.423] [INFO] lib.InternalService - [POST] http://api.kitapeduli.org:8445/api/internal/node/list - data: {"limit":0,"label":"Test","skip":0,"propertyFilter":{},"propertySort":{}}
+[2022-02-16T23:53:37.233] [INFO] lib.WebService - IDM-API : http://api.kitapeduli.org:9003/api
+[2022-02-16T23:53:37.236] [INFO] lib.WebService - GRAPH-API : http://api.kitapeduli.org:8445/api
+[2022-02-16T23:53:37.237] [INFO] lib.WebService - SPATIAL-API : http://api.kitapeduli.org:8559/api
+[2022-02-16T23:53:37.358] [INFO] www - App is running HTTP service and listening on port 19011
+[2022-02-16T23:53:41.553] [INFO] app - [GET] /layout/130484
+[2022-02-16T23:53:41.557] [INFO] lib.InternalService - [POST] http://api.kitapeduli.org:8445/api/internal/node/list - data: {"label":"Test","skip":0,"limit":1,"propertyFilter":{"_id":"130484"}}
+[2022-02-16T23:53:44.961] [INFO] app - [GET] /layout/data
+[2022-02-16T23:53:44.964] [INFO] lib.InternalService - [POST] http://api.kitapeduli.org:8445/api/internal/node/list - data: {"limit":0,"label":"Test","skip":0,"propertyFilter":{},"propertySort":{}}
+[2022-02-16T23:54:09.284] [INFO] app - [POST] /layout/post
+[2022-02-16T23:54:09.286] [DEBUG] lib.InternalService - [POST] /internal/node
+[2022-02-16T23:54:09.482] [INFO] app - [GET] /layout/130484
+[2022-02-16T23:54:09.484] [INFO] lib.InternalService - [POST] http://api.kitapeduli.org:8445/api/internal/node/list - data: {"label":"Test","skip":0,"limit":1,"propertyFilter":{"_id":"130484"}}
+[2022-02-16T23:54:11.539] [INFO] app - [GET] /layout/data
+[2022-02-16T23:54:11.540] [INFO] lib.InternalService - [POST] http://api.kitapeduli.org:8445/api/internal/node/list - data: {"limit":0,"label":"Test","skip":0,"propertyFilter":{},"propertySort":{}}
+[2022-02-16T23:54:17.528] [INFO] app - [GET] /layout/
+[2022-02-16T23:54:19.250] [INFO] app - [GET] /layout/data
+[2022-02-16T23:54:19.251] [INFO] lib.InternalService - [POST] http://api.kitapeduli.org:8445/api/internal/node/list - data: {"limit":0,"label":"Test","skip":0,"propertyFilter":{},"propertySort":{}}
+[2022-02-16T23:54:33.420] [INFO] app - [GET] /layout/130442
+[2022-02-16T23:54:33.421] [INFO] lib.InternalService - [POST] http://api.kitapeduli.org:8445/api/internal/node/list - data: {"label":"Test","skip":0,"limit":1,"propertyFilter":{"_id":"130442"}}
+[2022-02-16T23:54:35.086] [INFO] app - [GET] /layout/data
+[2022-02-16T23:54:35.087] [INFO] lib.InternalService - [POST] http://api.kitapeduli.org:8445/api/internal/node/list - data: {"limit":0,"label":"Test","skip":0,"propertyFilter":{},"propertySort":{}}
+[2022-02-16T23:54:37.283] [INFO] app - [DELETE] /layout/130442
+[2022-02-16T23:54:37.286] [DEBUG] lib.InternalService - [DELETE] /internal/node?id=130442
+[2022-02-16T23:54:37.506] [INFO] app - [GET] /layout/
+[2022-02-16T23:54:39.001] [INFO] app - [GET] /layout/data
+[2022-02-16T23:54:39.002] [INFO] lib.InternalService - [POST] http://api.kitapeduli.org:8445/api/internal/node/list - data: {"limit":0,"label":"Test","skip":0,"propertyFilter":{},"propertySort":{}}

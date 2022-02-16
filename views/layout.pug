@@ -1,13 +1,12 @@
 include ./layout/head.pug
   body
     block content
-    .container
-      include ./layout/navbar.pug      
+    include ./layout/navbar.pug      
       #modalForm.modal.fade(tabindex='-1' role='dialog' aria-labelledby='exampleModalLabel' aria-hidden='true')
         .modal-dialog(role='document')
           .modal-content
             .modal-header
-              h5#exampleModalLabel.modal-title New message
+              h5#exampleModalLabel.modal-title New Student
               button.close(type='button' data-dismiss='modal' aria-label='Close')
                 span(aria-hidden='true') &times
             .modal-body
@@ -35,7 +34,7 @@ include ./layout/head.pug
               button#submit.btn.btn-primary(type='button') submit
     //* create new data
     .container.mt-4
-      button.btn.btn-primary.mb-2(type='button' data-toggle='modal' data-target='#modalForm') New Student
+      button.btn.btn-primary(type='button' data-toggle='modal' data-target='#modalForm') New Student
     //*table
     .container
       .content-table

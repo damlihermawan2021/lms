@@ -27,13 +27,13 @@ auth:
 app:
   menu:
     Perumahan:
-      route: /class
+      route: /home
       icon: warehouse
     Kavling:
-      route: /instructur
+      route: /class
       icon: sitemap
     Penghuni:
-      route: /company profile
+      route: /instructor
       icon: users
   map:
     formDir: geolocation

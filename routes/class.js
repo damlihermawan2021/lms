@@ -10,8 +10,7 @@ router.get('/data', function (req, res, next) {
     skip: 0,
     propertyFilter: {},
     propertySort: {}
-  }
-  console.log(reqData)
+  };
   internalService.listNodes(
     reqData,
     res,
@@ -22,8 +21,8 @@ router.get('/data', function (req, res, next) {
         data.push({
           id: item.node._id ? item.node._id : null,
           className: item.node.className ? `<a href='${'/class/' + item.node._id}'>${item.node.className}</a>` : null,
-          subjects: item.node.subjects ? item.node.subjects : null,
-          instructor: item.node.instructor ? item.node.instructor : null,
+          lessonSubjects: item.node.lessonSubjects ? item.node.lessonSubjects : null,
+          instructorClass: item.node.instructorClass ? item.node.instructorClass : null,
           studentList: item.node.studentList ? item.node.studentList : null,
           scheduleTime: item.node.scheduleTime ? item.node.scheduleTime : null,
           rollCall: item.node.rollCall ? item.node.rollCall : null,
@@ -69,9 +68,9 @@ router.post('/post', function (req, res, next) {
     isMerge: true,
     properties: {
       className: req.body.className,
-      instructor: req.body.instructor,
+      instructorClass: req.body.instructorClass,
       studentList: req.body.studentList,
-      subjects: req.body.subjects,
+      lessonSubjects: req.body.lessonSubjects,
       scheduleTime: req.body.scheduleTime,
       rollCall: req.body.rollCall,
     }
@@ -105,9 +104,9 @@ router.get('/:_id', function (req, res, next) {
       data.push({
         id: item.node._id ? item.node._id : null,
         className: item.node.className ? item.node.className : null,
-        instructor: item.node.instructor ? item.node.instructor : null,
+        instructorClass: item.node.instructorClass ? item.node.instructorClass : null,
         studentList: item.node.studentList ? item.node.studentList : null,
-        subjects: item.node.subjects ? item.node.subjects : null,
+        lessonSubjects: item.node.lessonSubjects ? item.node.lessonSubjects : null,
         scheduleTime: item.node.scheduleTime ? item.node.scheduleTime : null,
         rollCall: item.node.rollCall ? item.node.rollCall : null,
         links: {
@@ -116,7 +115,7 @@ router.get('/:_id', function (req, res, next) {
             method: 'DELETE'
           },
           edit: {
-            url: '/class/' + item.node._id + '/' + item.node.name,
+            url: '/class/' + item.node._id + '/' + item.node.className,
             method: 'PUT'
           }
         }
@@ -128,7 +127,7 @@ router.get('/:_id', function (req, res, next) {
 
 router.get('/', function (req, res, next) {
   res.render('class', {
-    // data: '/inputForm/data'
+    // data: '/class/data'
   })
 })
 
