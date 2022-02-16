@@ -1,0 +1,120 @@
+include ./layout/head.pug
+  body
+    block content
+    .container
+      include ./layout/navbar.pug      
+      #modalForm.modal.fade(tabindex='-1' role='dialog' aria-labelledby='exampleModalLabel' aria-hidden='true')
+        .modal-dialog(role='document')
+          .modal-content
+            .modal-header
+              h5#exampleModalLabel.modal-title New message
+              button.close(type='button' data-dismiss='modal' aria-label='Close')
+                span(aria-hidden='true') &times
+            .modal-body
+              form
+                .form-group
+                  label.col-form-label(for='name') Name:
+                  input#name.form-control(type='text', name='nameStudent')
+                .form-group
+                  label.col-form-label(for='age') Age:
+                  input#age.form-control(type='text', name='ageStudent')
+                .form-group
+                  label.col-form-label(for='lastEducation') Last Education:
+                  input#lastEducation.form-control(type='text', name='lastEducationStudent')
+                .form-group
+                  label.col-form-label(for='subjects') Subjects:
+                  input#subjects.form-control(type='text', name='subjects')
+                .form-group
+                  label.col-form-label(for='firstDate') First Date:
+                  input#firstDate.form-control(type='date', name='firstDateStudent')    
+                .form-group
+                  label.col-form-label(for='lastDate') Last Date:
+                  input#lastDate.form-control(type='date', name='lastDateStudent')      
+            .modal-footer
+              button.btn.btn-secondary(type='button' data-dismiss='modal') Close
+              button#submit.btn.btn-primary(type='button') submit
+    //* create new data
+    .container.mt-4
+      button.btn.btn-primary.mb-2(type='button' data-toggle='modal' data-target='#modalForm') New Student
+    //*table
+    .container
+      .content-table
+        table#example.ui.celled.table(style='width:100%')
+          thead
+            tr
+              th Name
+              th Age
+              th Last Education
+              th Subjects
+              th First Date
+              th Last Date
+            tbody
+          script.
+            $(document).ready(function() {
+              getAPI()
+            })
+            
+            $('#modalForm').on('show.bs.modal', function(event) {
+              var button = $(event.relatedTarget) 
+              var recipient = button.data('') 
+              var modal = $(this)
+              modal.find('.modal-title').text('New message to ' + recipient)
+              modal.find('.modal-body input').val(recipient)
+            })
+            
+            $('#submit').click(function() {
+              notif()
+            })
+            
+            function notif() {
+              const nameStudent = $('#name').val()
+              const ageStudent = $('#age').val()
+              const lastEducationStudent = $('#lastEducation').val()
+              const subjects = $('#subjects').val()
+              const firstDateStudent = $('#firstDate').val()
+              const lastDateStudent = $('#lastDate').val()
+              $.ajax({
+                type: 'POST',
+                url: '/layout/post',
+                dataType: 'json',
+                data: {
+                  nameStudent: nameStudent,
+                  ageStudent: ageStudent,
+                  lastEducationStudent: lastEducationStudent,
+                  subjects: subjects,
+                  firstDateStudent: firstDateStudent,
+                  lastDateStudent: lastDateStudent,
+                },
+                success: function(msg) {
+                  if (msg) {
+                    $('#exampleModal').modal('hide')
+                    window.location.reload()
+                  }
+                },
+              })
+            }
+            
+            function getAPI() {
+              let data = [];
+              $.ajax({
+                type: 'GET',
+                url: '/layout/data',
+                dataType: 'json',
+                success: async function(msg) {
+                  msg.data.forEach(item => {
+                    data.push([
+                      item.nameStudent,
+                      item.ageStudent,
+                      item.lastEducationStudent,
+                      item.subjects,
+                      item.firstDateStudent,
+                      item.lastDateStudent
+                    ])
+                  })
+                  //- console.log(data)
+                  $('#example').DataTable({
+                    data: data,
+                  })
+                }
+              })
+            }

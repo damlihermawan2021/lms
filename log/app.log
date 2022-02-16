@@ -1,0 +1,1125 @@
+[2022-02-16T08:57:33.073] [INFO] lib.WebService - IDM-API : http://api.kitapeduli.org:9003/api
+[2022-02-16T08:57:33.080] [INFO] lib.WebService - GRAPH-API : http://api.kitapeduli.org:8445/api
+[2022-02-16T08:57:33.081] [INFO] lib.WebService - SPATIAL-API : http://api.kitapeduli.org:8559/api
+[2022-02-16T08:57:38.100] [INFO] www - App is running HTTP service and listening on port 19011
+[2022-02-16T08:59:10.841] [INFO] app - [GET] /
+[2022-02-16T08:59:20.639] [INFO] lib.AuthService - [POST] /v1/auth/token pkl_fe
+[2022-02-16T08:59:21.029] [INFO] app - [GET] /
+[2022-02-16T08:59:21.237] [ERROR] app - Error: /home/damli/Work/PT.  Amal Solution/crud/views/layout/navbar.pug:1:1
+
+Only named blocks and mixins can appear at the top level of an extending template
+    at makeError (/home/damli/Work/PT.  Amal Solution/crud/node_modules/pug-error/index.js:34:13)
+    at error (/home/damli/Work/PT.  Amal Solution/crud/node_modules/pug-linker/index.js:7:30)
+    at addNode (/home/damli/Work/PT.  Amal Solution/crud/node_modules/pug-linker/index.js:37:9)
+    at Array.forEach (<anonymous>)
+    at addNode (/home/damli/Work/PT.  Amal Solution/crud/node_modules/pug-linker/index.js:33:20)
+    at Array.forEach (<anonymous>)
+    at link (/home/damli/Work/PT.  Amal Solution/crud/node_modules/pug-linker/index.js:29:15)
+    at compileBody (/home/damli/Work/PT.  Amal Solution/crud/node_modules/pug/lib/index.js:194:9)
+    at Object.exports.compile (/home/damli/Work/PT.  Amal Solution/crud/node_modules/pug/lib/index.js:269:16)
+    at handleTemplateCache (/home/damli/Work/PT.  Amal Solution/crud/node_modules/pug/lib/index.js:242:25) {
+  code: 'PUG:UNEXPECTED_NODES_IN_EXTENDING_ROOT',
+  msg: 'Only named blocks and mixins can appear at the top level of an extending template',
+  line: 1,
+  column: 1,
+  filename: '/home/damli/Work/PT.  Amal Solution/crud/views/layout/navbar.pug',
+  src: undefined,
+  toJSON: [Function (anonymous)],
+  status: 500,
+  path: '/',
+  method: 'GET',
+  data: {},
+  isAjax: false
+}
+[2022-02-16T08:59:24.478] [INFO] app - [GET] /layout/data
+[2022-02-16T08:59:24.485] [INFO] lib.InternalService - [POST] http://api.kitapeduli.org:8445/api/internal/node/list - data: {"limit":0,"label":"Test","skip":0,"propertyFilter":{},"propertySort":{}}
+[2022-02-16T08:59:49.758] [INFO] app - [GET] /
+[2022-02-16T08:59:49.839] [ERROR] app - Error: /home/damli/Work/PT.  Amal Solution/crud/views/layout/navbar.pug:1:1
+
+Only named blocks and mixins can appear at the top level of an extending template
+    at makeError (/home/damli/Work/PT.  Amal Solution/crud/node_modules/pug-error/index.js:34:13)
+    at error (/home/damli/Work/PT.  Amal Solution/crud/node_modules/pug-linker/index.js:7:30)
+    at addNode (/home/damli/Work/PT.  Amal Solution/crud/node_modules/pug-linker/index.js:37:9)
+    at Array.forEach (<anonymous>)
+    at addNode (/home/damli/Work/PT.  Amal Solution/crud/node_modules/pug-linker/index.js:33:20)
+    at Array.forEach (<anonymous>)
+    at link (/home/damli/Work/PT.  Amal Solution/crud/node_modules/pug-linker/index.js:29:15)
+    at compileBody (/home/damli/Work/PT.  Amal Solution/crud/node_modules/pug/lib/index.js:194:9)
+    at Object.exports.compile (/home/damli/Work/PT.  Amal Solution/crud/node_modules/pug/lib/index.js:269:16)
+    at handleTemplateCache (/home/damli/Work/PT.  Amal Solution/crud/node_modules/pug/lib/index.js:242:25) {
+  code: 'PUG:UNEXPECTED_NODES_IN_EXTENDING_ROOT',
+  msg: 'Only named blocks and mixins can appear at the top level of an extending template',
+  line: 1,
+  column: 1,
+  filename: '/home/damli/Work/PT.  Amal Solution/crud/views/layout/navbar.pug',
+  src: undefined,
+  toJSON: [Function (anonymous)],
+  status: 500,
+  path: '/',
+  method: 'GET',
+  data: {},
+  isAjax: false
+}
+[2022-02-16T08:59:51.741] [INFO] app - [GET] /layout/data
+[2022-02-16T08:59:51.746] [INFO] lib.InternalService - [POST] http://api.kitapeduli.org:8445/api/internal/node/list - data: {"limit":0,"label":"Test","skip":0,"propertyFilter":{},"propertySort":{}}
+[2022-02-16T08:59:51.776] [INFO] app - [GET] /
+[2022-02-16T08:59:51.861] [ERROR] app - Error: /home/damli/Work/PT.  Amal Solution/crud/views/layout/navbar.pug:1:1
+
+Only named blocks and mixins can appear at the top level of an extending template
+    at makeError (/home/damli/Work/PT.  Amal Solution/crud/node_modules/pug-error/index.js:34:13)
+    at error (/home/damli/Work/PT.  Amal Solution/crud/node_modules/pug-linker/index.js:7:30)
+    at addNode (/home/damli/Work/PT.  Amal Solution/crud/node_modules/pug-linker/index.js:37:9)
+    at Array.forEach (<anonymous>)
+    at addNode (/home/damli/Work/PT.  Amal Solution/crud/node_modules/pug-linker/index.js:33:20)
+    at Array.forEach (<anonymous>)
+    at link (/home/damli/Work/PT.  Amal Solution/crud/node_modules/pug-linker/index.js:29:15)
+    at compileBody (/home/damli/Work/PT.  Amal Solution/crud/node_modules/pug/lib/index.js:194:9)
+    at Object.exports.compile (/home/damli/Work/PT.  Amal Solution/crud/node_modules/pug/lib/index.js:269:16)
+    at handleTemplateCache (/home/damli/Work/PT.  Amal Solution/crud/node_modules/pug/lib/index.js:242:25) {
+  code: 'PUG:UNEXPECTED_NODES_IN_EXTENDING_ROOT',
+  msg: 'Only named blocks and mixins can appear at the top level of an extending template',
+  line: 1,
+  column: 1,
+  filename: '/home/damli/Work/PT.  Amal Solution/crud/views/layout/navbar.pug',
+  src: undefined,
+  toJSON: [Function (anonymous)],
+  status: 500,
+  path: '/',
+  method: 'GET',
+  data: {},
+  isAjax: false
+}
+[2022-02-16T08:59:53.913] [INFO] app - [GET] /layout/data
+[2022-02-16T08:59:53.915] [INFO] lib.InternalService - [POST] http://api.kitapeduli.org:8445/api/internal/node/list - data: {"limit":0,"label":"Test","skip":0,"propertyFilter":{},"propertySort":{}}
+[2022-02-16T09:00:04.690] [INFO] app - [GET] /layout/130442
+[2022-02-16T09:00:04.691] [INFO] lib.InternalService - [POST] http://api.kitapeduli.org:8445/api/internal/node/list - data: {"label":"Test","skip":0,"limit":1,"propertyFilter":{"_id":"130442"}}
+[2022-02-16T09:00:04.940] [ERROR] app - Error: Failed to lookup view "default/tabInfo" in views directory "/home/damli/Work/PT.  Amal Solution/crud/views"
+    at Function.render (/home/damli/Work/PT.  Amal Solution/crud/node_modules/express/lib/application.js:580:17)
+    at ServerResponse.render (/home/damli/Work/PT.  Amal Solution/crud/node_modules/express/lib/response.js:1008:7)
+    at /home/damli/Work/PT.  Amal Solution/crud/routes/layout.js:129:9
+    at /home/damli/Work/PT.  Amal Solution/crud/lib/InternalService.js:16:7
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  view: View {
+    defaultEngine: 'pug',
+    ext: '.pug',
+    name: 'default/tabInfo',
+    root: '/home/damli/Work/PT.  Amal Solution/crud/views',
+    engine: [Function (anonymous)],
+    path: undefined
+  },
+  status: 500,
+  path: '/layout/130442',
+  method: 'GET',
+  data: {},
+  isAjax: false
+}
+[2022-02-16T09:00:06.499] [INFO] app - [GET] /layout/data
+[2022-02-16T09:00:06.502] [INFO] lib.InternalService - [POST] http://api.kitapeduli.org:8445/api/internal/node/list - data: {"limit":0,"label":"Test","skip":0,"propertyFilter":{},"propertySort":{}}
+[2022-02-16T09:23:59.635] [INFO] app - [GET] /layout/130442
+[2022-02-16T09:23:59.638] [INFO] lib.InternalService - [POST] http://api.kitapeduli.org:8445/api/internal/node/list - data: {"label":"Test","skip":0,"limit":1,"propertyFilter":{"_id":"130442"}}
+[2022-02-16T09:24:00.011] [ERROR] app - Error: Failed to lookup view "default/tabInfo" in views directory "/home/damli/Work/PT.  Amal Solution/crud/views"
+    at Function.render (/home/damli/Work/PT.  Amal Solution/crud/node_modules/express/lib/application.js:580:17)
+    at ServerResponse.render (/home/damli/Work/PT.  Amal Solution/crud/node_modules/express/lib/response.js:1008:7)
+    at /home/damli/Work/PT.  Amal Solution/crud/routes/layout.js:129:9
+    at /home/damli/Work/PT.  Amal Solution/crud/lib/InternalService.js:16:7
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  view: View {
+    defaultEngine: 'pug',
+    ext: '.pug',
+    name: 'default/tabInfo',
+    root: '/home/damli/Work/PT.  Amal Solution/crud/views',
+    engine: [Function (anonymous)],
+    path: undefined
+  },
+  status: 500,
+  path: '/layout/130442',
+  method: 'GET',
+  data: {},
+  isAjax: false
+}
+[2022-02-16T09:24:02.087] [INFO] app - [GET] /layout/data
+[2022-02-16T09:24:02.089] [INFO] lib.InternalService - [POST] http://api.kitapeduli.org:8445/api/internal/node/list - data: {"limit":0,"label":"Test","skip":0,"propertyFilter":{},"propertySort":{}}
+[2022-02-16T09:24:13.941] [INFO] app - [POST] /layout/post
+[2022-02-16T09:24:13.942] [DEBUG] lib.InternalService - [POST] /internal/node
+[2022-02-16T09:24:15.187] [INFO] app - [GET] /layout/130442
+[2022-02-16T09:24:15.187] [INFO] lib.InternalService - [POST] http://api.kitapeduli.org:8445/api/internal/node/list - data: {"label":"Test","skip":0,"limit":1,"propertyFilter":{"_id":"130442"}}
+[2022-02-16T09:24:15.331] [ERROR] app - Error: Failed to lookup view "default/tabInfo" in views directory "/home/damli/Work/PT.  Amal Solution/crud/views"
+    at Function.render (/home/damli/Work/PT.  Amal Solution/crud/node_modules/express/lib/application.js:580:17)
+    at ServerResponse.render (/home/damli/Work/PT.  Amal Solution/crud/node_modules/express/lib/response.js:1008:7)
+    at /home/damli/Work/PT.  Amal Solution/crud/routes/layout.js:129:9
+    at /home/damli/Work/PT.  Amal Solution/crud/lib/InternalService.js:16:7
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  view: View {
+    defaultEngine: 'pug',
+    ext: '.pug',
+    name: 'default/tabInfo',
+    root: '/home/damli/Work/PT.  Amal Solution/crud/views',
+    engine: [Function (anonymous)],
+    path: undefined
+  },
+  status: 500,
+  path: '/layout/130442',
+  method: 'GET',
+  data: {},
+  isAjax: false
+}
+[2022-02-16T09:24:17.369] [INFO] app - [GET] /layout/data
+[2022-02-16T09:24:17.370] [INFO] lib.InternalService - [POST] http://api.kitapeduli.org:8445/api/internal/node/list - data: {"limit":0,"label":"Test","skip":0,"propertyFilter":{},"propertySort":{}}
+[2022-02-16T09:24:36.724] [INFO] app - [GET] /layout/130442
+[2022-02-16T09:24:36.724] [INFO] lib.InternalService - [POST] http://api.kitapeduli.org:8445/api/internal/node/list - data: {"label":"Test","skip":0,"limit":1,"propertyFilter":{"_id":"130442"}}
+[2022-02-16T09:24:36.846] [ERROR] app - Error: Failed to lookup view "default/tabInfo" in views directory "/home/damli/Work/PT.  Amal Solution/crud/views"
+    at Function.render (/home/damli/Work/PT.  Amal Solution/crud/node_modules/express/lib/application.js:580:17)
+    at ServerResponse.render (/home/damli/Work/PT.  Amal Solution/crud/node_modules/express/lib/response.js:1008:7)
+    at /home/damli/Work/PT.  Amal Solution/crud/routes/layout.js:129:9
+    at /home/damli/Work/PT.  Amal Solution/crud/lib/InternalService.js:16:7
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  view: View {
+    defaultEngine: 'pug',
+    ext: '.pug',
+    name: 'default/tabInfo',
+    root: '/home/damli/Work/PT.  Amal Solution/crud/views',
+    engine: [Function (anonymous)],
+    path: undefined
+  },
+  status: 500,
+  path: '/layout/130442',
+  method: 'GET',
+  data: {},
+  isAjax: false
+}
+[2022-02-16T09:24:38.751] [INFO] app - [GET] /layout/data
+[2022-02-16T09:24:38.752] [INFO] lib.InternalService - [POST] http://api.kitapeduli.org:8445/api/internal/node/list - data: {"limit":0,"label":"Test","skip":0,"propertyFilter":{},"propertySort":{}}
+[2022-02-16T09:24:49.005] [INFO] app - [POST] /layout/post
+[2022-02-16T09:24:49.006] [DEBUG] lib.InternalService - [POST] /internal/node
+[2022-02-16T09:24:49.246] [INFO] app - [GET] /layout/130442
+[2022-02-16T09:24:49.248] [INFO] lib.InternalService - [POST] http://api.kitapeduli.org:8445/api/internal/node/list - data: {"label":"Test","skip":0,"limit":1,"propertyFilter":{"_id":"130442"}}
+[2022-02-16T09:24:49.352] [ERROR] app - Error: Failed to lookup view "default/tabInfo" in views directory "/home/damli/Work/PT.  Amal Solution/crud/views"
+    at Function.render (/home/damli/Work/PT.  Amal Solution/crud/node_modules/express/lib/application.js:580:17)
+    at ServerResponse.render (/home/damli/Work/PT.  Amal Solution/crud/node_modules/express/lib/response.js:1008:7)
+    at /home/damli/Work/PT.  Amal Solution/crud/routes/layout.js:129:9
+    at /home/damli/Work/PT.  Amal Solution/crud/lib/InternalService.js:16:7
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  view: View {
+    defaultEngine: 'pug',
+    ext: '.pug',
+    name: 'default/tabInfo',
+    root: '/home/damli/Work/PT.  Amal Solution/crud/views',
+    engine: [Function (anonymous)],
+    path: undefined
+  },
+  status: 500,
+  path: '/layout/130442',
+  method: 'GET',
+  data: {},
+  isAjax: false
+}
+[2022-02-16T09:24:50.985] [INFO] app - [GET] /layout/data
+[2022-02-16T09:24:50.987] [INFO] lib.InternalService - [POST] http://api.kitapeduli.org:8445/api/internal/node/list - data: {"limit":0,"label":"Test","skip":0,"propertyFilter":{},"propertySort":{}}
+[2022-02-16T09:25:12.572] [INFO] app - [GET] /layout/130442
+[2022-02-16T09:25:12.573] [INFO] lib.InternalService - [POST] http://api.kitapeduli.org:8445/api/internal/node/list - data: {"label":"Test","skip":0,"limit":1,"propertyFilter":{"_id":"130442"}}
+[2022-02-16T09:25:12.722] [ERROR] app - Error: Failed to lookup view "default/tabInfo" in views directory "/home/damli/Work/PT.  Amal Solution/crud/views"
+    at Function.render (/home/damli/Work/PT.  Amal Solution/crud/node_modules/express/lib/application.js:580:17)
+    at ServerResponse.render (/home/damli/Work/PT.  Amal Solution/crud/node_modules/express/lib/response.js:1008:7)
+    at /home/damli/Work/PT.  Amal Solution/crud/routes/layout.js:129:9
+    at /home/damli/Work/PT.  Amal Solution/crud/lib/InternalService.js:16:7
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  view: View {
+    defaultEngine: 'pug',
+    ext: '.pug',
+    name: 'default/tabInfo',
+    root: '/home/damli/Work/PT.  Amal Solution/crud/views',
+    engine: [Function (anonymous)],
+    path: undefined
+  },
+  status: 500,
+  path: '/layout/130442',
+  method: 'GET',
+  data: {},
+  isAjax: false
+}
+[2022-02-16T09:25:14.260] [INFO] app - [GET] /layout/data
+[2022-02-16T09:25:14.261] [INFO] lib.InternalService - [POST] http://api.kitapeduli.org:8445/api/internal/node/list - data: {"limit":0,"label":"Test","skip":0,"propertyFilter":{},"propertySort":{}}
+[2022-02-16T09:25:25.526] [INFO] app - [POST] /layout/post
+[2022-02-16T09:25:25.527] [DEBUG] lib.InternalService - [POST] /internal/node
+[2022-02-16T09:25:25.718] [INFO] app - [GET] /layout/130442
+[2022-02-16T09:25:25.719] [INFO] lib.InternalService - [POST] http://api.kitapeduli.org:8445/api/internal/node/list - data: {"label":"Test","skip":0,"limit":1,"propertyFilter":{"_id":"130442"}}
+[2022-02-16T09:25:25.840] [ERROR] app - Error: Failed to lookup view "default/tabInfo" in views directory "/home/damli/Work/PT.  Amal Solution/crud/views"
+    at Function.render (/home/damli/Work/PT.  Amal Solution/crud/node_modules/express/lib/application.js:580:17)
+    at ServerResponse.render (/home/damli/Work/PT.  Amal Solution/crud/node_modules/express/lib/response.js:1008:7)
+    at /home/damli/Work/PT.  Amal Solution/crud/routes/layout.js:129:9
+    at /home/damli/Work/PT.  Amal Solution/crud/lib/InternalService.js:16:7
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  view: View {
+    defaultEngine: 'pug',
+    ext: '.pug',
+    name: 'default/tabInfo',
+    root: '/home/damli/Work/PT.  Amal Solution/crud/views',
+    engine: [Function (anonymous)],
+    path: undefined
+  },
+  status: 500,
+  path: '/layout/130442',
+  method: 'GET',
+  data: {},
+  isAjax: false
+}
+[2022-02-16T09:25:27.551] [INFO] app - [GET] /layout/data
+[2022-02-16T09:25:27.555] [INFO] lib.InternalService - [POST] http://api.kitapeduli.org:8445/api/internal/node/list - data: {"limit":0,"label":"Test","skip":0,"propertyFilter":{},"propertySort":{}}
+[2022-02-16T09:25:48.600] [INFO] lib.WebService - IDM-API : http://api.kitapeduli.org:9003/api
+[2022-02-16T09:25:48.603] [INFO] lib.WebService - GRAPH-API : http://api.kitapeduli.org:8445/api
+[2022-02-16T09:25:48.604] [INFO] lib.WebService - SPATIAL-API : http://api.kitapeduli.org:8559/api
+[2022-02-16T09:25:48.711] [INFO] www - App is running HTTP service and listening on port 19011
+[2022-02-16T09:26:36.529] [INFO] app - [GET] /layout/130442
+[2022-02-16T09:26:36.533] [INFO] lib.InternalService - [POST] http://api.kitapeduli.org:8445/api/internal/node/list - data: {"label":"Test","skip":0,"limit":1,"propertyFilter":{"_id":"130442"}}
+[2022-02-16T09:26:37.005] [ERROR] app - Error: Failed to lookup view "default/tabInfo" in views directory "/home/damli/Work/PT.  Amal Solution/crud/views"
+    at Function.render (/home/damli/Work/PT.  Amal Solution/crud/node_modules/express/lib/application.js:580:17)
+    at ServerResponse.render (/home/damli/Work/PT.  Amal Solution/crud/node_modules/express/lib/response.js:1008:7)
+    at /home/damli/Work/PT.  Amal Solution/crud/routes/layout.js:129:9
+    at /home/damli/Work/PT.  Amal Solution/crud/lib/InternalService.js:16:7
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  view: View {
+    defaultEngine: 'pug',
+    ext: '.pug',
+    name: 'default/tabInfo',
+    root: '/home/damli/Work/PT.  Amal Solution/crud/views',
+    engine: [Function (anonymous)],
+    path: undefined
+  },
+  status: 500,
+  path: '/layout/130442',
+  method: 'GET',
+  data: {},
+  isAjax: false
+}
+[2022-02-16T09:26:39.260] [INFO] app - [GET] /layout/data
+[2022-02-16T09:26:39.265] [INFO] lib.InternalService - [POST] http://api.kitapeduli.org:8445/api/internal/node/list - data: {"limit":0,"label":"Test","skip":0,"propertyFilter":{},"propertySort":{}}
+[2022-02-16T09:27:40.028] [INFO] app - [GET] /layout/130442
+[2022-02-16T09:27:40.030] [INFO] lib.InternalService - [POST] http://api.kitapeduli.org:8445/api/internal/node/list - data: {"label":"Test","skip":0,"limit":1,"propertyFilter":{"_id":"130442"}}
+[2022-02-16T09:27:40.457] [ERROR] app - Error: Failed to lookup view "default/tabInfo" in views directory "/home/damli/Work/PT.  Amal Solution/crud/views"
+    at Function.render (/home/damli/Work/PT.  Amal Solution/crud/node_modules/express/lib/application.js:580:17)
+    at ServerResponse.render (/home/damli/Work/PT.  Amal Solution/crud/node_modules/express/lib/response.js:1008:7)
+    at /home/damli/Work/PT.  Amal Solution/crud/routes/layout.js:129:9
+    at /home/damli/Work/PT.  Amal Solution/crud/lib/InternalService.js:16:7
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  view: View {
+    defaultEngine: 'pug',
+    ext: '.pug',
+    name: 'default/tabInfo',
+    root: '/home/damli/Work/PT.  Amal Solution/crud/views',
+    engine: [Function (anonymous)],
+    path: undefined
+  },
+  status: 500,
+  path: '/layout/130442',
+  method: 'GET',
+  data: {},
+  isAjax: false
+}
+[2022-02-16T09:27:42.811] [INFO] app - [GET] /layout/data
+[2022-02-16T09:27:42.813] [INFO] lib.InternalService - [POST] http://api.kitapeduli.org:8445/api/internal/node/list - data: {"limit":0,"label":"Test","skip":0,"propertyFilter":{},"propertySort":{}}
+[2022-02-16T09:28:00.702] [INFO] app - [GET] /layout/130442
+[2022-02-16T09:28:00.703] [INFO] lib.InternalService - [POST] http://api.kitapeduli.org:8445/api/internal/node/list - data: {"label":"Test","skip":0,"limit":1,"propertyFilter":{"_id":"130442"}}
+[2022-02-16T09:28:00.793] [ERROR] app - Error: Failed to lookup view "default/tabInfo" in views directory "/home/damli/Work/PT.  Amal Solution/crud/views"
+    at Function.render (/home/damli/Work/PT.  Amal Solution/crud/node_modules/express/lib/application.js:580:17)
+    at ServerResponse.render (/home/damli/Work/PT.  Amal Solution/crud/node_modules/express/lib/response.js:1008:7)
+    at /home/damli/Work/PT.  Amal Solution/crud/routes/layout.js:129:9
+    at /home/damli/Work/PT.  Amal Solution/crud/lib/InternalService.js:16:7
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  view: View {
+    defaultEngine: 'pug',
+    ext: '.pug',
+    name: 'default/tabInfo',
+    root: '/home/damli/Work/PT.  Amal Solution/crud/views',
+    engine: [Function (anonymous)],
+    path: undefined
+  },
+  status: 500,
+  path: '/layout/130442',
+  method: 'GET',
+  data: {},
+  isAjax: false
+}
+[2022-02-16T09:28:03.366] [INFO] app - [GET] /layout/data
+[2022-02-16T09:28:03.370] [INFO] lib.InternalService - [POST] http://api.kitapeduli.org:8445/api/internal/node/list - data: {"limit":0,"label":"Test","skip":0,"propertyFilter":{},"propertySort":{}}
+[2022-02-16T09:51:27.571] [INFO] app - [GET] /layout/130442
+[2022-02-16T09:51:27.573] [INFO] lib.InternalService - [POST] http://api.kitapeduli.org:8445/api/internal/node/list - data: {"label":"Test","skip":0,"limit":1,"propertyFilter":{"_id":"130442"}}
+[2022-02-16T09:51:27.880] [ERROR] app - Error: Failed to lookup view "default/tabInfo" in views directory "/home/damli/Work/PT.  Amal Solution/crud/views"
+    at Function.render (/home/damli/Work/PT.  Amal Solution/crud/node_modules/express/lib/application.js:580:17)
+    at ServerResponse.render (/home/damli/Work/PT.  Amal Solution/crud/node_modules/express/lib/response.js:1008:7)
+    at /home/damli/Work/PT.  Amal Solution/crud/routes/layout.js:129:9
+    at /home/damli/Work/PT.  Amal Solution/crud/lib/InternalService.js:16:7
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  view: View {
+    defaultEngine: 'pug',
+    ext: '.pug',
+    name: 'default/tabInfo',
+    root: '/home/damli/Work/PT.  Amal Solution/crud/views',
+    engine: [Function (anonymous)],
+    path: undefined
+  },
+  status: 500,
+  path: '/layout/130442',
+  method: 'GET',
+  data: {},
+  isAjax: false
+}
+[2022-02-16T09:51:30.215] [INFO] app - [GET] /layout/data
+[2022-02-16T09:51:30.219] [INFO] lib.InternalService - [POST] http://api.kitapeduli.org:8445/api/internal/node/list - data: {"limit":0,"label":"Test","skip":0,"propertyFilter":{},"propertySort":{}}
+[2022-02-16T09:52:13.940] [INFO] app - [POST] /layout/post
+[2022-02-16T09:52:13.941] [DEBUG] lib.InternalService - [POST] /internal/node
+[2022-02-16T09:52:14.188] [INFO] app - [GET] /layout/130442
+[2022-02-16T09:52:14.191] [INFO] lib.InternalService - [POST] http://api.kitapeduli.org:8445/api/internal/node/list - data: {"label":"Test","skip":0,"limit":1,"propertyFilter":{"_id":"130442"}}
+[2022-02-16T09:52:14.288] [ERROR] app - Error: Failed to lookup view "default/tabInfo" in views directory "/home/damli/Work/PT.  Amal Solution/crud/views"
+    at Function.render (/home/damli/Work/PT.  Amal Solution/crud/node_modules/express/lib/application.js:580:17)
+    at ServerResponse.render (/home/damli/Work/PT.  Amal Solution/crud/node_modules/express/lib/response.js:1008:7)
+    at /home/damli/Work/PT.  Amal Solution/crud/routes/layout.js:129:9
+    at /home/damli/Work/PT.  Amal Solution/crud/lib/InternalService.js:16:7
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  view: View {
+    defaultEngine: 'pug',
+    ext: '.pug',
+    name: 'default/tabInfo',
+    root: '/home/damli/Work/PT.  Amal Solution/crud/views',
+    engine: [Function (anonymous)],
+    path: undefined
+  },
+  status: 500,
+  path: '/layout/130442',
+  method: 'GET',
+  data: {},
+  isAjax: false
+}
+[2022-02-16T09:52:16.834] [INFO] app - [GET] /layout/data
+[2022-02-16T09:52:16.837] [INFO] lib.InternalService - [POST] http://api.kitapeduli.org:8445/api/internal/node/list - data: {"limit":0,"label":"Test","skip":0,"propertyFilter":{},"propertySort":{}}
+[2022-02-16T09:52:33.166] [INFO] app - [GET] /layout/130484
+[2022-02-16T09:52:33.167] [INFO] lib.InternalService - [POST] http://api.kitapeduli.org:8445/api/internal/node/list - data: {"label":"Test","skip":0,"limit":1,"propertyFilter":{"_id":"130484"}}
+[2022-02-16T09:52:33.416] [ERROR] app - Error: Failed to lookup view "default/tabInfo" in views directory "/home/damli/Work/PT.  Amal Solution/crud/views"
+    at Function.render (/home/damli/Work/PT.  Amal Solution/crud/node_modules/express/lib/application.js:580:17)
+    at ServerResponse.render (/home/damli/Work/PT.  Amal Solution/crud/node_modules/express/lib/response.js:1008:7)
+    at /home/damli/Work/PT.  Amal Solution/crud/routes/layout.js:129:9
+    at /home/damli/Work/PT.  Amal Solution/crud/lib/InternalService.js:16:7
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  view: View {
+    defaultEngine: 'pug',
+    ext: '.pug',
+    name: 'default/tabInfo',
+    root: '/home/damli/Work/PT.  Amal Solution/crud/views',
+    engine: [Function (anonymous)],
+    path: undefined
+  },
+  status: 500,
+  path: '/layout/130484',
+  method: 'GET',
+  data: {},
+  isAjax: false
+}
+[2022-02-16T09:52:34.964] [INFO] app - [GET] /layout/data
+[2022-02-16T09:52:34.965] [INFO] lib.InternalService - [POST] http://api.kitapeduli.org:8445/api/internal/node/list - data: {"limit":0,"label":"Test","skip":0,"propertyFilter":{},"propertySort":{}}
+[2022-02-16T09:53:43.951] [INFO] app - [GET] /
+[2022-02-16T09:53:44.056] [ERROR] app - Error: /home/damli/Work/PT.  Amal Solution/crud/views/layout/navbar.pug:1:1
+
+Only named blocks and mixins can appear at the top level of an extending template
+    at makeError (/home/damli/Work/PT.  Amal Solution/crud/node_modules/pug-error/index.js:34:13)
+    at error (/home/damli/Work/PT.  Amal Solution/crud/node_modules/pug-linker/index.js:7:30)
+    at addNode (/home/damli/Work/PT.  Amal Solution/crud/node_modules/pug-linker/index.js:37:9)
+    at Array.forEach (<anonymous>)
+    at addNode (/home/damli/Work/PT.  Amal Solution/crud/node_modules/pug-linker/index.js:33:20)
+    at Array.forEach (<anonymous>)
+    at link (/home/damli/Work/PT.  Amal Solution/crud/node_modules/pug-linker/index.js:29:15)
+    at compileBody (/home/damli/Work/PT.  Amal Solution/crud/node_modules/pug/lib/index.js:194:9)
+    at Object.exports.compile (/home/damli/Work/PT.  Amal Solution/crud/node_modules/pug/lib/index.js:269:16)
+    at handleTemplateCache (/home/damli/Work/PT.  Amal Solution/crud/node_modules/pug/lib/index.js:242:25) {
+  code: 'PUG:UNEXPECTED_NODES_IN_EXTENDING_ROOT',
+  msg: 'Only named blocks and mixins can appear at the top level of an extending template',
+  line: 1,
+  column: 1,
+  filename: '/home/damli/Work/PT.  Amal Solution/crud/views/layout/navbar.pug',
+  src: undefined,
+  toJSON: [Function (anonymous)],
+  status: 500,
+  path: '/',
+  method: 'GET',
+  data: {},
+  isAjax: false
+}
+[2022-02-16T09:53:46.477] [INFO] app - [GET] /layout/data
+[2022-02-16T09:53:46.479] [INFO] lib.InternalService - [POST] http://api.kitapeduli.org:8445/api/internal/node/list - data: {"limit":0,"label":"Test","skip":0,"propertyFilter":{},"propertySort":{}}
+[2022-02-16T09:54:39.553] [INFO] lib.WebService - IDM-API : http://api.kitapeduli.org:9003/api
+[2022-02-16T09:54:39.556] [INFO] lib.WebService - GRAPH-API : http://api.kitapeduli.org:8445/api
+[2022-02-16T09:54:39.556] [INFO] lib.WebService - SPATIAL-API : http://api.kitapeduli.org:8559/api
+[2022-02-16T09:54:39.671] [INFO] www - App is running HTTP service and listening on port 19011
+[2022-02-16T09:55:22.436] [INFO] app - [GET] /
+[2022-02-16T09:55:22.945] [ERROR] app - Error: /home/damli/Work/PT.  Amal Solution/crud/views/layout/navbar.pug:1:1
+
+Only named blocks and mixins can appear at the top level of an extending template
+    at makeError (/home/damli/Work/PT.  Amal Solution/crud/node_modules/pug-error/index.js:34:13)
+    at error (/home/damli/Work/PT.  Amal Solution/crud/node_modules/pug-linker/index.js:7:30)
+    at addNode (/home/damli/Work/PT.  Amal Solution/crud/node_modules/pug-linker/index.js:37:9)
+    at Array.forEach (<anonymous>)
+    at addNode (/home/damli/Work/PT.  Amal Solution/crud/node_modules/pug-linker/index.js:33:20)
+    at Array.forEach (<anonymous>)
+    at link (/home/damli/Work/PT.  Amal Solution/crud/node_modules/pug-linker/index.js:29:15)
+    at compileBody (/home/damli/Work/PT.  Amal Solution/crud/node_modules/pug/lib/index.js:194:9)
+    at Object.exports.compile (/home/damli/Work/PT.  Amal Solution/crud/node_modules/pug/lib/index.js:269:16)
+    at handleTemplateCache (/home/damli/Work/PT.  Amal Solution/crud/node_modules/pug/lib/index.js:242:25) {
+  code: 'PUG:UNEXPECTED_NODES_IN_EXTENDING_ROOT',
+  msg: 'Only named blocks and mixins can appear at the top level of an extending template',
+  line: 1,
+  column: 1,
+  filename: '/home/damli/Work/PT.  Amal Solution/crud/views/layout/navbar.pug',
+  src: undefined,
+  toJSON: [Function (anonymous)],
+  status: 500,
+  path: '/',
+  method: 'GET',
+  data: {},
+  isAjax: false
+}
+[2022-02-16T09:55:25.726] [INFO] app - [GET] /layout/data
+[2022-02-16T09:55:25.732] [INFO] lib.InternalService - [POST] http://api.kitapeduli.org:8445/api/internal/node/list - data: {"limit":0,"label":"Test","skip":0,"propertyFilter":{},"propertySort":{}}
+[2022-02-16T09:55:37.074] [INFO] lib.WebService - IDM-API : http://api.kitapeduli.org:9003/api
+[2022-02-16T09:55:37.077] [INFO] lib.WebService - GRAPH-API : http://api.kitapeduli.org:8445/api
+[2022-02-16T09:55:37.078] [INFO] lib.WebService - SPATIAL-API : http://api.kitapeduli.org:8559/api
+[2022-02-16T09:55:37.209] [INFO] www - App is running HTTP service and listening on port 19011
+[2022-02-16T09:55:38.875] [INFO] app - [GET] /
+[2022-02-16T09:55:39.262] [ERROR] app - Error: /home/damli/Work/PT.  Amal Solution/crud/views/layout/navbar.pug:1:1
+
+Only named blocks and mixins can appear at the top level of an extending template
+    at makeError (/home/damli/Work/PT.  Amal Solution/crud/node_modules/pug-error/index.js:34:13)
+    at error (/home/damli/Work/PT.  Amal Solution/crud/node_modules/pug-linker/index.js:7:30)
+    at addNode (/home/damli/Work/PT.  Amal Solution/crud/node_modules/pug-linker/index.js:37:9)
+    at Array.forEach (<anonymous>)
+    at addNode (/home/damli/Work/PT.  Amal Solution/crud/node_modules/pug-linker/index.js:33:20)
+    at Array.forEach (<anonymous>)
+    at link (/home/damli/Work/PT.  Amal Solution/crud/node_modules/pug-linker/index.js:29:15)
+    at compileBody (/home/damli/Work/PT.  Amal Solution/crud/node_modules/pug/lib/index.js:194:9)
+    at Object.exports.compile (/home/damli/Work/PT.  Amal Solution/crud/node_modules/pug/lib/index.js:269:16)
+    at handleTemplateCache (/home/damli/Work/PT.  Amal Solution/crud/node_modules/pug/lib/index.js:242:25) {
+  code: 'PUG:UNEXPECTED_NODES_IN_EXTENDING_ROOT',
+  msg: 'Only named blocks and mixins can appear at the top level of an extending template',
+  line: 1,
+  column: 1,
+  filename: '/home/damli/Work/PT.  Amal Solution/crud/views/layout/navbar.pug',
+  src: undefined,
+  toJSON: [Function (anonymous)],
+  status: 500,
+  path: '/',
+  method: 'GET',
+  data: {},
+  isAjax: false
+}
+[2022-02-16T09:55:41.223] [INFO] app - [GET] /layout/data
+[2022-02-16T09:55:41.229] [INFO] lib.InternalService - [POST] http://api.kitapeduli.org:8445/api/internal/node/list - data: {"limit":0,"label":"Test","skip":0,"propertyFilter":{},"propertySort":{}}
+[2022-02-16T09:55:44.903] [INFO] app - [GET] /
+[2022-02-16T09:55:44.998] [ERROR] app - Error: /home/damli/Work/PT.  Amal Solution/crud/views/layout/navbar.pug:1:1
+
+Only named blocks and mixins can appear at the top level of an extending template
+    at makeError (/home/damli/Work/PT.  Amal Solution/crud/node_modules/pug-error/index.js:34:13)
+    at error (/home/damli/Work/PT.  Amal Solution/crud/node_modules/pug-linker/index.js:7:30)
+    at addNode (/home/damli/Work/PT.  Amal Solution/crud/node_modules/pug-linker/index.js:37:9)
+    at Array.forEach (<anonymous>)
+    at addNode (/home/damli/Work/PT.  Amal Solution/crud/node_modules/pug-linker/index.js:33:20)
+    at Array.forEach (<anonymous>)
+    at link (/home/damli/Work/PT.  Amal Solution/crud/node_modules/pug-linker/index.js:29:15)
+    at compileBody (/home/damli/Work/PT.  Amal Solution/crud/node_modules/pug/lib/index.js:194:9)
+    at Object.exports.compile (/home/damli/Work/PT.  Amal Solution/crud/node_modules/pug/lib/index.js:269:16)
+    at handleTemplateCache (/home/damli/Work/PT.  Amal Solution/crud/node_modules/pug/lib/index.js:242:25) {
+  code: 'PUG:UNEXPECTED_NODES_IN_EXTENDING_ROOT',
+  msg: 'Only named blocks and mixins can appear at the top level of an extending template',
+  line: 1,
+  column: 1,
+  filename: '/home/damli/Work/PT.  Amal Solution/crud/views/layout/navbar.pug',
+  src: undefined,
+  toJSON: [Function (anonymous)],
+  status: 500,
+  path: '/',
+  method: 'GET',
+  data: {},
+  isAjax: false
+}
+[2022-02-16T09:55:46.403] [INFO] app - [GET] /layout/data
+[2022-02-16T09:55:46.405] [INFO] lib.InternalService - [POST] http://api.kitapeduli.org:8445/api/internal/node/list - data: {"limit":0,"label":"Test","skip":0,"propertyFilter":{},"propertySort":{}}
+[2022-02-16T09:56:58.709] [INFO] app - [GET] /
+[2022-02-16T09:56:58.844] [ERROR] app - Error: /home/damli/Work/PT.  Amal Solution/crud/views/layout/navbar.pug:1:1
+
+Only named blocks and mixins can appear at the top level of an extending template
+    at makeError (/home/damli/Work/PT.  Amal Solution/crud/node_modules/pug-error/index.js:34:13)
+    at error (/home/damli/Work/PT.  Amal Solution/crud/node_modules/pug-linker/index.js:7:30)
+    at addNode (/home/damli/Work/PT.  Amal Solution/crud/node_modules/pug-linker/index.js:37:9)
+    at Array.forEach (<anonymous>)
+    at addNode (/home/damli/Work/PT.  Amal Solution/crud/node_modules/pug-linker/index.js:33:20)
+    at Array.forEach (<anonymous>)
+    at link (/home/damli/Work/PT.  Amal Solution/crud/node_modules/pug-linker/index.js:29:15)
+    at compileBody (/home/damli/Work/PT.  Amal Solution/crud/node_modules/pug/lib/index.js:194:9)
+    at Object.exports.compile (/home/damli/Work/PT.  Amal Solution/crud/node_modules/pug/lib/index.js:269:16)
+    at handleTemplateCache (/home/damli/Work/PT.  Amal Solution/crud/node_modules/pug/lib/index.js:242:25) {
+  code: 'PUG:UNEXPECTED_NODES_IN_EXTENDING_ROOT',
+  msg: 'Only named blocks and mixins can appear at the top level of an extending template',
+  line: 1,
+  column: 1,
+  filename: '/home/damli/Work/PT.  Amal Solution/crud/views/layout/navbar.pug',
+  src: undefined,
+  toJSON: [Function (anonymous)],
+  status: 500,
+  path: '/',
+  method: 'GET',
+  data: {},
+  isAjax: false
+}
+[2022-02-16T09:57:01.426] [INFO] app - [GET] /layout/data
+[2022-02-16T09:57:01.427] [INFO] lib.InternalService - [POST] http://api.kitapeduli.org:8445/api/internal/node/list - data: {"limit":0,"label":"Test","skip":0,"propertyFilter":{},"propertySort":{}}
+[2022-02-16T09:57:40.370] [INFO] lib.WebService - IDM-API : http://api.kitapeduli.org:9003/api
+[2022-02-16T09:57:40.373] [INFO] lib.WebService - GRAPH-API : http://api.kitapeduli.org:8445/api
+[2022-02-16T09:57:40.373] [INFO] lib.WebService - SPATIAL-API : http://api.kitapeduli.org:8559/api
+[2022-02-16T09:57:40.482] [INFO] www - App is running HTTP service and listening on port 19011
+[2022-02-16T09:57:44.779] [INFO] app - [GET] /
+[2022-02-16T09:57:45.231] [ERROR] app - Error: /home/damli/Work/PT.  Amal Solution/crud/views/layout/navbar.pug:1:1
+
+Only named blocks and mixins can appear at the top level of an extending template
+    at makeError (/home/damli/Work/PT.  Amal Solution/crud/node_modules/pug-error/index.js:34:13)
+    at error (/home/damli/Work/PT.  Amal Solution/crud/node_modules/pug-linker/index.js:7:30)
+    at addNode (/home/damli/Work/PT.  Amal Solution/crud/node_modules/pug-linker/index.js:37:9)
+    at Array.forEach (<anonymous>)
+    at addNode (/home/damli/Work/PT.  Amal Solution/crud/node_modules/pug-linker/index.js:33:20)
+    at Array.forEach (<anonymous>)
+    at link (/home/damli/Work/PT.  Amal Solution/crud/node_modules/pug-linker/index.js:29:15)
+    at compileBody (/home/damli/Work/PT.  Amal Solution/crud/node_modules/pug/lib/index.js:194:9)
+    at Object.exports.compile (/home/damli/Work/PT.  Amal Solution/crud/node_modules/pug/lib/index.js:269:16)
+    at handleTemplateCache (/home/damli/Work/PT.  Amal Solution/crud/node_modules/pug/lib/index.js:242:25) {
+  code: 'PUG:UNEXPECTED_NODES_IN_EXTENDING_ROOT',
+  msg: 'Only named blocks and mixins can appear at the top level of an extending template',
+  line: 1,
+  column: 1,
+  filename: '/home/damli/Work/PT.  Amal Solution/crud/views/layout/navbar.pug',
+  src: undefined,
+  toJSON: [Function (anonymous)],
+  status: 500,
+  path: '/',
+  method: 'GET',
+  data: {},
+  isAjax: false
+}
+[2022-02-16T09:57:47.737] [INFO] app - [GET] /layout/data
+[2022-02-16T09:57:47.743] [INFO] lib.InternalService - [POST] http://api.kitapeduli.org:8445/api/internal/node/list - data: {"limit":0,"label":"Test","skip":0,"propertyFilter":{},"propertySort":{}}
+[2022-02-16T09:58:32.274] [INFO] lib.WebService - IDM-API : http://api.kitapeduli.org:9003/api
+[2022-02-16T09:58:32.277] [INFO] lib.WebService - GRAPH-API : http://api.kitapeduli.org:8445/api
+[2022-02-16T09:58:32.277] [INFO] lib.WebService - SPATIAL-API : http://api.kitapeduli.org:8559/api
+[2022-02-16T09:58:32.394] [INFO] www - App is running HTTP service and listening on port 19011
+[2022-02-16T09:58:35.320] [INFO] app - [GET] /
+[2022-02-16T09:58:35.731] [ERROR] app - Error: /home/damli/Work/PT.  Amal Solution/crud/views/layout/navbar.pug:1:1
+
+Only named blocks and mixins can appear at the top level of an extending template
+    at makeError (/home/damli/Work/PT.  Amal Solution/crud/node_modules/pug-error/index.js:34:13)
+    at error (/home/damli/Work/PT.  Amal Solution/crud/node_modules/pug-linker/index.js:7:30)
+    at addNode (/home/damli/Work/PT.  Amal Solution/crud/node_modules/pug-linker/index.js:37:9)
+    at Array.forEach (<anonymous>)
+    at addNode (/home/damli/Work/PT.  Amal Solution/crud/node_modules/pug-linker/index.js:33:20)
+    at Array.forEach (<anonymous>)
+    at link (/home/damli/Work/PT.  Amal Solution/crud/node_modules/pug-linker/index.js:29:15)
+    at compileBody (/home/damli/Work/PT.  Amal Solution/crud/node_modules/pug/lib/index.js:194:9)
+    at Object.exports.compile (/home/damli/Work/PT.  Amal Solution/crud/node_modules/pug/lib/index.js:269:16)
+    at handleTemplateCache (/home/damli/Work/PT.  Amal Solution/crud/node_modules/pug/lib/index.js:242:25) {
+  code: 'PUG:UNEXPECTED_NODES_IN_EXTENDING_ROOT',
+  msg: 'Only named blocks and mixins can appear at the top level of an extending template',
+  line: 1,
+  column: 1,
+  filename: '/home/damli/Work/PT.  Amal Solution/crud/views/layout/navbar.pug',
+  src: undefined,
+  toJSON: [Function (anonymous)],
+  status: 500,
+  path: '/',
+  method: 'GET',
+  data: {},
+  isAjax: false
+}
+[2022-02-16T09:58:37.913] [INFO] app - [GET] /layout/data
+[2022-02-16T09:58:37.917] [INFO] lib.InternalService - [POST] http://api.kitapeduli.org:8445/api/internal/node/list - data: {"limit":0,"label":"Test","skip":0,"propertyFilter":{},"propertySort":{}}
+[2022-02-16T10:00:39.698] [INFO] lib.WebService - IDM-API : http://api.kitapeduli.org:9003/api
+[2022-02-16T10:00:39.702] [INFO] lib.WebService - GRAPH-API : http://api.kitapeduli.org:8445/api
+[2022-02-16T10:00:39.703] [INFO] lib.WebService - SPATIAL-API : http://api.kitapeduli.org:8559/api
+[2022-02-16T10:00:39.874] [INFO] www - App is running HTTP service and listening on port 19011
+[2022-02-16T10:00:40.920] [INFO] app - [GET] /
+[2022-02-16T10:00:41.313] [ERROR] app - Error: /home/damli/Work/PT.  Amal Solution/crud/views/layout/navbar.pug:1:1
+
+Only named blocks and mixins can appear at the top level of an extending template
+    at makeError (/home/damli/Work/PT.  Amal Solution/crud/node_modules/pug-error/index.js:34:13)
+    at error (/home/damli/Work/PT.  Amal Solution/crud/node_modules/pug-linker/index.js:7:30)
+    at addNode (/home/damli/Work/PT.  Amal Solution/crud/node_modules/pug-linker/index.js:37:9)
+    at Array.forEach (<anonymous>)
+    at addNode (/home/damli/Work/PT.  Amal Solution/crud/node_modules/pug-linker/index.js:33:20)
+    at Array.forEach (<anonymous>)
+    at link (/home/damli/Work/PT.  Amal Solution/crud/node_modules/pug-linker/index.js:29:15)
+    at compileBody (/home/damli/Work/PT.  Amal Solution/crud/node_modules/pug/lib/index.js:194:9)
+    at Object.exports.compile (/home/damli/Work/PT.  Amal Solution/crud/node_modules/pug/lib/index.js:269:16)
+    at handleTemplateCache (/home/damli/Work/PT.  Amal Solution/crud/node_modules/pug/lib/index.js:242:25) {
+  code: 'PUG:UNEXPECTED_NODES_IN_EXTENDING_ROOT',
+  msg: 'Only named blocks and mixins can appear at the top level of an extending template',
+  line: 1,
+  column: 1,
+  filename: '/home/damli/Work/PT.  Amal Solution/crud/views/layout/navbar.pug',
+  src: undefined,
+  toJSON: [Function (anonymous)],
+  status: 500,
+  path: '/',
+  method: 'GET',
+  data: {},
+  isAjax: false
+}
+[2022-02-16T10:00:44.097] [INFO] app - [GET] /layout/data
+[2022-02-16T10:00:44.103] [INFO] lib.InternalService - [POST] http://api.kitapeduli.org:8445/api/internal/node/list - data: {"limit":0,"label":"Test","skip":0,"propertyFilter":{},"propertySort":{}}
+[2022-02-16T10:04:07.299] [INFO] lib.WebService - IDM-API : http://api.kitapeduli.org:9003/api
+[2022-02-16T10:04:07.302] [INFO] lib.WebService - GRAPH-API : http://api.kitapeduli.org:8445/api
+[2022-02-16T10:04:07.302] [INFO] lib.WebService - SPATIAL-API : http://api.kitapeduli.org:8559/api
+[2022-02-16T10:04:07.408] [INFO] www - App is running HTTP service and listening on port 19011
+[2022-02-16T11:12:38.701] [INFO] lib.WebService - IDM-API : http://api.kitapeduli.org:9003/api
+[2022-02-16T11:12:38.704] [INFO] lib.WebService - GRAPH-API : http://api.kitapeduli.org:8445/api
+[2022-02-16T11:12:38.704] [INFO] lib.WebService - SPATIAL-API : http://api.kitapeduli.org:8559/api
+[2022-02-16T11:12:38.813] [INFO] www - App is running HTTP service and listening on port 19011
+[2022-02-16T11:12:43.167] [INFO] app - [GET] /
+[2022-02-16T11:12:43.576] [ERROR] app - Error: /home/damli/Work/PT.  Amal Solution/crud/views/layout/navbar.pug:1:1
+
+Only named blocks and mixins can appear at the top level of an extending template
+    at makeError (/home/damli/Work/PT.  Amal Solution/crud/node_modules/pug-error/index.js:34:13)
+    at error (/home/damli/Work/PT.  Amal Solution/crud/node_modules/pug-linker/index.js:7:30)
+    at addNode (/home/damli/Work/PT.  Amal Solution/crud/node_modules/pug-linker/index.js:37:9)
+    at Array.forEach (<anonymous>)
+    at addNode (/home/damli/Work/PT.  Amal Solution/crud/node_modules/pug-linker/index.js:33:20)
+    at Array.forEach (<anonymous>)
+    at link (/home/damli/Work/PT.  Amal Solution/crud/node_modules/pug-linker/index.js:29:15)
+    at compileBody (/home/damli/Work/PT.  Amal Solution/crud/node_modules/pug/lib/index.js:194:9)
+    at Object.exports.compile (/home/damli/Work/PT.  Amal Solution/crud/node_modules/pug/lib/index.js:269:16)
+    at handleTemplateCache (/home/damli/Work/PT.  Amal Solution/crud/node_modules/pug/lib/index.js:242:25) {
+  code: 'PUG:UNEXPECTED_NODES_IN_EXTENDING_ROOT',
+  msg: 'Only named blocks and mixins can appear at the top level of an extending template',
+  line: 1,
+  column: 1,
+  filename: '/home/damli/Work/PT.  Amal Solution/crud/views/layout/navbar.pug',
+  src: undefined,
+  toJSON: [Function (anonymous)],
+  status: 500,
+  path: '/',
+  method: 'GET',
+  data: {},
+  isAjax: false
+}
+[2022-02-16T11:12:46.266] [INFO] app - [GET] /layout/data
+[2022-02-16T11:12:46.272] [INFO] lib.InternalService - [POST] http://api.kitapeduli.org:8445/api/internal/node/list - data: {"limit":0,"label":"Test","skip":0,"propertyFilter":{},"propertySort":{}}
+[2022-02-16T11:17:43.907] [INFO] app - [GET] /
+[2022-02-16T11:17:44.062] [ERROR] app - Error: /home/damli/Work/PT.  Amal Solution/crud/views/layout/navbar.pug:1:1
+
+Only named blocks and mixins can appear at the top level of an extending template
+    at makeError (/home/damli/Work/PT.  Amal Solution/crud/node_modules/pug-error/index.js:34:13)
+    at error (/home/damli/Work/PT.  Amal Solution/crud/node_modules/pug-linker/index.js:7:30)
+    at addNode (/home/damli/Work/PT.  Amal Solution/crud/node_modules/pug-linker/index.js:37:9)
+    at Array.forEach (<anonymous>)
+    at addNode (/home/damli/Work/PT.  Amal Solution/crud/node_modules/pug-linker/index.js:33:20)
+    at Array.forEach (<anonymous>)
+    at link (/home/damli/Work/PT.  Amal Solution/crud/node_modules/pug-linker/index.js:29:15)
+    at compileBody (/home/damli/Work/PT.  Amal Solution/crud/node_modules/pug/lib/index.js:194:9)
+    at Object.exports.compile (/home/damli/Work/PT.  Amal Solution/crud/node_modules/pug/lib/index.js:269:16)
+    at handleTemplateCache (/home/damli/Work/PT.  Amal Solution/crud/node_modules/pug/lib/index.js:242:25) {
+  code: 'PUG:UNEXPECTED_NODES_IN_EXTENDING_ROOT',
+  msg: 'Only named blocks and mixins can appear at the top level of an extending template',
+  line: 1,
+  column: 1,
+  filename: '/home/damli/Work/PT.  Amal Solution/crud/views/layout/navbar.pug',
+  src: undefined,
+  toJSON: [Function (anonymous)],
+  status: 500,
+  path: '/',
+  method: 'GET',
+  data: {},
+  isAjax: false
+}
+[2022-02-16T11:17:46.914] [INFO] app - [GET] /layout/data
+[2022-02-16T11:17:46.916] [INFO] lib.InternalService - [POST] http://api.kitapeduli.org:8445/api/internal/node/list - data: {"limit":0,"label":"Test","skip":0,"propertyFilter":{},"propertySort":{}}
+[2022-02-16T11:19:00.827] [INFO] lib.WebService - IDM-API : http://api.kitapeduli.org:9003/api
+[2022-02-16T11:19:00.831] [INFO] lib.WebService - GRAPH-API : http://api.kitapeduli.org:8445/api
+[2022-02-16T11:19:00.832] [INFO] lib.WebService - SPATIAL-API : http://api.kitapeduli.org:8559/api
+[2022-02-16T11:19:00.961] [INFO] www - App is running HTTP service and listening on port 19011
+[2022-02-16T11:19:02.190] [INFO] app - [GET] /
+[2022-02-16T11:19:02.198] [ERROR] app - {
+  status: 404,
+  message: 'Page Not Found: /',
+  path: '/',
+  method: 'GET',
+  data: {},
+  isAjax: false
+}
+[2022-02-16T11:19:05.057] [INFO] app - [GET] /layout/data
+[2022-02-16T11:19:05.063] [INFO] lib.InternalService - [POST] http://api.kitapeduli.org:8445/api/internal/node/list - data: {"limit":0,"label":"Test","skip":0,"propertyFilter":{},"propertySort":{}}
+[2022-02-16T11:20:18.994] [INFO] lib.WebService - IDM-API : http://api.kitapeduli.org:9003/api
+[2022-02-16T11:20:18.997] [INFO] lib.WebService - GRAPH-API : http://api.kitapeduli.org:8445/api
+[2022-02-16T11:20:18.997] [INFO] lib.WebService - SPATIAL-API : http://api.kitapeduli.org:8559/api
+[2022-02-16T11:20:19.131] [INFO] www - App is running HTTP service and listening on port 19011
+[2022-02-16T11:20:19.297] [INFO] app - [GET] /
+[2022-02-16T11:20:19.301] [ERROR] app - {
+  status: 404,
+  message: 'Page Not Found: /',
+  path: '/',
+  method: 'GET',
+  data: {},
+  isAjax: false
+}
+[2022-02-16T11:20:22.083] [INFO] app - [GET] /layout/data
+[2022-02-16T11:20:22.087] [INFO] lib.InternalService - [POST] http://api.kitapeduli.org:8445/api/internal/node/list - data: {"limit":0,"label":"Test","skip":0,"propertyFilter":{},"propertySort":{}}
+[2022-02-16T11:21:05.136] [INFO] lib.WebService - IDM-API : http://api.kitapeduli.org:9003/api
+[2022-02-16T11:21:05.139] [INFO] lib.WebService - GRAPH-API : http://api.kitapeduli.org:8445/api
+[2022-02-16T11:21:05.139] [INFO] lib.WebService - SPATIAL-API : http://api.kitapeduli.org:8559/api
+[2022-02-16T11:21:05.252] [INFO] www - App is running HTTP service and listening on port 19011
+[2022-02-16T11:21:09.611] [INFO] app - [GET] /class
+[2022-02-16T11:21:09.882] [ERROR] app - Error: Failed to lookup view "class" in views directory "/home/damli/Work/PT.  Amal Solution/crud/views"
+    at Function.render (/home/damli/Work/PT.  Amal Solution/crud/node_modules/express/lib/application.js:580:17)
+    at ServerResponse.render (/home/damli/Work/PT.  Amal Solution/crud/node_modules/express/lib/response.js:1008:7)
+    at /home/damli/Work/PT.  Amal Solution/crud/routes/class.js:134:7
+    at Layer.handle [as handle_request] (/home/damli/Work/PT.  Amal Solution/crud/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/damli/Work/PT.  Amal Solution/crud/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/damli/Work/PT.  Amal Solution/crud/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/damli/Work/PT.  Amal Solution/crud/node_modules/express/lib/router/layer.js:95:5)
+    at /home/damli/Work/PT.  Amal Solution/crud/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/home/damli/Work/PT.  Amal Solution/crud/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/damli/Work/PT.  Amal Solution/crud/node_modules/express/lib/router/index.js:275:10) {
+  view: View {
+    defaultEngine: 'pug',
+    ext: '.pug',
+    name: 'class',
+    root: '/home/damli/Work/PT.  Amal Solution/crud/views',
+    engine: [Function (anonymous)],
+    path: undefined
+  },
+  status: 500,
+  path: '/class',
+  method: 'GET',
+  data: {},
+  isAjax: false
+}
+[2022-02-16T11:21:12.583] [INFO] app - [GET] /layout/data
+[2022-02-16T11:21:12.589] [INFO] lib.InternalService - [POST] http://api.kitapeduli.org:8445/api/internal/node/list - data: {"limit":0,"label":"Test","skip":0,"propertyFilter":{},"propertySort":{}}
+[2022-02-16T11:31:24.472] [INFO] lib.WebService - IDM-API : http://api.kitapeduli.org:9003/api
+[2022-02-16T11:31:24.475] [INFO] lib.WebService - GRAPH-API : http://api.kitapeduli.org:8445/api
+[2022-02-16T11:31:24.475] [INFO] lib.WebService - SPATIAL-API : http://api.kitapeduli.org:8559/api
+[2022-02-16T11:31:24.648] [INFO] www - App is running HTTP service and listening on port 19011
+[2022-02-16T11:32:59.412] [INFO] lib.WebService - IDM-API : http://api.kitapeduli.org:9003/api
+[2022-02-16T11:32:59.415] [INFO] lib.WebService - GRAPH-API : http://api.kitapeduli.org:8445/api
+[2022-02-16T11:32:59.415] [INFO] lib.WebService - SPATIAL-API : http://api.kitapeduli.org:8559/api
+[2022-02-16T11:32:59.530] [INFO] www - App is running HTTP service and listening on port 19011
+[2022-02-16T11:33:05.374] [INFO] lib.WebService - IDM-API : http://api.kitapeduli.org:9003/api
+[2022-02-16T11:33:05.380] [INFO] lib.WebService - GRAPH-API : http://api.kitapeduli.org:8445/api
+[2022-02-16T11:33:05.380] [INFO] lib.WebService - SPATIAL-API : http://api.kitapeduli.org:8559/api
+[2022-02-16T11:33:05.527] [INFO] www - App is running HTTP service and listening on port 19011
+[2022-02-16T11:33:09.689] [INFO] app - [GET] /class
+[2022-02-16T11:33:09.985] [ERROR] app - Error: Failed to lookup view "class" in views directory "/home/damli/Work/PT.  Amal Solution/crud/views"
+    at Function.render (/home/damli/Work/PT.  Amal Solution/crud/node_modules/express/lib/application.js:580:17)
+    at ServerResponse.render (/home/damli/Work/PT.  Amal Solution/crud/node_modules/express/lib/response.js:1008:7)
+    at /home/damli/Work/PT.  Amal Solution/crud/routes/class.js:135:7
+    at Layer.handle [as handle_request] (/home/damli/Work/PT.  Amal Solution/crud/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/damli/Work/PT.  Amal Solution/crud/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/damli/Work/PT.  Amal Solution/crud/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/damli/Work/PT.  Amal Solution/crud/node_modules/express/lib/router/layer.js:95:5)
+    at /home/damli/Work/PT.  Amal Solution/crud/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/home/damli/Work/PT.  Amal Solution/crud/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/damli/Work/PT.  Amal Solution/crud/node_modules/express/lib/router/index.js:275:10) {
+  view: View {
+    defaultEngine: 'pug',
+    ext: '.pug',
+    name: 'class',
+    root: '/home/damli/Work/PT.  Amal Solution/crud/views',
+    engine: [Function (anonymous)],
+    path: undefined
+  },
+  status: 500,
+  path: '/class',
+  method: 'GET',
+  data: {},
+  isAjax: false
+}
+[2022-02-16T11:33:12.636] [INFO] app - [GET] /layout/data
+[2022-02-16T11:33:12.639] [INFO] lib.InternalService - [POST] http://api.kitapeduli.org:8445/api/internal/node/list - data: {"limit":0,"label":"Test","skip":0,"propertyFilter":{},"propertySort":{}}
+[2022-02-16T11:33:43.312] [INFO] lib.WebService - IDM-API : http://api.kitapeduli.org:9003/api
+[2022-02-16T11:33:43.315] [INFO] lib.WebService - GRAPH-API : http://api.kitapeduli.org:8445/api
+[2022-02-16T11:33:43.315] [INFO] lib.WebService - SPATIAL-API : http://api.kitapeduli.org:8559/api
+[2022-02-16T11:33:43.424] [INFO] www - App is running HTTP service and listening on port 19011
+[2022-02-16T11:36:32.264] [INFO] app - [GET] /class
+[2022-02-16T11:36:32.579] [ERROR] app - Error: Failed to lookup view "class" in views directory "/home/damli/Work/PT.  Amal Solution/crud/views"
+    at Function.render (/home/damli/Work/PT.  Amal Solution/crud/node_modules/express/lib/application.js:580:17)
+    at ServerResponse.render (/home/damli/Work/PT.  Amal Solution/crud/node_modules/express/lib/response.js:1008:7)
+    at /home/damli/Work/PT.  Amal Solution/crud/routes/class.js:135:7
+    at Layer.handle [as handle_request] (/home/damli/Work/PT.  Amal Solution/crud/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/damli/Work/PT.  Amal Solution/crud/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/damli/Work/PT.  Amal Solution/crud/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/damli/Work/PT.  Amal Solution/crud/node_modules/express/lib/router/layer.js:95:5)
+    at /home/damli/Work/PT.  Amal Solution/crud/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/home/damli/Work/PT.  Amal Solution/crud/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/damli/Work/PT.  Amal Solution/crud/node_modules/express/lib/router/index.js:275:10) {
+  view: View {
+    defaultEngine: 'pug',
+    ext: '.pug',
+    name: 'class',
+    root: '/home/damli/Work/PT.  Amal Solution/crud/views',
+    engine: [Function (anonymous)],
+    path: undefined
+  },
+  status: 500,
+  path: '/class',
+  method: 'GET',
+  data: {},
+  isAjax: false
+}
+[2022-02-16T11:36:35.481] [INFO] app - [GET] /layout/data
+[2022-02-16T11:36:35.485] [INFO] lib.InternalService - [POST] http://api.kitapeduli.org:8445/api/internal/node/list - data: {"limit":0,"label":"Test","skip":0,"propertyFilter":{},"propertySort":{}}
+[2022-02-16T11:41:00.118] [INFO] app - [GET] /class
+[2022-02-16T11:41:02.526] [INFO] app - [GET] /layout/data
+[2022-02-16T11:41:02.528] [INFO] lib.InternalService - [POST] http://api.kitapeduli.org:8445/api/internal/node/list - data: {"limit":0,"label":"Test","skip":0,"propertyFilter":{},"propertySort":{}}
+[2022-02-16T11:48:22.601] [INFO] app - [GET] /class
+[2022-02-16T11:48:22.636] [ERROR] app - [open ENOENT undefined:undefined] {
+  errno: -2,
+  syscall: 'open',
+  code: 'ENOENT',
+  path: '/class',
+  status: 500,
+  method: 'GET',
+  data: {},
+  isAjax: false
+}
+[2022-02-16T11:48:25.329] [INFO] app - [GET] /layout/data
+[2022-02-16T11:48:25.332] [INFO] lib.InternalService - [POST] http://api.kitapeduli.org:8445/api/internal/node/list - data: {"limit":0,"label":"Test","skip":0,"propertyFilter":{},"propertySort":{}}
+[2022-02-16T11:48:32.121] [INFO] app - [GET] /
+[2022-02-16T11:48:32.123] [ERROR] app - {
+  status: 404,
+  message: 'Page Not Found: /',
+  path: '/',
+  method: 'GET',
+  data: {},
+  isAjax: false
+}
+[2022-02-16T11:48:33.684] [INFO] app - [GET] /layout/data
+[2022-02-16T11:48:33.685] [INFO] lib.InternalService - [POST] http://api.kitapeduli.org:8445/api/internal/node/list - data: {"limit":0,"label":"Test","skip":0,"propertyFilter":{},"propertySort":{}}
+[2022-02-16T11:48:38.466] [INFO] app - [GET] /class
+[2022-02-16T11:48:38.492] [ERROR] app - [open ENOENT undefined:undefined] {
+  errno: -2,
+  syscall: 'open',
+  code: 'ENOENT',
+  path: '/class',
+  status: 500,
+  method: 'GET',
+  data: {},
+  isAjax: false
+}
+[2022-02-16T11:48:40.043] [INFO] app - [GET] /layout/data
+[2022-02-16T11:48:40.045] [INFO] lib.InternalService - [POST] http://api.kitapeduli.org:8445/api/internal/node/list - data: {"limit":0,"label":"Test","skip":0,"propertyFilter":{},"propertySort":{}}
+[2022-02-16T11:49:05.714] [INFO] app - [GET] /class
+[2022-02-16T11:49:05.744] [ERROR] app - [open ENOENT undefined:undefined] {
+  errno: -2,
+  syscall: 'open',
+  code: 'ENOENT',
+  path: '/class',
+  status: 500,
+  method: 'GET',
+  data: {},
+  isAjax: false
+}
+[2022-02-16T11:49:08.046] [INFO] app - [GET] /layout/data
+[2022-02-16T11:49:08.047] [INFO] lib.InternalService - [POST] http://api.kitapeduli.org:8445/api/internal/node/list - data: {"limit":0,"label":"Test","skip":0,"propertyFilter":{},"propertySort":{}}
+[2022-02-16T11:50:03.472] [INFO] lib.WebService - IDM-API : http://api.kitapeduli.org:9003/api
+[2022-02-16T11:50:03.475] [INFO] lib.WebService - GRAPH-API : http://api.kitapeduli.org:8445/api
+[2022-02-16T11:50:03.476] [INFO] lib.WebService - SPATIAL-API : http://api.kitapeduli.org:8559/api
+[2022-02-16T11:50:03.592] [INFO] www - App is running HTTP service and listening on port 19011
+[2022-02-16T11:50:50.754] [INFO] lib.WebService - IDM-API : http://api.kitapeduli.org:9003/api
+[2022-02-16T11:50:50.758] [INFO] lib.WebService - GRAPH-API : http://api.kitapeduli.org:8445/api
+[2022-02-16T11:50:50.759] [INFO] lib.WebService - SPATIAL-API : http://api.kitapeduli.org:8559/api
+[2022-02-16T11:50:50.888] [INFO] www - App is running HTTP service and listening on port 19011
+[2022-02-16T11:50:53.484] [INFO] lib.WebService - IDM-API : http://api.kitapeduli.org:9003/api
+[2022-02-16T11:50:53.487] [INFO] lib.WebService - GRAPH-API : http://api.kitapeduli.org:8445/api
+[2022-02-16T11:50:53.488] [INFO] lib.WebService - SPATIAL-API : http://api.kitapeduli.org:8559/api
+[2022-02-16T11:50:53.613] [INFO] www - App is running HTTP service and listening on port 19011
+[2022-02-16T11:50:59.398] [INFO] app - [GET] /class
+[2022-02-16T11:50:59.778] [ERROR] app - [open ENOENT undefined:undefined] {
+  errno: -2,
+  syscall: 'open',
+  code: 'ENOENT',
+  path: '/class',
+  status: 500,
+  method: 'GET',
+  data: {},
+  isAjax: false
+}
+[2022-02-16T11:51:04.956] [INFO] app - [GET] /layout/data
+[2022-02-16T11:51:04.962] [INFO] lib.InternalService - [POST] http://api.kitapeduli.org:8445/api/internal/node/list - data: {"limit":0,"label":"Test","skip":0,"propertyFilter":{},"propertySort":{}}
+[2022-02-16T11:51:12.383] [INFO] app - [GET] /layout
+[2022-02-16T11:51:16.376] [INFO] app - [GET] /layout/data
+[2022-02-16T11:51:16.378] [INFO] lib.InternalService - [POST] http://api.kitapeduli.org:8445/api/internal/node/list - data: {"limit":0,"label":"Test","skip":0,"propertyFilter":{},"propertySort":{}}
+[2022-02-16T11:52:03.968] [INFO] lib.WebService - IDM-API : http://api.kitapeduli.org:9003/api
+[2022-02-16T11:52:03.973] [INFO] lib.WebService - GRAPH-API : http://api.kitapeduli.org:8445/api
+[2022-02-16T11:52:03.974] [INFO] lib.WebService - SPATIAL-API : http://api.kitapeduli.org:8559/api
+[2022-02-16T11:52:04.179] [INFO] www - App is running HTTP service and listening on port 19011
+[2022-02-16T11:52:12.324] [INFO] app - [GET] /
+[2022-02-16T11:52:12.332] [ERROR] app - {
+  status: 404,
+  message: 'Page Not Found: /',
+  path: '/',
+  method: 'GET',
+  data: {},
+  isAjax: false
+}
+[2022-02-16T11:52:17.558] [INFO] app - [GET] /layout/data
+[2022-02-16T11:52:17.563] [INFO] lib.InternalService - [POST] http://api.kitapeduli.org:8445/api/internal/node/list - data: {"limit":0,"label":"Test","skip":0,"propertyFilter":{},"propertySort":{}}
+[2022-02-16T11:52:24.975] [INFO] app - [GET] /layout/130484
+[2022-02-16T11:52:24.978] [INFO] lib.InternalService - [POST] http://api.kitapeduli.org:8445/api/internal/node/list - data: {"label":"Test","skip":0,"limit":1,"propertyFilter":{"_id":"130484"}}
+[2022-02-16T11:52:36.328] [INFO] app - [GET] /layout/130484
+[2022-02-16T11:52:36.329] [INFO] lib.InternalService - [POST] http://api.kitapeduli.org:8445/api/internal/node/list - data: {"label":"Test","skip":0,"limit":1,"propertyFilter":{"_id":"130484"}}
+[2022-02-16T11:52:44.279] [INFO] app - [GET] /
+[2022-02-16T11:52:44.280] [ERROR] app - {
+  status: 404,
+  message: 'Page Not Found: /',
+  path: '/',
+  method: 'GET',
+  data: {},
+  isAjax: false
+}
+[2022-02-16T11:52:47.631] [INFO] app - [GET] /layout/data
+[2022-02-16T11:52:47.632] [INFO] lib.InternalService - [POST] http://api.kitapeduli.org:8445/api/internal/node/list - data: {"limit":0,"label":"Test","skip":0,"propertyFilter":{},"propertySort":{}}
+[2022-02-16T11:52:53.968] [INFO] app - [GET] /layout/130505
+[2022-02-16T11:52:53.969] [INFO] lib.InternalService - [POST] http://api.kitapeduli.org:8445/api/internal/node/list - data: {"label":"Test","skip":0,"limit":1,"propertyFilter":{"_id":"130505"}}
+[2022-02-16T11:54:31.803] [INFO] app - [GET] /class
+[2022-02-16T11:54:31.937] [ERROR] app - [open ENOENT undefined:undefined] {
+  errno: -2,
+  syscall: 'open',
+  code: 'ENOENT',
+  path: '/class',
+  status: 500,
+  method: 'GET',
+  data: {},
+  isAjax: false
+}
+[2022-02-16T11:54:35.519] [INFO] app - [GET] /layout/data
+[2022-02-16T11:54:35.520] [INFO] lib.InternalService - [POST] http://api.kitapeduli.org:8445/api/internal/node/list - data: {"limit":0,"label":"Test","skip":0,"propertyFilter":{},"propertySort":{}}
+[2022-02-16T11:56:28.514] [INFO] lib.WebService - IDM-API : http://api.kitapeduli.org:9003/api
+[2022-02-16T11:56:28.519] [INFO] lib.WebService - GRAPH-API : http://api.kitapeduli.org:8445/api
+[2022-02-16T11:56:28.519] [INFO] lib.WebService - SPATIAL-API : http://api.kitapeduli.org:8559/api
+[2022-02-16T11:56:28.657] [INFO] www - App is running HTTP service and listening on port 19011
+[2022-02-16T11:56:34.054] [INFO] lib.WebService - IDM-API : http://api.kitapeduli.org:9003/api
+[2022-02-16T11:56:34.057] [INFO] lib.WebService - GRAPH-API : http://api.kitapeduli.org:8445/api
+[2022-02-16T11:56:34.057] [INFO] lib.WebService - SPATIAL-API : http://api.kitapeduli.org:8559/api
+[2022-02-16T11:56:34.181] [INFO] www - App is running HTTP service and listening on port 19011
+[2022-02-16T13:35:48.679] [INFO] lib.WebService - IDM-API : http://api.kitapeduli.org:9003/api
+[2022-02-16T13:35:48.682] [INFO] lib.WebService - GRAPH-API : http://api.kitapeduli.org:8445/api
+[2022-02-16T13:35:48.682] [INFO] lib.WebService - SPATIAL-API : http://api.kitapeduli.org:8559/api
+[2022-02-16T13:35:52.772] [INFO] www - App is running HTTP service and listening on port 19011
+[2022-02-16T14:13:28.851] [INFO] app - [GET] /
+[2022-02-16T14:13:28.855] [ERROR] app - {
+  status: 404,
+  message: 'Page Not Found: /',
+  path: '/',
+  method: 'GET',
+  data: {},
+  isAjax: false
+}
+[2022-02-16T14:13:33.756] [INFO] app - [GET] /layout/data
+[2022-02-16T14:13:33.758] [INFO] lib.InternalService - [POST] http://api.kitapeduli.org:8445/api/internal/node/list - data: {"limit":0,"label":"Test","skip":0,"propertyFilter":{},"propertySort":{}}
+[2022-02-16T14:13:39.200] [INFO] app - [GET] /class
+[2022-02-16T14:13:39.225] [ERROR] app - [open ENOENT undefined:undefined] {
+  errno: -2,
+  syscall: 'open',
+  code: 'ENOENT',
+  path: '/class',
+  status: 500,
+  method: 'GET',
+  data: {},
+  isAjax: false
+}
+[2022-02-16T14:13:39.515] [ERROR] lib.InternalService - [ERROR] /internal/node/list - [getaddrinfo EAI_AGAIN api.kitapeduli.org]
+data = {
+  limit: 0,
+  label: 'Test',
+  skip: 0,
+  propertyFilter: {},
+  propertySort: {}
+}
+[2022-02-16T14:13:41.421] [INFO] app - [GET] /layout/data
+[2022-02-16T14:13:41.423] [INFO] lib.InternalService - [POST] http://api.kitapeduli.org:8445/api/internal/node/list - data: {"limit":0,"label":"Test","skip":0,"propertyFilter":{},"propertySort":{}}
+[2022-02-16T14:13:45.661] [ERROR] lib.InternalService - [ERROR] /internal/node/list - [getaddrinfo EAI_AGAIN api.kitapeduli.org]
+data = {
+  limit: 0,
+  label: 'Test',
+  skip: 0,
+  propertyFilter: {},
+  propertySort: {}
+}
+[2022-02-16T14:13:46.598] [INFO] app - [GET] /class
+[2022-02-16T14:13:46.634] [ERROR] app - [open ENOENT undefined:undefined] {
+  errno: -2,
+  syscall: 'open',
+  code: 'ENOENT',
+  path: '/class',
+  status: 500,
+  method: 'GET',
+  data: {},
+  isAjax: false
+}
+[2022-02-16T14:13:48.216] [INFO] app - [GET] /layout/data
+[2022-02-16T14:13:48.217] [INFO] lib.InternalService - [POST] http://api.kitapeduli.org:8445/api/internal/node/list - data: {"limit":0,"label":"Test","skip":0,"propertyFilter":{},"propertySort":{}}
+[2022-02-16T14:13:54.874] [ERROR] lib.InternalService - [ERROR] /internal/node/list - [getaddrinfo EAI_AGAIN api.kitapeduli.org]
+data = {
+  limit: 0,
+  label: 'Test',
+  skip: 0,
+  propertyFilter: {},
+  propertySort: {}
+}
+[2022-02-16T14:14:03.979] [INFO] app - [GET] /
+[2022-02-16T14:14:03.980] [ERROR] app - {
+  status: 404,
+  message: 'Page Not Found: /',
+  path: '/',
+  method: 'GET',
+  data: {},
+  isAjax: false
+}
+[2022-02-16T14:14:05.836] [INFO] app - [GET] /layout/data
+[2022-02-16T14:14:05.837] [INFO] lib.InternalService - [POST] http://api.kitapeduli.org:8445/api/internal/node/list - data: {"limit":0,"label":"Test","skip":0,"propertyFilter":{},"propertySort":{}}
+[2022-02-16T14:14:10.233] [ERROR] lib.InternalService - [ERROR] /internal/node/list - [getaddrinfo EAI_AGAIN api.kitapeduli.org]
+data = {
+  limit: 0,
+  label: 'Test',
+  skip: 0,
+  propertyFilter: {},
+  propertySort: {}
+}
+[2022-02-16T14:15:28.181] [INFO] app - [GET] /
+[2022-02-16T14:15:28.182] [ERROR] app - {
+  status: 404,
+  message: 'Page Not Found: /',
+  path: '/',
+  method: 'GET',
+  data: {},
+  isAjax: false
+}
+[2022-02-16T14:15:30.610] [INFO] app - [GET] /layout/data
+[2022-02-16T14:15:30.611] [INFO] lib.InternalService - [POST] http://api.kitapeduli.org:8445/api/internal/node/list - data: {"limit":0,"label":"Test","skip":0,"propertyFilter":{},"propertySort":{}}
+[2022-02-16T14:15:36.246] [ERROR] lib.InternalService - [ERROR] /internal/node/list - [getaddrinfo EAI_AGAIN api.kitapeduli.org]
+data = {
+  limit: 0,
+  label: 'Test',
+  skip: 0,
+  propertyFilter: {},
+  propertySort: {}
+}
+[2022-02-16T14:16:02.648] [INFO] app - [GET] /
+[2022-02-16T14:16:02.649] [ERROR] app - {
+  status: 404,
+  message: 'Page Not Found: /',
+  path: '/',
+  method: 'GET',
+  data: {},
+  isAjax: false
+}
+[2022-02-16T14:16:04.574] [INFO] app - [GET] /layout/data
+[2022-02-16T14:16:04.575] [INFO] lib.InternalService - [POST] http://api.kitapeduli.org:8445/api/internal/node/list - data: {"limit":0,"label":"Test","skip":0,"propertyFilter":{},"propertySort":{}}
+[2022-02-16T14:16:10.044] [ERROR] lib.InternalService - [ERROR] /internal/node/list - [getaddrinfo EAI_AGAIN api.kitapeduli.org]
+data = {
+  limit: 0,
+  label: 'Test',
+  skip: 0,
+  propertyFilter: {},
+  propertySort: {}
+}

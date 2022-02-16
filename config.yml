@@ -1,0 +1,80 @@
+server:
+  name: sipkl-fe
+  title: SIPERUM
+  port: 19011
+  scheme: HTTP
+  certFile: ./keys/telkom.crt # for HTTPS only
+  keyFile: ./keys/telkom.key # for HTTPS only
+  logDirectory: ./log
+  # levels: ALL < TRACE < DEBUG < INFO < WARN < ERROR < FATAL < MARK < OFF
+  # install pm2-intercom if using pm2. pm2 install pm2-intercom
+  logLevel:
+    # default category is the root logger
+    # the log level will be overridden by
+    # subsequent child log level
+    # sample category hierarchy = default => lib => lib.WebService
+    default: debug
+    www: debug
+    app: debug
+    lib: debug
+    routes: debug
+    lib.Security: debug
+    lib.AuthService: debug
+auth:
+  clientId: sipkl_fe
+  clientSecret: rahasia
+  audience: sipkl-fe
+app:
+  menu:
+    Perumahan:
+      route: /class
+      icon: warehouse
+    Kavling:
+      route: /instructur
+      icon: sitemap
+    Penghuni:
+      route: /company profile
+      icon: users
+  map:
+    formDir: geolocation
+    formRoute: /Geolocation
+    loadDataRoute: /Geolocation
+    layers:
+    supportLayer:
+    # Radius Pencarian untuk Support Layer
+    pointRadius: 0.1 
+    # Zoom Level Minimal untuk mendapatkan object yang di cari
+    minimumGetObject: 17
+    # Jumlah Hari Cookie Akan Disimpan di browser client
+    expirationDay: 7
+    # Coordinate Default Map View
+    mapCenterLat: -1.914744
+    mapCenterLng: 120
+    # Zoom Level Default Map View
+    mapCenterZoomLevel: 5
+    # Zoom Level Minimal Untuk MengEnablekan Fungsi Edit
+    minimumEnableEdit: 17
+    postgre:
+      host: db.kitapeduli.org
+      user: am_db
+      secret: rahasia
+      port: 5433
+      db: am_db
+environtment:
+  common:
+    service:
+      idm:
+        baseURL: http://api.kitapeduli.org:9003/api
+        timeout: 10000
+        headers:
+          Content-Type: application/json
+          Accept: application/json
+      internal:
+        baseURL: http://api.kitapeduli.org:8445/api
+        timeout: 10000
+      spatial:
+        baseURL: http://api.kitapeduli.org:8559/api
+        timeout: 10000
+  dev:
+  stg:
+  prod:

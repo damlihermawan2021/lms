@@ -1,0 +1,120 @@
+include ./class/head.pug
+  body
+    block content
+    .container
+      include ./class/navbar.pug      
+      #modalForm.modal.fade(tabindex='-1' role='dialog' aria-labelledby='exampleModalLabel' aria-hidden='true')
+        .modal-dialog(role='document')
+          .modal-content
+            .modal-header
+              h5#exampleModalLabel.modal-title New message
+              button.close(type='button' data-dismiss='modal' aria-label='Close')
+                span(aria-hidden='true') &times
+            .modal-body
+              form
+                .form-group
+                  label.col-form-label(for='class-name') Class Name:
+                  input#class-name.form-control(type='text', name='className')
+                .form-group
+                  label.col-form-label(for='lesson-subjects') Subjects:
+                  input#lesson-subjects.form-control(type='text', name='LessonSubjects')
+                .form-group
+                  label.col-form-label(for='instructor-class') Instructor:
+                  input#instructor-class.form-control(type='text', name='instructorClass')
+                .form-group
+                  label.col-form-label(for='student-list') Last Education:
+                  input#student-list.form-control(type='text', name='studentList')
+                .form-group
+                  label.col-form-label(for='schedule-time') First Date:
+                  input#schedule-time.form-control(type='date', name='scheduleTime')    
+                .form-group
+                  label.col-form-label(for='roll-call') Last Date:
+                  input#roll-call.form-control(type='date', name='rollCall')      
+            .modal-footer
+              button.btn.btn-secondary(type='button' data-dismiss='modal') Close
+              button#submit.btn.btn-primary(type='button') submit
+    //* create new data
+    .container.mt-4
+      button.btn.btn-primary.mb-2(type='button' data-toggle='modal' data-target='#modalForm') New Student
+    //*table
+    .container
+      .content-table
+        table#example.ui.celled.table(style='width:100%')
+          thead
+            tr
+              th Class Name
+              th Subjects
+              th Instructor
+              th Student List
+              th Schedule Time
+              th Roll Call
+            tbody
+          script.
+            $(document).ready(function() {
+              getAPI()
+            })
+            
+            $('#modalForm').on('show.bs.modal', function(event) {
+              var button = $(event.relatedTarget) 
+              var recipient = button.data('') 
+              var modal = $(this)
+              modal.find('.modal-title').text('New message to ' + recipient)
+              modal.find('.modal-body input').val(recipient)
+            })
+            
+            $('#submit').click(function() {
+              notif()
+            })
+            
+            function notif() {
+              const nameClass = $('#className').val()
+              const subjects = $('#subjects').val()
+              const instructor = $('#instructor-class').val()
+              const studentList = $('#student-list').val()
+              const scheduleTime = $('#schedule-time').val()
+              const rollCall = $('#roll-call').val()
+              $.ajax({
+                type: 'POST',
+                url: '/class/post',
+                dataType: 'json',
+                data: {
+                  nameClass: nameClass,
+                  ageStudent: ageStudent,
+                  lastEducationStudent: lastEducationStudent,
+                  subjects: subjects,
+                  firstDateStudent: firstDateStudent,
+                  lastDateStudent: lastDateStudent,
+                },
+                success: function(msg) {
+                  if (msg) {
+                    $('#exampleModal').modal('hide')
+                    window.location.reload()
+                  }
+                },
+              })
+            }
+            
+            function getAPI() {
+              let data = [];
+              $.ajax({
+                type: 'GET',
+                url: '/class/data',
+                dataType: 'json',
+                success: async function(msg) {
+                  msg.data.forEach(item => {
+                    data.push([
+                      item.nameClass,
+                      item.ageStudent,
+                      item.lastEducationStudent,
+                      item.subjects,
+                      item.firstDateStudent,
+                      item.lastDateStudent
+                    ])
+                  })
+                  //- console.log(data)
+                  $('#example').DataTable({
+                    data: data,
+                  })
+                }
+              })
+            }

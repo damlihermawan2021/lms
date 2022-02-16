@@ -1,0 +1,52 @@
+head
+  link(rel='stylesheet' href='/stylesheets/iziToast.min.css')
+  link(rel='stylesheet' href='/stylesheets/bootstrap.bundle.css')
+  link(rel='stylesheet' href='/stylesheets/app.style.css')
+  link(rel='stylesheet' href='/plugins/datatables/css/datatables.bundle.css')
+  script(src="/javascripts/bootstrap.bundle.js")
+  //- script(src="/javascripts/bootstrap.js")
+  script(src="/javascripts/jquery-3.6.0.min.js")
+  title=title
+  style.
+    .panel{
+      -webkit-box-shadow: 0px 0px 13px 0px rgba(62, 44, 90, 0.08) !important;
+      box-shadow: 0px 0px 13px 0px rgba(62, 44, 90, 0.08) !important;
+      margin-top:50% !important;
+    }
+body.bg-light(style="background-image:url('/img/login.svg'); background-repeat: no-repeat; background-position: center bottom; margin-botton:0;")
+  center
+    div
+      img(src="/img/bandung.png" width="350" height="300")
+    .div.justify-content-center.mt-auto(style="margin-top:-300px !important;")
+      .col-md-3
+        .panel
+          .panel-container.show
+              .panel-content
+                
+                form#login-form.form(action='/login' method='post')
+                  h3.text-center.text-info=title
+                  br
+                  .form-group
+                    .input-group
+                      select.form-control(name="authprovider")
+                        option(value="") Local
+                  .form-group
+                    .input-group
+                      input.form-control(type='text' name="username" placeholder='Username' required='required')
+                  .form-group
+                    .input-group
+                      input.form-control(type='password' name="password" placeholder='Password' required='required')
+                  hr
+                  .form-group
+                    .input-group
+                      input.form-control(type='number' name="mfacode" placeholder='MFA Code')
+                    br
+                    center
+                      input(type="checkbox" value="check" checked name="term")
+                      |  I Agree to
+                      a(href="/doc/termsOfUse.html" target="__blank")  Term of Use
+                  .form-group
+                    button.btn.btn-success.btn-md.btn-block(type='submit' name='submit' value='submit') Masuk
+                    br
+                    center
+                      | &copy; kitapeduli.org
