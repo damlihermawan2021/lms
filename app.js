@@ -118,10 +118,7 @@ app.use(function (req, res, next) {
 })
 
 // routes
-app.use('/', require('./routes/index'))
-app.use('/layout', require('./routes/layout'))
-app.use('/class', require('./routes/class'))
-app.use('/instructor', require('./routes/instructor'))
+app.use('/', require('./routes/home'))
 
 // catch 404 and forward to error handler
 app.use(function (req, res, next) {

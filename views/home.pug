@@ -1,0 +1,119 @@
+include ./layout/head.pug
+include ./layout/menu.pug
+block content
+  .container
+    button.btn.btn-primary.ms-5.mt-5(type='button' data-toggle='modal' data-target='#exampleModal') New Student
+  //*table
+  .container
+    .content-table
+      table#example.ui.celled.table.m-5(style='width:100%')
+        thead
+          tr
+            th Name
+            th Age
+            th Last Education
+            th Subjects
+            th First Date
+            th Last Date
+        tbody
+        #exampleModal.modal.fade(tabindex='-1' role='dialog' aria-labelledby='exampleModalLabel' aria-hidden='true')
+          .modal-dialog(role='document')
+            .modal-content
+              .modal-header
+                h5#exampleModalLabel.modal-title New Student
+                button.close(type='button' data-dismiss='modal' aria-label='Close')
+                  span(aria-hidden='true') &times
+              .modal-body
+                form
+                  .form-group
+                      label.col-form-label(for='Sname') Name:
+                      input#nameStudent.form-control(type='text', name='nameStudent')
+                  .form-group
+                      label.col-form-label(for='Sage') Age:
+                      input#ageStudent.form-control(type='text', name='ageStudent')
+                  .form-group
+                      label.col-form-label(for='Slast-education') Last Education:
+                      input#lastEducationStudent.form-control(type='text', name='lastEducationStudent')
+                  .form-group
+                      label.col-form-label(for='Ssubject') Subjects:
+                      input#subjectStudent.form-control(type='text', name='subjectStudent')
+                  .form-group
+                      label.col-form-label(for='first-date') First Date:
+                      input#firstDateStudent.form-control(type='text', name='firstDateStudent')      
+                  .form-group
+                      label.col-form-label(for='last-date') Last Date:
+                      input#lastDateStudent.form-control(type='text', name='lastDateStudent')      
+              .modal-footer
+                button.btn.btn-secondary(type='button' data-dismiss='modal') Close
+                button#submit.btn.btn-primary(type='button') Submit
+
+
+        script.
+            $(document).ready(function() {
+                getAPI()
+            })
+                          
+            $('#exampleModal').on('show.bs.modal', function(event) {
+                var button = $(event.relatedTarget) 
+                var recipient = button.data('') 
+                var modal = $(this)
+                modal.find('.modal-title').text('New message to ' + recipient)
+                modal.find('.modal-body input').val(recipient)
+                })
+            
+            $('#submit').click(function() {
+                notif()
+            })
+            
+            function notif() {
+                const nameStudent = $('#nameStudent').val()
+                const ageStudent = $('#ageStudent').val()
+                const lastEducationStudent = $('#lastEducationStudent').val()
+                const subjectStudent = $('#subjectStudent').val()
+                const firstDateStudent = $('#firstDateStudent').val()
+                const lastDateStudent = $('#lastDateStudent').val()
+            $.ajax({
+              type: 'POST',
+              url: '/data',
+              dataType: 'json',
+              data: {
+                nameStudent: nameStudent,
+                ageStudent: ageStudent,
+                lastEducationStudent: lastEducationStudent,
+                subjectStudent: subjectStudent,
+                firstDateStudent: firstDateStudent,
+                lastDateStudent: lastDateStudent,
+              },
+                success: function(msg) {
+                  if (msg) {
+                    $('#exampleModal').modal('hide')
+                    window.location.reload()
+                      }
+                    },
+                })
+            }
+            function getAPI() {
+                let data = [];
+                $.ajax({
+                    type: 'GET',
+                    url: '/data',
+                    dataType: 'json',
+                    success: async function(msg) {
+                      msg.data.forEach(item => {
+                        data.push([
+                          `<a href="/${item.id}"> ${item.nameStudent} </a>`,
+                          item.ageStudent,
+                          item.lastEducationStudent,
+                          item.subjectStudent,
+                          item.firstDateStudent,
+                          item.lastDateStudent
+                      ])
+                      console.log(item)
+                      })
+                        $('#example').DataTable({
+                            data: data,
+                        })
+                      }
+                    })
+                  }
+

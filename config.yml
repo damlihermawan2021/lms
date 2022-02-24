@@ -1,6 +1,6 @@
 server:
   name: sipkl-fe
-  title: SIPERUM
+  title: LMS
   port: 19011
   scheme: HTTP
   certFile: ./keys/telkom.crt # for HTTPS only

@@ -1,187 +1,118 @@
-extends layout
-block content
-
-  .container
+.main
     .col-12.col-sm-12.col-md-12
-      .card
-        .card-header(style='height:50px;')
-          h4 Project Team
-        .card-body
-          .media-list.position-relative
-            #project-team-scroll.table-responsive(tabindex='1' style='height: 400px; overflow: hidden; outline: none;')
-              button.btn.btn-sn.btn-danger.float-right(onclick=`deleteItems()` style='margin-bottom:50px;' type='button' data-action='delete') Delete
-              button#editButton.btn.btn-sn.btn-primary.float-right(style='margin-bottom:50px; margin-right:10px;' data-toggle='modal' data-target='#exampleModal') Edit
-              table#example.table.table-hover.table-xl.mb-0
+        .container  
+            #exampleForm.table-responsive.mt-5(tabindex='1' style='height: 400px; overflow: hidden; outline: none;')
+                button.btn.btn-sn.btn-danger.float-right(onclick=`deleteItems()` style='margin-bottom:50px;' type='button' data-action='delete') Delete
+                button#editButton.btn.btn-sn.btn-primary.float-right(onclick=`editItems()` style='margin-bottom:50px; margin-right:10px;') Edit
+                table#example.table.table-hover.table-xl.mb-0
                 tbody
-                  tr
-                    th(style='width:40%') Name
-                    td :
-                    td.nameStudent
-                  tr
-                    th(scope='row') Age
-                    td :
-                    td.ageStudent
-                  tr
-                    th(scope='row') Last Education 
-                    td :
-                    td.lastEducationStudent
-                  tr 
-                    th(scope='row') Subjects
-                    td :
-                    td.subjects
-                  tr
-                    th(scope='row') First Date
-                    td :
-                    td.firstDateStudent
-                  tr
-                    th(scope='row') Last Date
-                    td :
-                    td.lastDateStudent
-
-  #exampleModal.modal.fade(tabindex='-1' role='dialog' aria-labelledby='exampleModalLabel' aria-hidden='true')
-      .modal-dialog(role='document')
-        .modal-content
-          .modal-header
-            h5#exampleModalLabel.modal-title Form Edit
-            button.close(type='button' data-dismiss='modal' aria-label='Close')
-              span(aria-hidden='true') &times
-          .modal-body
-            form
-              .form-group
-                label.col-form-label(for='name') Name:
-                input#name.form-control(type='text', name='nameStudent')
-              .form-group
-                label.col-form-label(for='age') Age:
-                input#age.form-control(type='text', name='ageStudent')
-              .form-group
-                label.col-form-label(for='lastEducation') Last Education:
-                input#lastEducation.form-control(type='text', name='lastEducationStudent')
-              .form-group
-                label.col-form-label(for='subjects') Subjects:
-                input#subjects.form-control(type='text', name='subjects')
-              .form-group
-                label.col-form-label(for='firstDate') First Date:
-                input#firstDate.form-control(type='date', name='firstDateStudent')    
-              .form-group
-                label.col-form-label(for='lastDate') Last Date:
-                input#lastDate.form-control(type='date', name='lastDateStudent')      
-          .modal-footer
-            button.btn.btn-secondary(type='button' data-dismiss='modal') Close
-            button#submit.btn.btn-primary(type='button') submit
-  script.
+                    tr
+                        th(style='width:40%') Name
+                        td :
+                        td.nameStudent
+                    tr
+                        th(scope='row') Age
+                        td :
+                        td.ageStudent
+                    tr
+                        th(scope='row') Last Education
+                        td :
+                        td.lastEducationStudent
+                    tr 
+                        th(scope='row') Subjects :
+                        td :
+                        td.subjectStudent
+                    tr
+                        th(scope='row') First Date
+                        td :
+                        td.firstDateStudent
+                    tr
+                        th(scope='row') Last Date
+                        td :
+                        td.lastDateStudent
+.modal#exampleModal(tabindex='-1' role='dialog')
+  .modal-dialog(role='document')
+    .modal-content
+      .modal-header
+        h5.modal-title Modal title
+        button.close(type='button' data-dismiss='modal' aria-label='Close')
+          span(aria-hidden='true') &times;
+      .modal-body
+        p Modal body text goes here.
+      .modal-footer
+        button.btn.btn-primary(type='button') Save changes
+        button.btn.btn-secondary(type='button' data-dismiss='modal') Close
+ 
+            i.fa.fa-pencil-square-o(aria-hidden='true')
+script.
     const result = !{data}
-
     $(document).ready(function() {
-      $('.nameStudent').text(result.nameStudent)
-      $('.ageStudent').text(result.ageStudent)
-      $('.lastEducationStudent').text(result.lastEducationStudent)
-      $('.subjects').text(result.subjects)
-      $('.firstDateStudent').text(result.firstDateStudent)
-      $('.lastDateStudent').text(result.lastDateStudent)
-    $('#exampleModal').on('show.bs.modal', function(event) {
-      var button = $(event.relatedTarget) 
-      var recipient = button.data('whatever') 
-      var modal = $(this)
-      modal.find('.modal-title').text('New message to ' + recipient)
-      modal.find('.modal-body input').val(recipient)
-    })
-
-      //- const result = !{data}
-      //- let data = [[result[0].nameStudent,result[0].ageStudent,resudelelt[0].position,result[0].office,result[0].usia]]
-      //- //- data.push([result[0].nameStudent,result[0].ageStudent,result[0].position,result[0].office,result[0].usia]))
-      //- $('#example').DataTable({
-      //-   data: data,
-      //- })
-
-      //- let data = []
-      //- result.forEach(item => {
-      //-   data.push([
-      //-     item.nameStudent,
-      //-     item.ageStudent,
-      //-     item.position,
-      //-     item.office,
-      //-     item.usia
-      //-   ])
-      //- })
-    //- })
-    //- console.log(data)
-    //- function getAPI() {
-    //-   console.log('Masuk')
-    //-   $.ajax({
-    //-     type: 'GET',
-    //-     url: '/inputForm/id/:_id',
-    //-     dataType: 'json',
-    //-     success: async function(msg) {
-    //-       console.log('sukses', msg)
-    //-     }
-    //-   })
+        $('.nameStudent').text(result.nameStudent)
+        $('.ageStudent').text(result.ageStudent)
+        $('.lastEducationStudent').text(result.lastEducationStudent)
+        $('.subjectStudent').text(result.subjectStudent)
+        $('.firstDateStudent').text(result.firstDateStudent)
+        $('.lastDateStudent').text(result.lastDateStudent)
     })
 
     function deleteItems(e) {
-      const params = window.location.pathname
-      const id = params.match(/\d+/g).toString()
-      $.ajax({
-        type: 'DELETE',
-        url: `/layout/${id}`,
-        dataType: 'json',
-        data: {
-          id: e,
-        },
-        success: function (msg) {
-          if (msg) {
-            location.href = document.referrer
-            //- window.history.back()
-            //- window.location.reload()
-          }
-        },
-      })
-    }
-
-    $('#editButton2').click(function(x) {
-      console.log(x)
-      const params = window.location.pathname
-      const id = params.match(/\d+/g).toString()
-
-      $('#editButton').click(function() {
-        setTimeout(() => {
-          $('#nameStudent').val("result.nameStudent")
-          $('#ageStudent').val("result.ageStudent")
-          $('#lastEducationStudent').val("result.lastEducationStudent")
-          $('#subjects').val("result.subjects")
-          $('#firstDateStudent').val("result.firstDateStudent")
-           $('#lastDateStudent').val("result.lastDateStudent")
-        }, 100)
-      })
-
-      $('#submitEdit').click(function () {
-        const nameStudent = $('#name').val()
-              const ageStudent = $('#age').val()
-              const lastEducationStudent = $('#lastEducation').val()
-              const subjects = $('#subjects').val()
-              const firstDateStudent = $('#firstDate').val()
-              const lastDateStudent = $('#lastDate').val()
+    const params = window.location.pathname
+    const id = params.match(/\d+/g).toString()
         $.ajax({
-          type: 'PUT',
-          url: `/layout/${id}`,
-          dataType: 'json',
-          data: {
-            key: id,
-            value: {
-              nameStudent: nameStudent,
-                  ageStudent: ageStudent,
-                  lastEducationStudent: lastEducationStudent,
-                  subjects: subjects,
-                  firstDateStudent: firstDateStudent,
-                  lastDateStudent: lastDateStudent,
+            type: 'DELETE',
+            url: `/${id}`,
+            dataType: 'json',
+            data: {
+            id: e,
             },
-          },
-          success: function (msg) {
-            console.log(msg)
+            success: function (msg) {
             if (msg) {
-              $('.ui.modal.edit').modal('hide')
-              window.location.reload()
+                location.href = document.referrer
             }
-          },
+            }
         })
-      });
-    })
+        }
+        function editItems(e) {
+            const params = window.location.pathname
+            const id = params.match(/\d+/g).toString()
+            $('#nameStudent').val(result.nameStudent)
+            $('#ageStudent').val(result.ageStudent)
+            $('#lastEducationStudent').val(result.lastEducationStudent)
+            $('#subjectStudent').val(result.subjectStudent)
+            $('#firstDateStudent').val(result.firstDateStudent)
+            $('#lastDateStudent').val(result.lastDateStudent)
+            $("#exampleModal").modal("show");
+            $(".exampleModal").modal({
+                closable: false,
+        });
+            $('#submitEdit').click(function () {
+            const nameStudent = $('#nameStudent').val()
+            const ageStudent = $('#ageStudent').val()
+            const lastEducationStudent = $('#lastEducationStudent').val()
+            const subjectStudent = $('#subjectStudent').val()
+            const firstDateStudent = $('#firstDateStudent').val()
+            const lastDateStudent = $('#lastDateStudent').val()
+            $.ajax({
+            type: 'PUT',
+            url: `/${id}`,
+            dataType: 'json',
+            data: {
+                key: id,
+                value: {
+                nameStudent: nameStudent,
+                ageStudent: ageStudent,
+                lastEducationStudent: lastEducationStudent,
+                subjectStudent: subjectStudent,
+                firstDateStudent: firstDateStudent,
+                lastDateStudent: lastDateStudent,
+                },
+            },
+            success: function (msg) {
+                if (msg) {
+                    location.href = document.referrer
+                    //- $('.ui.modal.edit').modal('hide')
+                    }
+                    }
+                })
+                })
+            }

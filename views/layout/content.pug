@@ -1,0 +1,18 @@
+include head.pug
+include ../../components/breadcrumb
+include ../../components/datatable
+//- include menu.pug
+block page
+  body.bg-light.header-function-fixed.nav-function-fixed.nav-function-top
+    block watermark
+      div#watermark
+    .page-wrapper.chiller-theme
+      include menu
+      .page-content.centered
+        header.page-header
+        .row-centered
+          block breadcrumb
+            //- +breadcrumb(breadcrumb)
+        block content
+    include footer
+  
